@@ -56,6 +56,12 @@ namespace TH.Map
 
             foreach (var room in GamePrefabManager.GetAllGamePrefabs<Room>())
             {
+                if (room.gatewayInfos == null)
+                {
+                    Debug.LogError($"{room} has no gateway info.");
+                    continue;
+                }
+                
                 foreach (var gatewayInfo in room.gatewayInfos)
                 {
                     var roomDictByGameType =

@@ -4,15 +4,6 @@ using UnityEngine;
 
 public abstract class GameSettingBase : SerializedScriptableObject
 {
-    public enum InitializationStage
-    {
-        None = 0,
-        PreInit = 1,
-        Init = 2,
-        PostInit = 3,
-        FinishInit = 4,
-    }
-
     #region Categories
 
     protected const string TAB_GROUP_NAME = "TabGroup";
@@ -29,58 +20,24 @@ public abstract class GameSettingBase : SerializedScriptableObject
 
     public virtual string forcedFileName => null;
 
-    [LabelText("是否加载完成"),
-     TabGroup(TAB_GROUP_NAME, DEBUGGING_CATEGORY, SdfIconType.Bug,
-         TextColor = "yellow")]
-    [ShowInInspector, ReadOnly]
-    public bool initDone
-    {
-        [MethodImpl(MethodImplOptions.AggressiveInlining)]
-        get;
-        [MethodImpl(MethodImplOptions.AggressiveInlining)]
-        private set;
-    }
-
-    [LabelText("已完成初始化阶段"), TabGroup(TAB_GROUP_NAME, DEBUGGING_CATEGORY)]
-    [ShowInInspector, ReadOnly]
-    public InitializationStage finishedInitializationStage
-    {
-        [MethodImpl(MethodImplOptions.AggressiveInlining)]
-        get;
-        [MethodImpl(MethodImplOptions.AggressiveInlining)]
-        private set;
-    }
-
-    protected virtual void Awake()
-    {
-        initDone = false;
-    }
-
     public void PreInit()
     {
-        initDone = false;
-        finishedInitializationStage = InitializationStage.None;
         OnPreInit();
-        finishedInitializationStage = InitializationStage.PreInit;
     }
 
     public void Init()
     {
         OnInit();
-        finishedInitializationStage = InitializationStage.Init;
     }
 
     public void PostInit()
     {
         OnPostInit();
-        finishedInitializationStage = InitializationStage.PostInit;
     }
 
     public void FinishInit()
     {
         OnFinishInit();
-        finishedInitializationStage = InitializationStage.FinishInit;
-        initDone = true;
     }
 
     protected virtual void OnPreInit()
@@ -111,12 +68,6 @@ public abstract class GameSettingBase : SerializedScriptableObject
     public virtual void CheckSettingsGUI()
     {
         CheckSettings();
-    }
-
-    public void ResetInitializationState()
-    {
-        initDone = false;
-        finishedInitializationStage = InitializationStage.None;
     }
 
     private bool hasSettingError = false;

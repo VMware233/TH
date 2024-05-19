@@ -21,9 +21,7 @@ MonoBehaviour:
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes: []
-  useSpecificJsonFile: 0
-  jsonFile: {fileID: 0}
   dataFolderRelativePath: Configurations
   defaultJSONFileSuffix: txt
   <defaultLocalizationTableName>k__BackingField: 
-  singleWrapperTemplate: {fileID: 11400000, guid: eb593d9d5673dcc4d9e9b9ca272204b6, type: 2}
+  singleWrapperTemplate: {fileID: 11400000, guid: fc69ab04c2193fd49a2cda936f6880d1, type: 2}

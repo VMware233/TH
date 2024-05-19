@@ -134,8 +134,6 @@ namespace VMFramework.GameLogicArchitecture
 
                 generalSetting.AssertIsNotNull(propertyInfo.Name);
 
-                generalSetting.ResetInitializationState();
-
                 generalSetting.CheckSettings();
             }
         }

@@ -40,6 +40,7 @@ namespace VMFramework.GameLogicArchitecture
         [LabelText("初始GamePrefab"),
          TabGroup(TAB_GROUP_NAME, INITIAL_GAME_PREFABS_CATEGORY, SdfIconType.Info, TextColor = "blue")]
         [OnCollectionChanged(nameof(OnInitialGamePrefabWrappersChanged))]
+        [Searchable]
 #endif
         [SerializeField]
         private List<GamePrefabWrapper> initialGamePrefabWrappers = new();
