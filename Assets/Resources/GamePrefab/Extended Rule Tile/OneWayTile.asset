@@ -102,9 +102,15 @@ MonoBehaviour:
     - Name: value
       Entry: 7
       Data: 8|VMFramework.Configuration.SpritePresetItem, Assembly-CSharp
-    - Name: spritePresetID
+    - Name: <spritePresetID>k__BackingField
       Entry: 1
       Data: bridge_wooden_1_1
+    - Name: <flipX>k__BackingField
+      Entry: 5
+      Data: false
+    - Name: <flipY>k__BackingField
+      Entry: 5
+      Data: false
     - Name: 
       Entry: 8
       Data: 
@@ -288,12 +294,12 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-    - Name: gap
-      Entry: 4
-      Data: 0.2
-    - Name: autoPlayOnStart
+    - Name: flipX
       Entry: 5
-      Data: true
+      Data: false
+    - Name: flipY
+      Entry: 5
+      Data: false
     - Name: 
       Entry: 8
       Data: 
@@ -325,9 +331,15 @@ MonoBehaviour:
     - Name: value
       Entry: 7
       Data: 29|VMFramework.Configuration.SpritePresetItem, Assembly-CSharp
-    - Name: spritePresetID
+    - Name: <spritePresetID>k__BackingField
       Entry: 1
       Data: bridge_wooden_1_2
+    - Name: <flipX>k__BackingField
+      Entry: 5
+      Data: false
+    - Name: <flipY>k__BackingField
+      Entry: 5
+      Data: false
     - Name: 
       Entry: 8
       Data: 
@@ -511,12 +523,12 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-    - Name: gap
-      Entry: 4
-      Data: 0.2
-    - Name: autoPlayOnStart
+    - Name: flipX
       Entry: 5
-      Data: true
+      Data: false
+    - Name: flipY
+      Entry: 5
+      Data: false
     - Name: 
       Entry: 8
       Data: 
@@ -548,9 +560,15 @@ MonoBehaviour:
     - Name: value
       Entry: 7
       Data: 50|VMFramework.Configuration.SpritePresetItem, Assembly-CSharp
-    - Name: spritePresetID
+    - Name: <spritePresetID>k__BackingField
       Entry: 1
       Data: bridge_wooden_1_3
+    - Name: <flipX>k__BackingField
+      Entry: 5
+      Data: false
+    - Name: <flipY>k__BackingField
+      Entry: 5
+      Data: false
     - Name: 
       Entry: 8
       Data: 
@@ -734,12 +752,12 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-    - Name: gap
-      Entry: 4
-      Data: 0.2
-    - Name: autoPlayOnStart
+    - Name: flipX
       Entry: 5
-      Data: true
+      Data: false
+    - Name: flipY
+      Entry: 5
+      Data: false
     - Name: 
       Entry: 8
       Data: 
@@ -771,9 +789,15 @@ MonoBehaviour:
     - Name: value
       Entry: 7
       Data: 71|VMFramework.Configuration.SpritePresetItem, Assembly-CSharp
-    - Name: spritePresetID
+    - Name: <spritePresetID>k__BackingField
       Entry: 1
       Data: bridge_wooden_1_0
+    - Name: <flipX>k__BackingField
+      Entry: 5
+      Data: false
+    - Name: <flipY>k__BackingField
+      Entry: 5
+      Data: false
     - Name: 
       Entry: 8
       Data: 
@@ -957,12 +981,12 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-    - Name: gap
-      Entry: 4
-      Data: 0.2
-    - Name: autoPlayOnStart
+    - Name: flipX
       Entry: 5
-      Data: true
+      Data: false
+    - Name: flipY
+      Entry: 5
+      Data: false
     - Name: 
       Entry: 8
       Data: 

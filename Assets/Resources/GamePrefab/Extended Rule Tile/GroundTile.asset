@@ -73,7 +73,7594 @@ MonoBehaviour:
         Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
+      Data: 33
+    - Name: 
+      Entry: 7
+      Data: 4|VMFramework.ExtendedTilemap.Rule, Assembly-CSharp
+    - Name: enable
+      Entry: 5
+      Data: true
+    - Name: enableAnimation
+      Entry: 5
+      Data: false
+    - Name: layers
+      Entry: 7
+      Data: 5|System.Collections.Generic.List`1[[VMFramework.ExtendedTilemap.SpriteLayer,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 6|VMFramework.ExtendedTilemap.SpriteLayer, Assembly-CSharp
+    - Name: layer
+      Entry: 3
       Data: 0
+    - Name: sprite
+      Entry: 7
+      Data: 7|VMFramework.Configuration.SingleSpritePresetChooserConfig, Assembly-CSharp
+    - Name: value
+      Entry: 7
+      Data: 8|VMFramework.Configuration.SpritePresetItem, Assembly-CSharp
+    - Name: <spritePresetID>k__BackingField
+      Entry: 1
+      Data: humus_6
+    - Name: <flipX>k__BackingField
+      Entry: 5
+      Data: false
+    - Name: <flipY>k__BackingField
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upperLeft
+      Entry: 7
+      Data: 9|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 0
+    - Name: specificTiles
+      Entry: 7
+      Data: 10|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upper
+      Entry: 7
+      Data: 11|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 2
+    - Name: specificTiles
+      Entry: 7
+      Data: 12|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upperRight
+      Entry: 7
+      Data: 13|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 0
+    - Name: specificTiles
+      Entry: 7
+      Data: 14|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: left
+      Entry: 7
+      Data: 15|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 16|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: right
+      Entry: 7
+      Data: 17|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 18|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lowerLeft
+      Entry: 7
+      Data: 19|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 2
+    - Name: specificTiles
+      Entry: 7
+      Data: 20|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lower
+      Entry: 7
+      Data: 21|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 22|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lowerRight
+      Entry: 7
+      Data: 23|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 2
+    - Name: specificTiles
+      Entry: 7
+      Data: 24|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: flipX
+      Entry: 5
+      Data: false
+    - Name: flipY
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 25|VMFramework.ExtendedTilemap.Rule, Assembly-CSharp
+    - Name: enable
+      Entry: 5
+      Data: true
+    - Name: enableAnimation
+      Entry: 5
+      Data: false
+    - Name: layers
+      Entry: 7
+      Data: 26|System.Collections.Generic.List`1[[VMFramework.ExtendedTilemap.SpriteLayer,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 27|VMFramework.ExtendedTilemap.SpriteLayer, Assembly-CSharp
+    - Name: layer
+      Entry: 3
+      Data: 0
+    - Name: sprite
+      Entry: 7
+      Data: 28|VMFramework.Configuration.SingleSpritePresetChooserConfig, Assembly-CSharp
+    - Name: value
+      Entry: 7
+      Data: 29|VMFramework.Configuration.SpritePresetItem, Assembly-CSharp
+    - Name: <spritePresetID>k__BackingField
+      Entry: 1
+      Data: humus_31
+    - Name: <flipX>k__BackingField
+      Entry: 5
+      Data: false
+    - Name: <flipY>k__BackingField
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upperLeft
+      Entry: 7
+      Data: 30|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 31|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upper
+      Entry: 7
+      Data: 32|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 33|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upperRight
+      Entry: 7
+      Data: 34|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 2
+    - Name: specificTiles
+      Entry: 7
+      Data: 35|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: left
+      Entry: 7
+      Data: 36|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 37|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: right
+      Entry: 7
+      Data: 38|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 39|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lowerLeft
+      Entry: 7
+      Data: 40|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 2
+    - Name: specificTiles
+      Entry: 7
+      Data: 41|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lower
+      Entry: 7
+      Data: 42|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 2
+    - Name: specificTiles
+      Entry: 7
+      Data: 43|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lowerRight
+      Entry: 7
+      Data: 44|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 45|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: flipX
+      Entry: 5
+      Data: true
+    - Name: flipY
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 46|VMFramework.ExtendedTilemap.Rule, Assembly-CSharp
+    - Name: enable
+      Entry: 5
+      Data: true
+    - Name: enableAnimation
+      Entry: 5
+      Data: false
+    - Name: layers
+      Entry: 7
+      Data: 47|System.Collections.Generic.List`1[[VMFramework.ExtendedTilemap.SpriteLayer,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 48|VMFramework.ExtendedTilemap.SpriteLayer, Assembly-CSharp
+    - Name: layer
+      Entry: 3
+      Data: 0
+    - Name: sprite
+      Entry: 7
+      Data: 49|VMFramework.Configuration.SingleSpritePresetChooserConfig, Assembly-CSharp
+    - Name: value
+      Entry: 7
+      Data: 50|VMFramework.Configuration.SpritePresetItem, Assembly-CSharp
+    - Name: <spritePresetID>k__BackingField
+      Entry: 1
+      Data: humus_30
+    - Name: <flipX>k__BackingField
+      Entry: 5
+      Data: false
+    - Name: <flipY>k__BackingField
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upperLeft
+      Entry: 7
+      Data: 51|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 52|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upper
+      Entry: 7
+      Data: 53|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 54|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upperRight
+      Entry: 7
+      Data: 55|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 56|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: left
+      Entry: 7
+      Data: 57|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 2
+    - Name: specificTiles
+      Entry: 7
+      Data: 58|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: right
+      Entry: 7
+      Data: 59|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 60|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lowerLeft
+      Entry: 7
+      Data: 61|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 2
+    - Name: specificTiles
+      Entry: 7
+      Data: 62|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lower
+      Entry: 7
+      Data: 63|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 64|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lowerRight
+      Entry: 7
+      Data: 65|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 2
+    - Name: specificTiles
+      Entry: 7
+      Data: 66|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: flipX
+      Entry: 5
+      Data: true
+    - Name: flipY
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 67|VMFramework.ExtendedTilemap.Rule, Assembly-CSharp
+    - Name: enable
+      Entry: 5
+      Data: true
+    - Name: enableAnimation
+      Entry: 5
+      Data: false
+    - Name: layers
+      Entry: 7
+      Data: 68|System.Collections.Generic.List`1[[VMFramework.ExtendedTilemap.SpriteLayer,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 69|VMFramework.ExtendedTilemap.SpriteLayer, Assembly-CSharp
+    - Name: layer
+      Entry: 3
+      Data: 0
+    - Name: sprite
+      Entry: 7
+      Data: 70|VMFramework.Configuration.SingleSpritePresetChooserConfig, Assembly-CSharp
+    - Name: value
+      Entry: 7
+      Data: 71|VMFramework.Configuration.SpritePresetItem, Assembly-CSharp
+    - Name: <spritePresetID>k__BackingField
+      Entry: 1
+      Data: humus_12
+    - Name: <flipX>k__BackingField
+      Entry: 5
+      Data: false
+    - Name: <flipY>k__BackingField
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upperLeft
+      Entry: 7
+      Data: 72|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 73|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upper
+      Entry: 7
+      Data: 74|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 75|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upperRight
+      Entry: 7
+      Data: 76|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 2
+    - Name: specificTiles
+      Entry: 7
+      Data: 77|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: left
+      Entry: 7
+      Data: 78|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 79|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: right
+      Entry: 7
+      Data: 80|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 81|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lowerLeft
+      Entry: 7
+      Data: 82|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 2
+    - Name: specificTiles
+      Entry: 7
+      Data: 83|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lower
+      Entry: 7
+      Data: 84|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 85|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lowerRight
+      Entry: 7
+      Data: 86|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 2
+    - Name: specificTiles
+      Entry: 7
+      Data: 87|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: flipX
+      Entry: 5
+      Data: true
+    - Name: flipY
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 88|VMFramework.ExtendedTilemap.Rule, Assembly-CSharp
+    - Name: enable
+      Entry: 5
+      Data: true
+    - Name: enableAnimation
+      Entry: 5
+      Data: false
+    - Name: layers
+      Entry: 7
+      Data: 89|System.Collections.Generic.List`1[[VMFramework.ExtendedTilemap.SpriteLayer,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 90|VMFramework.ExtendedTilemap.SpriteLayer, Assembly-CSharp
+    - Name: layer
+      Entry: 3
+      Data: 0
+    - Name: sprite
+      Entry: 7
+      Data: 91|VMFramework.Configuration.SingleSpritePresetChooserConfig, Assembly-CSharp
+    - Name: value
+      Entry: 7
+      Data: 92|VMFramework.Configuration.SpritePresetItem, Assembly-CSharp
+    - Name: <spritePresetID>k__BackingField
+      Entry: 1
+      Data: humus_22
+    - Name: <flipX>k__BackingField
+      Entry: 5
+      Data: false
+    - Name: <flipY>k__BackingField
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upperLeft
+      Entry: 7
+      Data: 93|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 94|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upper
+      Entry: 7
+      Data: 95|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 96|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upperRight
+      Entry: 7
+      Data: 97|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 2
+    - Name: specificTiles
+      Entry: 7
+      Data: 98|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: left
+      Entry: 7
+      Data: 99|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 2
+    - Name: specificTiles
+      Entry: 7
+      Data: 100|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: right
+      Entry: 7
+      Data: 101|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 102|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lowerLeft
+      Entry: 7
+      Data: 103|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 104|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lower
+      Entry: 7
+      Data: 105|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 106|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lowerRight
+      Entry: 7
+      Data: 107|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 108|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: flipX
+      Entry: 5
+      Data: true
+    - Name: flipY
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 109|VMFramework.ExtendedTilemap.Rule, Assembly-CSharp
+    - Name: enable
+      Entry: 5
+      Data: true
+    - Name: enableAnimation
+      Entry: 5
+      Data: false
+    - Name: layers
+      Entry: 7
+      Data: 110|System.Collections.Generic.List`1[[VMFramework.ExtendedTilemap.SpriteLayer,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 111|VMFramework.ExtendedTilemap.SpriteLayer, Assembly-CSharp
+    - Name: layer
+      Entry: 3
+      Data: 0
+    - Name: sprite
+      Entry: 7
+      Data: 112|VMFramework.Configuration.SingleSpritePresetChooserConfig, Assembly-CSharp
+    - Name: value
+      Entry: 7
+      Data: 113|VMFramework.Configuration.SpritePresetItem, Assembly-CSharp
+    - Name: <spritePresetID>k__BackingField
+      Entry: 1
+      Data: humus_22
+    - Name: <flipX>k__BackingField
+      Entry: 5
+      Data: false
+    - Name: <flipY>k__BackingField
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upperLeft
+      Entry: 7
+      Data: 114|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 115|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upper
+      Entry: 7
+      Data: 116|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 117|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upperRight
+      Entry: 7
+      Data: 118|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 2
+    - Name: specificTiles
+      Entry: 7
+      Data: 119|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: left
+      Entry: 7
+      Data: 120|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 2
+    - Name: specificTiles
+      Entry: 7
+      Data: 121|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: right
+      Entry: 7
+      Data: 122|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 123|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lowerLeft
+      Entry: 7
+      Data: 124|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 2
+    - Name: specificTiles
+      Entry: 7
+      Data: 125|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lower
+      Entry: 7
+      Data: 126|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 127|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lowerRight
+      Entry: 7
+      Data: 128|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 129|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: flipX
+      Entry: 5
+      Data: true
+    - Name: flipY
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 130|VMFramework.ExtendedTilemap.Rule, Assembly-CSharp
+    - Name: enable
+      Entry: 5
+      Data: true
+    - Name: enableAnimation
+      Entry: 5
+      Data: false
+    - Name: layers
+      Entry: 7
+      Data: 131|System.Collections.Generic.List`1[[VMFramework.ExtendedTilemap.SpriteLayer,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 132|VMFramework.ExtendedTilemap.SpriteLayer, Assembly-CSharp
+    - Name: layer
+      Entry: 3
+      Data: 0
+    - Name: sprite
+      Entry: 7
+      Data: 133|VMFramework.Configuration.SingleSpritePresetChooserConfig, Assembly-CSharp
+    - Name: value
+      Entry: 7
+      Data: 134|VMFramework.Configuration.SpritePresetItem, Assembly-CSharp
+    - Name: <spritePresetID>k__BackingField
+      Entry: 1
+      Data: humus_3
+    - Name: <flipX>k__BackingField
+      Entry: 5
+      Data: false
+    - Name: <flipY>k__BackingField
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upperLeft
+      Entry: 7
+      Data: 135|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 136|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upper
+      Entry: 7
+      Data: 137|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 138|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upperRight
+      Entry: 7
+      Data: 139|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 2
+    - Name: specificTiles
+      Entry: 7
+      Data: 140|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: left
+      Entry: 7
+      Data: 141|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 142|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: right
+      Entry: 7
+      Data: 143|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 144|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lowerLeft
+      Entry: 7
+      Data: 145|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 2
+    - Name: specificTiles
+      Entry: 7
+      Data: 146|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lower
+      Entry: 7
+      Data: 147|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 148|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lowerRight
+      Entry: 7
+      Data: 149|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 150|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: flipX
+      Entry: 5
+      Data: true
+    - Name: flipY
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 151|VMFramework.ExtendedTilemap.Rule, Assembly-CSharp
+    - Name: enable
+      Entry: 5
+      Data: true
+    - Name: enableAnimation
+      Entry: 5
+      Data: false
+    - Name: layers
+      Entry: 7
+      Data: 152|System.Collections.Generic.List`1[[VMFramework.ExtendedTilemap.SpriteLayer,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 153|VMFramework.ExtendedTilemap.SpriteLayer, Assembly-CSharp
+    - Name: layer
+      Entry: 3
+      Data: 0
+    - Name: sprite
+      Entry: 7
+      Data: 154|VMFramework.Configuration.SingleSpritePresetChooserConfig, Assembly-CSharp
+    - Name: value
+      Entry: 7
+      Data: 155|VMFramework.Configuration.SpritePresetItem, Assembly-CSharp
+    - Name: <spritePresetID>k__BackingField
+      Entry: 1
+      Data: humus_18
+    - Name: <flipX>k__BackingField
+      Entry: 5
+      Data: false
+    - Name: <flipY>k__BackingField
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upperLeft
+      Entry: 7
+      Data: 156|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 157|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upper
+      Entry: 7
+      Data: 158|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 159|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upperRight
+      Entry: 7
+      Data: 160|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 161|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: left
+      Entry: 7
+      Data: 162|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 163|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: right
+      Entry: 7
+      Data: 164|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 165|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lowerLeft
+      Entry: 7
+      Data: 166|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 2
+    - Name: specificTiles
+      Entry: 7
+      Data: 167|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lower
+      Entry: 7
+      Data: 168|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 169|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lowerRight
+      Entry: 7
+      Data: 170|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 171|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: flipX
+      Entry: 5
+      Data: true
+    - Name: flipY
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 172|VMFramework.ExtendedTilemap.Rule, Assembly-CSharp
+    - Name: enable
+      Entry: 5
+      Data: true
+    - Name: enableAnimation
+      Entry: 5
+      Data: false
+    - Name: layers
+      Entry: 7
+      Data: 173|System.Collections.Generic.List`1[[VMFramework.ExtendedTilemap.SpriteLayer,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 174|VMFramework.ExtendedTilemap.SpriteLayer, Assembly-CSharp
+    - Name: layer
+      Entry: 3
+      Data: 0
+    - Name: sprite
+      Entry: 7
+      Data: 175|VMFramework.Configuration.SingleSpritePresetChooserConfig, Assembly-CSharp
+    - Name: value
+      Entry: 7
+      Data: 176|VMFramework.Configuration.SpritePresetItem, Assembly-CSharp
+    - Name: <spritePresetID>k__BackingField
+      Entry: 1
+      Data: humus_1
+    - Name: <flipX>k__BackingField
+      Entry: 5
+      Data: false
+    - Name: <flipY>k__BackingField
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 177|VMFramework.ExtendedTilemap.SpriteLayer, Assembly-CSharp
+    - Name: layer
+      Entry: 3
+      Data: 0
+    - Name: sprite
+      Entry: 7
+      Data: 178|VMFramework.Configuration.SingleSpritePresetChooserConfig, Assembly-CSharp
+    - Name: value
+      Entry: 7
+      Data: 179|VMFramework.Configuration.SpritePresetItem, Assembly-CSharp
+    - Name: <spritePresetID>k__BackingField
+      Entry: 1
+      Data: humus_2
+    - Name: <flipX>k__BackingField
+      Entry: 5
+      Data: false
+    - Name: <flipY>k__BackingField
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upperLeft
+      Entry: 7
+      Data: 180|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 0
+    - Name: specificTiles
+      Entry: 7
+      Data: 181|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upper
+      Entry: 7
+      Data: 182|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 2
+    - Name: specificTiles
+      Entry: 7
+      Data: 183|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upperRight
+      Entry: 7
+      Data: 184|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 0
+    - Name: specificTiles
+      Entry: 7
+      Data: 185|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: left
+      Entry: 7
+      Data: 186|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 187|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: right
+      Entry: 7
+      Data: 188|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 189|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lowerLeft
+      Entry: 7
+      Data: 190|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 0
+    - Name: specificTiles
+      Entry: 7
+      Data: 191|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lower
+      Entry: 7
+      Data: 192|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 193|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lowerRight
+      Entry: 7
+      Data: 194|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 0
+    - Name: specificTiles
+      Entry: 7
+      Data: 195|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: flipX
+      Entry: 5
+      Data: false
+    - Name: flipY
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 196|VMFramework.ExtendedTilemap.Rule, Assembly-CSharp
+    - Name: enable
+      Entry: 5
+      Data: true
+    - Name: enableAnimation
+      Entry: 5
+      Data: false
+    - Name: layers
+      Entry: 7
+      Data: 197|System.Collections.Generic.List`1[[VMFramework.ExtendedTilemap.SpriteLayer,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 198|VMFramework.ExtendedTilemap.SpriteLayer, Assembly-CSharp
+    - Name: layer
+      Entry: 3
+      Data: 0
+    - Name: sprite
+      Entry: 7
+      Data: 199|VMFramework.Configuration.SingleSpritePresetChooserConfig, Assembly-CSharp
+    - Name: value
+      Entry: 7
+      Data: 200|VMFramework.Configuration.SpritePresetItem, Assembly-CSharp
+    - Name: <spritePresetID>k__BackingField
+      Entry: 1
+      Data: humus_19
+    - Name: <flipX>k__BackingField
+      Entry: 5
+      Data: false
+    - Name: <flipY>k__BackingField
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upperLeft
+      Entry: 7
+      Data: 201|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 202|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upper
+      Entry: 7
+      Data: 203|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 204|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upperRight
+      Entry: 7
+      Data: 205|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 2
+    - Name: specificTiles
+      Entry: 7
+      Data: 206|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: left
+      Entry: 7
+      Data: 207|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 208|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: right
+      Entry: 7
+      Data: 209|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 210|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lowerLeft
+      Entry: 7
+      Data: 211|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 212|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lower
+      Entry: 7
+      Data: 213|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 214|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lowerRight
+      Entry: 7
+      Data: 215|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 2
+    - Name: specificTiles
+      Entry: 7
+      Data: 216|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: flipX
+      Entry: 5
+      Data: true
+    - Name: flipY
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 217|VMFramework.ExtendedTilemap.Rule, Assembly-CSharp
+    - Name: enable
+      Entry: 5
+      Data: true
+    - Name: enableAnimation
+      Entry: 5
+      Data: false
+    - Name: layers
+      Entry: 7
+      Data: 218|System.Collections.Generic.List`1[[VMFramework.ExtendedTilemap.SpriteLayer,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 219|VMFramework.ExtendedTilemap.SpriteLayer, Assembly-CSharp
+    - Name: layer
+      Entry: 3
+      Data: 0
+    - Name: sprite
+      Entry: 7
+      Data: 220|VMFramework.Configuration.SingleSpritePresetChooserConfig, Assembly-CSharp
+    - Name: value
+      Entry: 7
+      Data: 221|VMFramework.Configuration.SpritePresetItem, Assembly-CSharp
+    - Name: <spritePresetID>k__BackingField
+      Entry: 1
+      Data: humus_22
+    - Name: <flipX>k__BackingField
+      Entry: 5
+      Data: false
+    - Name: <flipY>k__BackingField
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upperLeft
+      Entry: 7
+      Data: 222|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 2
+    - Name: specificTiles
+      Entry: 7
+      Data: 223|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upper
+      Entry: 7
+      Data: 224|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 225|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upperRight
+      Entry: 7
+      Data: 226|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 2
+    - Name: specificTiles
+      Entry: 7
+      Data: 227|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: left
+      Entry: 7
+      Data: 228|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 2
+    - Name: specificTiles
+      Entry: 7
+      Data: 229|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: right
+      Entry: 7
+      Data: 230|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 231|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lowerLeft
+      Entry: 7
+      Data: 232|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 2
+    - Name: specificTiles
+      Entry: 7
+      Data: 233|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lower
+      Entry: 7
+      Data: 234|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 235|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lowerRight
+      Entry: 7
+      Data: 236|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 237|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: flipX
+      Entry: 5
+      Data: true
+    - Name: flipY
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 238|VMFramework.ExtendedTilemap.Rule, Assembly-CSharp
+    - Name: enable
+      Entry: 5
+      Data: true
+    - Name: enableAnimation
+      Entry: 5
+      Data: false
+    - Name: layers
+      Entry: 7
+      Data: 239|System.Collections.Generic.List`1[[VMFramework.ExtendedTilemap.SpriteLayer,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 240|VMFramework.ExtendedTilemap.SpriteLayer, Assembly-CSharp
+    - Name: layer
+      Entry: 3
+      Data: 0
+    - Name: sprite
+      Entry: 7
+      Data: 241|VMFramework.Configuration.SingleSpritePresetChooserConfig, Assembly-CSharp
+    - Name: value
+      Entry: 7
+      Data: 242|VMFramework.Configuration.SpritePresetItem, Assembly-CSharp
+    - Name: <spritePresetID>k__BackingField
+      Entry: 1
+      Data: humus_30
+    - Name: <flipX>k__BackingField
+      Entry: 5
+      Data: false
+    - Name: <flipY>k__BackingField
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upperLeft
+      Entry: 7
+      Data: 243|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 2
+    - Name: specificTiles
+      Entry: 7
+      Data: 244|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upper
+      Entry: 7
+      Data: 245|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 246|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upperRight
+      Entry: 7
+      Data: 247|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 248|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: left
+      Entry: 7
+      Data: 249|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 2
+    - Name: specificTiles
+      Entry: 7
+      Data: 250|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: right
+      Entry: 7
+      Data: 251|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 252|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lowerLeft
+      Entry: 7
+      Data: 253|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 2
+    - Name: specificTiles
+      Entry: 7
+      Data: 254|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lower
+      Entry: 7
+      Data: 255|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 256|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lowerRight
+      Entry: 7
+      Data: 257|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 2
+    - Name: specificTiles
+      Entry: 7
+      Data: 258|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: flipX
+      Entry: 5
+      Data: true
+    - Name: flipY
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 259|VMFramework.ExtendedTilemap.Rule, Assembly-CSharp
+    - Name: enable
+      Entry: 5
+      Data: true
+    - Name: enableAnimation
+      Entry: 5
+      Data: false
+    - Name: layers
+      Entry: 7
+      Data: 260|System.Collections.Generic.List`1[[VMFramework.ExtendedTilemap.SpriteLayer,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 261|VMFramework.ExtendedTilemap.SpriteLayer, Assembly-CSharp
+    - Name: layer
+      Entry: 3
+      Data: 0
+    - Name: sprite
+      Entry: 7
+      Data: 262|VMFramework.Configuration.SingleSpritePresetChooserConfig, Assembly-CSharp
+    - Name: value
+      Entry: 7
+      Data: 263|VMFramework.Configuration.SpritePresetItem, Assembly-CSharp
+    - Name: <spritePresetID>k__BackingField
+      Entry: 1
+      Data: humus_31
+    - Name: <flipX>k__BackingField
+      Entry: 5
+      Data: false
+    - Name: <flipY>k__BackingField
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upperLeft
+      Entry: 7
+      Data: 264|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 265|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upper
+      Entry: 7
+      Data: 266|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 267|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upperRight
+      Entry: 7
+      Data: 268|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 2
+    - Name: specificTiles
+      Entry: 7
+      Data: 269|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: left
+      Entry: 7
+      Data: 270|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 271|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: right
+      Entry: 7
+      Data: 272|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 273|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lowerLeft
+      Entry: 7
+      Data: 274|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 2
+    - Name: specificTiles
+      Entry: 7
+      Data: 275|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lower
+      Entry: 7
+      Data: 276|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 2
+    - Name: specificTiles
+      Entry: 7
+      Data: 277|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lowerRight
+      Entry: 7
+      Data: 278|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 2
+    - Name: specificTiles
+      Entry: 7
+      Data: 279|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: flipX
+      Entry: 5
+      Data: true
+    - Name: flipY
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 280|VMFramework.ExtendedTilemap.Rule, Assembly-CSharp
+    - Name: enable
+      Entry: 5
+      Data: true
+    - Name: enableAnimation
+      Entry: 5
+      Data: false
+    - Name: layers
+      Entry: 7
+      Data: 281|System.Collections.Generic.List`1[[VMFramework.ExtendedTilemap.SpriteLayer,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 282|VMFramework.ExtendedTilemap.SpriteLayer, Assembly-CSharp
+    - Name: layer
+      Entry: 3
+      Data: 0
+    - Name: sprite
+      Entry: 7
+      Data: 283|VMFramework.Configuration.SingleSpritePresetChooserConfig, Assembly-CSharp
+    - Name: value
+      Entry: 7
+      Data: 284|VMFramework.Configuration.SpritePresetItem, Assembly-CSharp
+    - Name: <spritePresetID>k__BackingField
+      Entry: 1
+      Data: humus_14
+    - Name: <flipX>k__BackingField
+      Entry: 5
+      Data: false
+    - Name: <flipY>k__BackingField
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upperLeft
+      Entry: 7
+      Data: 285|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 2
+    - Name: specificTiles
+      Entry: 7
+      Data: 286|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upper
+      Entry: 7
+      Data: 287|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 288|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upperRight
+      Entry: 7
+      Data: 289|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 2
+    - Name: specificTiles
+      Entry: 7
+      Data: 290|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: left
+      Entry: 7
+      Data: 291|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 292|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: right
+      Entry: 7
+      Data: 293|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 294|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lowerLeft
+      Entry: 7
+      Data: 295|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 0
+    - Name: specificTiles
+      Entry: 7
+      Data: 296|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lower
+      Entry: 7
+      Data: 297|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 2
+    - Name: specificTiles
+      Entry: 7
+      Data: 298|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lowerRight
+      Entry: 7
+      Data: 299|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 0
+    - Name: specificTiles
+      Entry: 7
+      Data: 300|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: flipX
+      Entry: 5
+      Data: false
+    - Name: flipY
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 301|VMFramework.ExtendedTilemap.Rule, Assembly-CSharp
+    - Name: enable
+      Entry: 5
+      Data: true
+    - Name: enableAnimation
+      Entry: 5
+      Data: false
+    - Name: layers
+      Entry: 7
+      Data: 302|System.Collections.Generic.List`1[[VMFramework.ExtendedTilemap.SpriteLayer,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 303|VMFramework.ExtendedTilemap.SpriteLayer, Assembly-CSharp
+    - Name: layer
+      Entry: 3
+      Data: 0
+    - Name: sprite
+      Entry: 7
+      Data: 304|VMFramework.Configuration.SingleSpritePresetChooserConfig, Assembly-CSharp
+    - Name: value
+      Entry: 7
+      Data: 305|VMFramework.Configuration.SpritePresetItem, Assembly-CSharp
+    - Name: <spritePresetID>k__BackingField
+      Entry: 1
+      Data: humus_13
+    - Name: <flipX>k__BackingField
+      Entry: 5
+      Data: false
+    - Name: <flipY>k__BackingField
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upperLeft
+      Entry: 7
+      Data: 306|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 307|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upper
+      Entry: 7
+      Data: 308|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 309|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upperRight
+      Entry: 7
+      Data: 310|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 311|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: left
+      Entry: 7
+      Data: 312|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 313|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: right
+      Entry: 7
+      Data: 314|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 315|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lowerLeft
+      Entry: 7
+      Data: 316|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 2
+    - Name: specificTiles
+      Entry: 7
+      Data: 317|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lower
+      Entry: 7
+      Data: 318|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 319|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lowerRight
+      Entry: 7
+      Data: 320|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 2
+    - Name: specificTiles
+      Entry: 7
+      Data: 321|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: flipX
+      Entry: 5
+      Data: false
+    - Name: flipY
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 322|VMFramework.ExtendedTilemap.Rule, Assembly-CSharp
+    - Name: enable
+      Entry: 5
+      Data: true
+    - Name: enableAnimation
+      Entry: 5
+      Data: false
+    - Name: layers
+      Entry: 7
+      Data: 323|System.Collections.Generic.List`1[[VMFramework.ExtendedTilemap.SpriteLayer,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 324|VMFramework.ExtendedTilemap.SpriteLayer, Assembly-CSharp
+    - Name: layer
+      Entry: 3
+      Data: 0
+    - Name: sprite
+      Entry: 7
+      Data: 325|VMFramework.Configuration.SingleSpritePresetChooserConfig, Assembly-CSharp
+    - Name: value
+      Entry: 7
+      Data: 326|VMFramework.Configuration.SpritePresetItem, Assembly-CSharp
+    - Name: <spritePresetID>k__BackingField
+      Entry: 1
+      Data: humus_5
+    - Name: <flipX>k__BackingField
+      Entry: 5
+      Data: false
+    - Name: <flipY>k__BackingField
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upperLeft
+      Entry: 7
+      Data: 327|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 2
+    - Name: specificTiles
+      Entry: 7
+      Data: 328|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upper
+      Entry: 7
+      Data: 329|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 330|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upperRight
+      Entry: 7
+      Data: 331|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 2
+    - Name: specificTiles
+      Entry: 7
+      Data: 332|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: left
+      Entry: 7
+      Data: 333|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 334|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: right
+      Entry: 7
+      Data: 335|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 336|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lowerLeft
+      Entry: 7
+      Data: 337|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 338|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lower
+      Entry: 7
+      Data: 339|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 340|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lowerRight
+      Entry: 7
+      Data: 341|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 342|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: flipX
+      Entry: 5
+      Data: false
+    - Name: flipY
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 343|VMFramework.ExtendedTilemap.Rule, Assembly-CSharp
+    - Name: enable
+      Entry: 5
+      Data: true
+    - Name: enableAnimation
+      Entry: 5
+      Data: false
+    - Name: layers
+      Entry: 7
+      Data: 344|System.Collections.Generic.List`1[[VMFramework.ExtendedTilemap.SpriteLayer,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 345|VMFramework.ExtendedTilemap.SpriteLayer, Assembly-CSharp
+    - Name: layer
+      Entry: 3
+      Data: 0
+    - Name: sprite
+      Entry: 7
+      Data: 346|VMFramework.Configuration.SingleSpritePresetChooserConfig, Assembly-CSharp
+    - Name: value
+      Entry: 7
+      Data: 347|VMFramework.Configuration.SpritePresetItem, Assembly-CSharp
+    - Name: <spritePresetID>k__BackingField
+      Entry: 1
+      Data: humus_4
+    - Name: <flipX>k__BackingField
+      Entry: 5
+      Data: false
+    - Name: <flipY>k__BackingField
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upperLeft
+      Entry: 7
+      Data: 348|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 2
+    - Name: specificTiles
+      Entry: 7
+      Data: 349|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upper
+      Entry: 7
+      Data: 350|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 351|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upperRight
+      Entry: 7
+      Data: 352|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 2
+    - Name: specificTiles
+      Entry: 7
+      Data: 353|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: left
+      Entry: 7
+      Data: 354|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 355|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: right
+      Entry: 7
+      Data: 356|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 357|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lowerLeft
+      Entry: 7
+      Data: 358|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 359|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lower
+      Entry: 7
+      Data: 360|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 361|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lowerRight
+      Entry: 7
+      Data: 362|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 2
+    - Name: specificTiles
+      Entry: 7
+      Data: 363|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: flipX
+      Entry: 5
+      Data: true
+    - Name: flipY
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 364|VMFramework.ExtendedTilemap.Rule, Assembly-CSharp
+    - Name: enable
+      Entry: 5
+      Data: true
+    - Name: enableAnimation
+      Entry: 5
+      Data: false
+    - Name: layers
+      Entry: 7
+      Data: 365|System.Collections.Generic.List`1[[VMFramework.ExtendedTilemap.SpriteLayer,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 366|VMFramework.ExtendedTilemap.SpriteLayer, Assembly-CSharp
+    - Name: layer
+      Entry: 3
+      Data: 0
+    - Name: sprite
+      Entry: 7
+      Data: 367|VMFramework.Configuration.SingleSpritePresetChooserConfig, Assembly-CSharp
+    - Name: value
+      Entry: 7
+      Data: 368|VMFramework.Configuration.SpritePresetItem, Assembly-CSharp
+    - Name: <spritePresetID>k__BackingField
+      Entry: 1
+      Data: humus_16
+    - Name: <flipX>k__BackingField
+      Entry: 5
+      Data: false
+    - Name: <flipY>k__BackingField
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upperLeft
+      Entry: 7
+      Data: 369|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 0
+    - Name: specificTiles
+      Entry: 7
+      Data: 370|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upper
+      Entry: 7
+      Data: 371|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 372|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upperRight
+      Entry: 7
+      Data: 373|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 374|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: left
+      Entry: 7
+      Data: 375|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 2
+    - Name: specificTiles
+      Entry: 7
+      Data: 376|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: right
+      Entry: 7
+      Data: 377|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 378|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lowerLeft
+      Entry: 7
+      Data: 379|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 0
+    - Name: specificTiles
+      Entry: 7
+      Data: 380|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lower
+      Entry: 7
+      Data: 381|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 2
+    - Name: specificTiles
+      Entry: 7
+      Data: 382|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lowerRight
+      Entry: 7
+      Data: 383|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 0
+    - Name: specificTiles
+      Entry: 7
+      Data: 384|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: flipX
+      Entry: 5
+      Data: true
+    - Name: flipY
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 385|VMFramework.ExtendedTilemap.Rule, Assembly-CSharp
+    - Name: enable
+      Entry: 5
+      Data: true
+    - Name: enableAnimation
+      Entry: 5
+      Data: false
+    - Name: layers
+      Entry: 7
+      Data: 386|System.Collections.Generic.List`1[[VMFramework.ExtendedTilemap.SpriteLayer,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 387|VMFramework.ExtendedTilemap.SpriteLayer, Assembly-CSharp
+    - Name: layer
+      Entry: 3
+      Data: 0
+    - Name: sprite
+      Entry: 7
+      Data: 388|VMFramework.Configuration.SingleSpritePresetChooserConfig, Assembly-CSharp
+    - Name: value
+      Entry: 7
+      Data: 389|VMFramework.Configuration.SpritePresetItem, Assembly-CSharp
+    - Name: <spritePresetID>k__BackingField
+      Entry: 1
+      Data: humus_26
+    - Name: <flipX>k__BackingField
+      Entry: 5
+      Data: false
+    - Name: <flipY>k__BackingField
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upperLeft
+      Entry: 7
+      Data: 390|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 2
+    - Name: specificTiles
+      Entry: 7
+      Data: 391|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upper
+      Entry: 7
+      Data: 392|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 393|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upperRight
+      Entry: 7
+      Data: 394|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 2
+    - Name: specificTiles
+      Entry: 7
+      Data: 395|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: left
+      Entry: 7
+      Data: 396|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 397|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: right
+      Entry: 7
+      Data: 398|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 399|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lowerLeft
+      Entry: 7
+      Data: 400|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 2
+    - Name: specificTiles
+      Entry: 7
+      Data: 401|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lower
+      Entry: 7
+      Data: 402|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 403|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lowerRight
+      Entry: 7
+      Data: 404|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 2
+    - Name: specificTiles
+      Entry: 7
+      Data: 405|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: flipX
+      Entry: 5
+      Data: false
+    - Name: flipY
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 406|VMFramework.ExtendedTilemap.Rule, Assembly-CSharp
+    - Name: enable
+      Entry: 5
+      Data: true
+    - Name: enableAnimation
+      Entry: 5
+      Data: false
+    - Name: layers
+      Entry: 7
+      Data: 407|System.Collections.Generic.List`1[[VMFramework.ExtendedTilemap.SpriteLayer,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 408|VMFramework.ExtendedTilemap.SpriteLayer, Assembly-CSharp
+    - Name: layer
+      Entry: 3
+      Data: 0
+    - Name: sprite
+      Entry: 7
+      Data: 409|VMFramework.Configuration.SingleSpritePresetChooserConfig, Assembly-CSharp
+    - Name: value
+      Entry: 7
+      Data: 410|VMFramework.Configuration.SpritePresetItem, Assembly-CSharp
+    - Name: <spritePresetID>k__BackingField
+      Entry: 1
+      Data: humus_6
+    - Name: <flipX>k__BackingField
+      Entry: 5
+      Data: false
+    - Name: <flipY>k__BackingField
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upperLeft
+      Entry: 7
+      Data: 411|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 0
+    - Name: specificTiles
+      Entry: 7
+      Data: 412|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upper
+      Entry: 7
+      Data: 413|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 2
+    - Name: specificTiles
+      Entry: 7
+      Data: 414|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upperRight
+      Entry: 7
+      Data: 415|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 0
+    - Name: specificTiles
+      Entry: 7
+      Data: 416|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: left
+      Entry: 7
+      Data: 417|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 418|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: right
+      Entry: 7
+      Data: 419|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 420|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lowerLeft
+      Entry: 7
+      Data: 421|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 2
+    - Name: specificTiles
+      Entry: 7
+      Data: 422|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lower
+      Entry: 7
+      Data: 423|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 424|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lowerRight
+      Entry: 7
+      Data: 425|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 2
+    - Name: specificTiles
+      Entry: 7
+      Data: 426|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: flipX
+      Entry: 5
+      Data: false
+    - Name: flipY
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 427|VMFramework.ExtendedTilemap.Rule, Assembly-CSharp
+    - Name: enable
+      Entry: 5
+      Data: true
+    - Name: enableAnimation
+      Entry: 5
+      Data: false
+    - Name: layers
+      Entry: 7
+      Data: 428|System.Collections.Generic.List`1[[VMFramework.ExtendedTilemap.SpriteLayer,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 429|VMFramework.ExtendedTilemap.SpriteLayer, Assembly-CSharp
+    - Name: layer
+      Entry: 3
+      Data: 0
+    - Name: sprite
+      Entry: 7
+      Data: 430|VMFramework.Configuration.SingleSpritePresetChooserConfig, Assembly-CSharp
+    - Name: value
+      Entry: 7
+      Data: 431|VMFramework.Configuration.SpritePresetItem, Assembly-CSharp
+    - Name: <spritePresetID>k__BackingField
+      Entry: 1
+      Data: humus_0
+    - Name: <flipX>k__BackingField
+      Entry: 5
+      Data: false
+    - Name: <flipY>k__BackingField
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upperLeft
+      Entry: 7
+      Data: 432|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 0
+    - Name: specificTiles
+      Entry: 7
+      Data: 433|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upper
+      Entry: 7
+      Data: 434|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 2
+    - Name: specificTiles
+      Entry: 7
+      Data: 435|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upperRight
+      Entry: 7
+      Data: 436|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 0
+    - Name: specificTiles
+      Entry: 7
+      Data: 437|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: left
+      Entry: 7
+      Data: 438|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 2
+    - Name: specificTiles
+      Entry: 7
+      Data: 439|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: right
+      Entry: 7
+      Data: 440|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 441|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lowerLeft
+      Entry: 7
+      Data: 442|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 0
+    - Name: specificTiles
+      Entry: 7
+      Data: 443|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lower
+      Entry: 7
+      Data: 444|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 445|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lowerRight
+      Entry: 7
+      Data: 446|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 447|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: flipX
+      Entry: 5
+      Data: true
+    - Name: flipY
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 448|VMFramework.ExtendedTilemap.Rule, Assembly-CSharp
+    - Name: enable
+      Entry: 5
+      Data: true
+    - Name: enableAnimation
+      Entry: 5
+      Data: false
+    - Name: layers
+      Entry: 7
+      Data: 449|System.Collections.Generic.List`1[[VMFramework.ExtendedTilemap.SpriteLayer,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 450|VMFramework.ExtendedTilemap.SpriteLayer, Assembly-CSharp
+    - Name: layer
+      Entry: 3
+      Data: 0
+    - Name: sprite
+      Entry: 7
+      Data: 451|VMFramework.Configuration.SingleSpritePresetChooserConfig, Assembly-CSharp
+    - Name: value
+      Entry: 7
+      Data: 452|VMFramework.Configuration.SpritePresetItem, Assembly-CSharp
+    - Name: <spritePresetID>k__BackingField
+      Entry: 1
+      Data: humus_7
+    - Name: <flipX>k__BackingField
+      Entry: 5
+      Data: false
+    - Name: <flipY>k__BackingField
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upperLeft
+      Entry: 7
+      Data: 453|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 0
+    - Name: specificTiles
+      Entry: 7
+      Data: 454|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upper
+      Entry: 7
+      Data: 455|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 2
+    - Name: specificTiles
+      Entry: 7
+      Data: 456|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upperRight
+      Entry: 7
+      Data: 457|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 0
+    - Name: specificTiles
+      Entry: 7
+      Data: 458|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: left
+      Entry: 7
+      Data: 459|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 460|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: right
+      Entry: 7
+      Data: 461|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 2
+    - Name: specificTiles
+      Entry: 7
+      Data: 462|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lowerLeft
+      Entry: 7
+      Data: 463|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 2
+    - Name: specificTiles
+      Entry: 7
+      Data: 464|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lower
+      Entry: 7
+      Data: 465|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 466|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lowerRight
+      Entry: 7
+      Data: 467|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 0
+    - Name: specificTiles
+      Entry: 7
+      Data: 468|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: flipX
+      Entry: 5
+      Data: true
+    - Name: flipY
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 469|VMFramework.ExtendedTilemap.Rule, Assembly-CSharp
+    - Name: enable
+      Entry: 5
+      Data: true
+    - Name: enableAnimation
+      Entry: 5
+      Data: false
+    - Name: layers
+      Entry: 7
+      Data: 470|System.Collections.Generic.List`1[[VMFramework.ExtendedTilemap.SpriteLayer,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 471|VMFramework.ExtendedTilemap.SpriteLayer, Assembly-CSharp
+    - Name: layer
+      Entry: 3
+      Data: 0
+    - Name: sprite
+      Entry: 7
+      Data: 472|VMFramework.Configuration.SingleSpritePresetChooserConfig, Assembly-CSharp
+    - Name: value
+      Entry: 7
+      Data: 473|VMFramework.Configuration.SpritePresetItem, Assembly-CSharp
+    - Name: <spritePresetID>k__BackingField
+      Entry: 1
+      Data: humus_27
+    - Name: <flipX>k__BackingField
+      Entry: 5
+      Data: false
+    - Name: <flipY>k__BackingField
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upperLeft
+      Entry: 7
+      Data: 474|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 2
+    - Name: specificTiles
+      Entry: 7
+      Data: 475|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upper
+      Entry: 7
+      Data: 476|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 477|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upperRight
+      Entry: 7
+      Data: 478|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 0
+    - Name: specificTiles
+      Entry: 7
+      Data: 479|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: left
+      Entry: 7
+      Data: 480|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 481|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: right
+      Entry: 7
+      Data: 482|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 2
+    - Name: specificTiles
+      Entry: 7
+      Data: 483|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lowerLeft
+      Entry: 7
+      Data: 484|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 2
+    - Name: specificTiles
+      Entry: 7
+      Data: 485|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lower
+      Entry: 7
+      Data: 486|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 487|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lowerRight
+      Entry: 7
+      Data: 488|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 0
+    - Name: specificTiles
+      Entry: 7
+      Data: 489|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: flipX
+      Entry: 5
+      Data: true
+    - Name: flipY
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 490|VMFramework.ExtendedTilemap.Rule, Assembly-CSharp
+    - Name: enable
+      Entry: 5
+      Data: true
+    - Name: enableAnimation
+      Entry: 5
+      Data: false
+    - Name: layers
+      Entry: 7
+      Data: 491|System.Collections.Generic.List`1[[VMFramework.ExtendedTilemap.SpriteLayer,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 492|VMFramework.ExtendedTilemap.SpriteLayer, Assembly-CSharp
+    - Name: layer
+      Entry: 3
+      Data: 0
+    - Name: sprite
+      Entry: 7
+      Data: 493|VMFramework.Configuration.SingleSpritePresetChooserConfig, Assembly-CSharp
+    - Name: value
+      Entry: 7
+      Data: 494|VMFramework.Configuration.SpritePresetItem, Assembly-CSharp
+    - Name: <spritePresetID>k__BackingField
+      Entry: 1
+      Data: humus_15
+    - Name: <flipX>k__BackingField
+      Entry: 5
+      Data: false
+    - Name: <flipY>k__BackingField
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upperLeft
+      Entry: 7
+      Data: 495|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 2
+    - Name: specificTiles
+      Entry: 7
+      Data: 496|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upper
+      Entry: 7
+      Data: 497|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 498|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upperRight
+      Entry: 7
+      Data: 499|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 0
+    - Name: specificTiles
+      Entry: 7
+      Data: 500|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: left
+      Entry: 7
+      Data: 501|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 502|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: right
+      Entry: 7
+      Data: 503|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 2
+    - Name: specificTiles
+      Entry: 7
+      Data: 504|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lowerLeft
+      Entry: 7
+      Data: 505|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 0
+    - Name: specificTiles
+      Entry: 7
+      Data: 506|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lower
+      Entry: 7
+      Data: 507|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 2
+    - Name: specificTiles
+      Entry: 7
+      Data: 508|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lowerRight
+      Entry: 7
+      Data: 509|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 0
+    - Name: specificTiles
+      Entry: 7
+      Data: 510|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: flipX
+      Entry: 5
+      Data: true
+    - Name: flipY
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 511|VMFramework.ExtendedTilemap.Rule, Assembly-CSharp
+    - Name: enable
+      Entry: 5
+      Data: true
+    - Name: enableAnimation
+      Entry: 5
+      Data: false
+    - Name: layers
+      Entry: 7
+      Data: 512|System.Collections.Generic.List`1[[VMFramework.ExtendedTilemap.SpriteLayer,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 513|VMFramework.ExtendedTilemap.SpriteLayer, Assembly-CSharp
+    - Name: layer
+      Entry: 3
+      Data: 0
+    - Name: sprite
+      Entry: 7
+      Data: 514|VMFramework.Configuration.SingleSpritePresetChooserConfig, Assembly-CSharp
+    - Name: value
+      Entry: 7
+      Data: 515|VMFramework.Configuration.SpritePresetItem, Assembly-CSharp
+    - Name: <spritePresetID>k__BackingField
+      Entry: 1
+      Data: humus_24
+    - Name: <flipX>k__BackingField
+      Entry: 5
+      Data: false
+    - Name: <flipY>k__BackingField
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upperLeft
+      Entry: 7
+      Data: 516|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 0
+    - Name: specificTiles
+      Entry: 7
+      Data: 517|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upper
+      Entry: 7
+      Data: 518|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 2
+    - Name: specificTiles
+      Entry: 7
+      Data: 519|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upperRight
+      Entry: 7
+      Data: 520|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 0
+    - Name: specificTiles
+      Entry: 7
+      Data: 521|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: left
+      Entry: 7
+      Data: 522|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 2
+    - Name: specificTiles
+      Entry: 7
+      Data: 523|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: right
+      Entry: 7
+      Data: 524|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 525|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lowerLeft
+      Entry: 7
+      Data: 526|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 0
+    - Name: specificTiles
+      Entry: 7
+      Data: 527|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lower
+      Entry: 7
+      Data: 528|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 2
+    - Name: specificTiles
+      Entry: 7
+      Data: 529|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lowerRight
+      Entry: 7
+      Data: 530|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 0
+    - Name: specificTiles
+      Entry: 7
+      Data: 531|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: flipX
+      Entry: 5
+      Data: true
+    - Name: flipY
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 532|VMFramework.ExtendedTilemap.Rule, Assembly-CSharp
+    - Name: enable
+      Entry: 5
+      Data: true
+    - Name: enableAnimation
+      Entry: 5
+      Data: false
+    - Name: layers
+      Entry: 7
+      Data: 533|System.Collections.Generic.List`1[[VMFramework.ExtendedTilemap.SpriteLayer,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 534|VMFramework.ExtendedTilemap.SpriteLayer, Assembly-CSharp
+    - Name: layer
+      Entry: 3
+      Data: 0
+    - Name: sprite
+      Entry: 7
+      Data: 535|VMFramework.Configuration.SingleSpritePresetChooserConfig, Assembly-CSharp
+    - Name: value
+      Entry: 7
+      Data: 536|VMFramework.Configuration.SpritePresetItem, Assembly-CSharp
+    - Name: <spritePresetID>k__BackingField
+      Entry: 1
+      Data: humus_8
+    - Name: <flipX>k__BackingField
+      Entry: 5
+      Data: false
+    - Name: <flipY>k__BackingField
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upperLeft
+      Entry: 7
+      Data: 537|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 0
+    - Name: specificTiles
+      Entry: 7
+      Data: 538|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upper
+      Entry: 7
+      Data: 539|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 540|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upperRight
+      Entry: 7
+      Data: 541|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 0
+    - Name: specificTiles
+      Entry: 7
+      Data: 542|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: left
+      Entry: 7
+      Data: 543|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 2
+    - Name: specificTiles
+      Entry: 7
+      Data: 544|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: right
+      Entry: 7
+      Data: 545|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 546|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lowerLeft
+      Entry: 7
+      Data: 547|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 0
+    - Name: specificTiles
+      Entry: 7
+      Data: 548|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lower
+      Entry: 7
+      Data: 549|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 550|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lowerRight
+      Entry: 7
+      Data: 551|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 0
+    - Name: specificTiles
+      Entry: 7
+      Data: 552|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: flipX
+      Entry: 5
+      Data: true
+    - Name: flipY
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 553|VMFramework.ExtendedTilemap.Rule, Assembly-CSharp
+    - Name: enable
+      Entry: 5
+      Data: true
+    - Name: enableAnimation
+      Entry: 5
+      Data: false
+    - Name: layers
+      Entry: 7
+      Data: 554|System.Collections.Generic.List`1[[VMFramework.ExtendedTilemap.SpriteLayer,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 555|VMFramework.ExtendedTilemap.SpriteLayer, Assembly-CSharp
+    - Name: layer
+      Entry: 3
+      Data: 0
+    - Name: sprite
+      Entry: 7
+      Data: 556|VMFramework.Configuration.SingleSpritePresetChooserConfig, Assembly-CSharp
+    - Name: value
+      Entry: 7
+      Data: 557|VMFramework.Configuration.SpritePresetItem, Assembly-CSharp
+    - Name: <spritePresetID>k__BackingField
+      Entry: 1
+      Data: humus_9
+    - Name: <flipX>k__BackingField
+      Entry: 5
+      Data: false
+    - Name: <flipY>k__BackingField
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upperLeft
+      Entry: 7
+      Data: 558|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 559|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upper
+      Entry: 7
+      Data: 560|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 561|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upperRight
+      Entry: 7
+      Data: 562|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 563|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: left
+      Entry: 7
+      Data: 564|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 565|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: right
+      Entry: 7
+      Data: 566|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 567|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lowerLeft
+      Entry: 7
+      Data: 568|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 569|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lower
+      Entry: 7
+      Data: 570|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 571|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lowerRight
+      Entry: 7
+      Data: 572|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 573|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: flipX
+      Entry: 5
+      Data: false
+    - Name: flipY
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 574|VMFramework.ExtendedTilemap.Rule, Assembly-CSharp
+    - Name: enable
+      Entry: 5
+      Data: true
+    - Name: enableAnimation
+      Entry: 5
+      Data: false
+    - Name: layers
+      Entry: 7
+      Data: 575|System.Collections.Generic.List`1[[VMFramework.ExtendedTilemap.SpriteLayer,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 576|VMFramework.ExtendedTilemap.SpriteLayer, Assembly-CSharp
+    - Name: layer
+      Entry: 3
+      Data: 0
+    - Name: sprite
+      Entry: 7
+      Data: 577|VMFramework.Configuration.SingleSpritePresetChooserConfig, Assembly-CSharp
+    - Name: value
+      Entry: 7
+      Data: 578|VMFramework.Configuration.SpritePresetItem, Assembly-CSharp
+    - Name: <spritePresetID>k__BackingField
+      Entry: 1
+      Data: humus_17
+    - Name: <flipX>k__BackingField
+      Entry: 5
+      Data: false
+    - Name: <flipY>k__BackingField
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upperLeft
+      Entry: 7
+      Data: 579|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 0
+    - Name: specificTiles
+      Entry: 7
+      Data: 580|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upper
+      Entry: 7
+      Data: 581|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 582|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upperRight
+      Entry: 7
+      Data: 583|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 0
+    - Name: specificTiles
+      Entry: 7
+      Data: 584|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: left
+      Entry: 7
+      Data: 585|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 586|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: right
+      Entry: 7
+      Data: 587|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 588|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lowerLeft
+      Entry: 7
+      Data: 589|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 0
+    - Name: specificTiles
+      Entry: 7
+      Data: 590|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lower
+      Entry: 7
+      Data: 591|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 2
+    - Name: specificTiles
+      Entry: 7
+      Data: 592|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lowerRight
+      Entry: 7
+      Data: 593|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 0
+    - Name: specificTiles
+      Entry: 7
+      Data: 594|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: flipX
+      Entry: 5
+      Data: false
+    - Name: flipY
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 595|VMFramework.ExtendedTilemap.Rule, Assembly-CSharp
+    - Name: enable
+      Entry: 5
+      Data: true
+    - Name: enableAnimation
+      Entry: 5
+      Data: false
+    - Name: layers
+      Entry: 7
+      Data: 596|System.Collections.Generic.List`1[[VMFramework.ExtendedTilemap.SpriteLayer,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 597|VMFramework.ExtendedTilemap.SpriteLayer, Assembly-CSharp
+    - Name: layer
+      Entry: 3
+      Data: 0
+    - Name: sprite
+      Entry: 7
+      Data: 598|VMFramework.Configuration.SingleSpritePresetChooserConfig, Assembly-CSharp
+    - Name: value
+      Entry: 7
+      Data: 599|VMFramework.Configuration.SpritePresetItem, Assembly-CSharp
+    - Name: <spritePresetID>k__BackingField
+      Entry: 1
+      Data: humus_21
+    - Name: <flipX>k__BackingField
+      Entry: 5
+      Data: false
+    - Name: <flipY>k__BackingField
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upperLeft
+      Entry: 7
+      Data: 600|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 0
+    - Name: specificTiles
+      Entry: 7
+      Data: 601|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upper
+      Entry: 7
+      Data: 602|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 603|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upperRight
+      Entry: 7
+      Data: 604|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 0
+    - Name: specificTiles
+      Entry: 7
+      Data: 605|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: left
+      Entry: 7
+      Data: 606|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 2
+    - Name: specificTiles
+      Entry: 7
+      Data: 607|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: right
+      Entry: 7
+      Data: 608|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 2
+    - Name: specificTiles
+      Entry: 7
+      Data: 609|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lowerLeft
+      Entry: 7
+      Data: 610|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 0
+    - Name: specificTiles
+      Entry: 7
+      Data: 611|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lower
+      Entry: 7
+      Data: 612|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 613|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lowerRight
+      Entry: 7
+      Data: 614|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 0
+    - Name: specificTiles
+      Entry: 7
+      Data: 615|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: flipX
+      Entry: 5
+      Data: false
+    - Name: flipY
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 616|VMFramework.ExtendedTilemap.Rule, Assembly-CSharp
+    - Name: enable
+      Entry: 5
+      Data: true
+    - Name: enableAnimation
+      Entry: 5
+      Data: false
+    - Name: layers
+      Entry: 7
+      Data: 617|System.Collections.Generic.List`1[[VMFramework.ExtendedTilemap.SpriteLayer,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 618|VMFramework.ExtendedTilemap.SpriteLayer, Assembly-CSharp
+    - Name: layer
+      Entry: 3
+      Data: 0
+    - Name: sprite
+      Entry: 7
+      Data: 619|VMFramework.Configuration.SingleSpritePresetChooserConfig, Assembly-CSharp
+    - Name: value
+      Entry: 7
+      Data: 620|VMFramework.Configuration.SpritePresetItem, Assembly-CSharp
+    - Name: <spritePresetID>k__BackingField
+      Entry: 1
+      Data: humus_25
+    - Name: <flipX>k__BackingField
+      Entry: 5
+      Data: false
+    - Name: <flipY>k__BackingField
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upperLeft
+      Entry: 7
+      Data: 621|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 0
+    - Name: specificTiles
+      Entry: 7
+      Data: 622|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upper
+      Entry: 7
+      Data: 623|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 2
+    - Name: specificTiles
+      Entry: 7
+      Data: 624|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upperRight
+      Entry: 7
+      Data: 625|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 0
+    - Name: specificTiles
+      Entry: 7
+      Data: 626|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: left
+      Entry: 7
+      Data: 627|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 628|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: right
+      Entry: 7
+      Data: 629|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 630|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lowerLeft
+      Entry: 7
+      Data: 631|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 0
+    - Name: specificTiles
+      Entry: 7
+      Data: 632|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lower
+      Entry: 7
+      Data: 633|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 2
+    - Name: specificTiles
+      Entry: 7
+      Data: 634|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lowerRight
+      Entry: 7
+      Data: 635|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 0
+    - Name: specificTiles
+      Entry: 7
+      Data: 636|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: flipX
+      Entry: 5
+      Data: false
+    - Name: flipY
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 637|VMFramework.ExtendedTilemap.Rule, Assembly-CSharp
+    - Name: enable
+      Entry: 5
+      Data: true
+    - Name: enableAnimation
+      Entry: 5
+      Data: false
+    - Name: layers
+      Entry: 7
+      Data: 638|System.Collections.Generic.List`1[[VMFramework.ExtendedTilemap.SpriteLayer,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 639|VMFramework.ExtendedTilemap.SpriteLayer, Assembly-CSharp
+    - Name: layer
+      Entry: 3
+      Data: 0
+    - Name: sprite
+      Entry: 7
+      Data: 640|VMFramework.Configuration.SingleSpritePresetChooserConfig, Assembly-CSharp
+    - Name: value
+      Entry: 7
+      Data: 641|VMFramework.Configuration.SpritePresetItem, Assembly-CSharp
+    - Name: <spritePresetID>k__BackingField
+      Entry: 1
+      Data: humus_29
+    - Name: <flipX>k__BackingField
+      Entry: 5
+      Data: false
+    - Name: <flipY>k__BackingField
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upperLeft
+      Entry: 7
+      Data: 642|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 0
+    - Name: specificTiles
+      Entry: 7
+      Data: 643|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upper
+      Entry: 7
+      Data: 644|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 645|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upperRight
+      Entry: 7
+      Data: 646|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 0
+    - Name: specificTiles
+      Entry: 7
+      Data: 647|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: left
+      Entry: 7
+      Data: 648|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 2
+    - Name: specificTiles
+      Entry: 7
+      Data: 649|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: right
+      Entry: 7
+      Data: 650|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 2
+    - Name: specificTiles
+      Entry: 7
+      Data: 651|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lowerLeft
+      Entry: 7
+      Data: 652|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 0
+    - Name: specificTiles
+      Entry: 7
+      Data: 653|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lower
+      Entry: 7
+      Data: 654|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 2
+    - Name: specificTiles
+      Entry: 7
+      Data: 655|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lowerRight
+      Entry: 7
+      Data: 656|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 0
+    - Name: specificTiles
+      Entry: 7
+      Data: 657|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: flipX
+      Entry: 5
+      Data: false
+    - Name: flipY
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 658|VMFramework.ExtendedTilemap.Rule, Assembly-CSharp
+    - Name: enable
+      Entry: 5
+      Data: true
+    - Name: enableAnimation
+      Entry: 5
+      Data: false
+    - Name: layers
+      Entry: 7
+      Data: 659|System.Collections.Generic.List`1[[VMFramework.ExtendedTilemap.SpriteLayer,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 660|VMFramework.ExtendedTilemap.SpriteLayer, Assembly-CSharp
+    - Name: layer
+      Entry: 3
+      Data: 0
+    - Name: sprite
+      Entry: 7
+      Data: 661|VMFramework.Configuration.SingleSpritePresetChooserConfig, Assembly-CSharp
+    - Name: value
+      Entry: 7
+      Data: 662|VMFramework.Configuration.SpritePresetItem, Assembly-CSharp
+    - Name: <spritePresetID>k__BackingField
+      Entry: 1
+      Data: humus_28
+    - Name: <flipX>k__BackingField
+      Entry: 5
+      Data: false
+    - Name: <flipY>k__BackingField
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upperLeft
+      Entry: 7
+      Data: 663|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 0
+    - Name: specificTiles
+      Entry: 7
+      Data: 664|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upper
+      Entry: 7
+      Data: 665|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 2
+    - Name: specificTiles
+      Entry: 7
+      Data: 666|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upperRight
+      Entry: 7
+      Data: 667|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 0
+    - Name: specificTiles
+      Entry: 7
+      Data: 668|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: left
+      Entry: 7
+      Data: 669|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 2
+    - Name: specificTiles
+      Entry: 7
+      Data: 670|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: right
+      Entry: 7
+      Data: 671|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 2
+    - Name: specificTiles
+      Entry: 7
+      Data: 672|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lowerLeft
+      Entry: 7
+      Data: 673|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 0
+    - Name: specificTiles
+      Entry: 7
+      Data: 674|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lower
+      Entry: 7
+      Data: 675|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 1
+    - Name: specificTiles
+      Entry: 7
+      Data: 676|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lowerRight
+      Entry: 7
+      Data: 677|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 0
+    - Name: specificTiles
+      Entry: 7
+      Data: 678|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: flipX
+      Entry: 5
+      Data: false
+    - Name: flipY
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 679|VMFramework.ExtendedTilemap.Rule, Assembly-CSharp
+    - Name: enable
+      Entry: 5
+      Data: true
+    - Name: enableAnimation
+      Entry: 5
+      Data: false
+    - Name: layers
+      Entry: 7
+      Data: 680|System.Collections.Generic.List`1[[VMFramework.ExtendedTilemap.SpriteLayer,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 681|VMFramework.ExtendedTilemap.SpriteLayer, Assembly-CSharp
+    - Name: layer
+      Entry: 3
+      Data: 0
+    - Name: sprite
+      Entry: 7
+      Data: 682|VMFramework.Configuration.SingleSpritePresetChooserConfig, Assembly-CSharp
+    - Name: value
+      Entry: 7
+      Data: 683|VMFramework.Configuration.SpritePresetItem, Assembly-CSharp
+    - Name: <spritePresetID>k__BackingField
+      Entry: 1
+      Data: humus_20
+    - Name: <flipX>k__BackingField
+      Entry: 5
+      Data: false
+    - Name: <flipY>k__BackingField
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upperLeft
+      Entry: 7
+      Data: 684|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 0
+    - Name: specificTiles
+      Entry: 7
+      Data: 685|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upper
+      Entry: 7
+      Data: 686|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 2
+    - Name: specificTiles
+      Entry: 7
+      Data: 687|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: upperRight
+      Entry: 7
+      Data: 688|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 0
+    - Name: specificTiles
+      Entry: 7
+      Data: 689|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: left
+      Entry: 7
+      Data: 690|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 2
+    - Name: specificTiles
+      Entry: 7
+      Data: 691|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: right
+      Entry: 7
+      Data: 692|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 2
+    - Name: specificTiles
+      Entry: 7
+      Data: 693|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lowerLeft
+      Entry: 7
+      Data: 694|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 0
+    - Name: specificTiles
+      Entry: 7
+      Data: 695|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lower
+      Entry: 7
+      Data: 696|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 2
+    - Name: specificTiles
+      Entry: 7
+      Data: 697|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: lowerRight
+      Entry: 7
+      Data: 698|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+    - Name: limitType
+      Entry: 3
+      Data: 0
+    - Name: specificTiles
+      Entry: 7
+      Data: 699|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: flipX
+      Entry: 5
+      Data: false
+    - Name: flipY
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 13
       Data: 
@@ -94,13 +7681,13 @@ MonoBehaviour:
       Data: 
     - Name: limitBeforeReplace
       Entry: 7
-      Data: 4|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+      Data: 700|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
     - Name: limitType
       Entry: 3
       Data: 0
     - Name: specificTiles
       Entry: 7
-      Data: 5|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+      Data: 701|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
     - Name: 
       Entry: 12
       Data: 0
@@ -115,13 +7702,13 @@ MonoBehaviour:
       Data: 
     - Name: limitAfterReplace
       Entry: 7
-      Data: 6|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
+      Data: 702|VMFramework.ExtendedTilemap.Limit, Assembly-CSharp
     - Name: limitType
       Entry: 3
       Data: 0
     - Name: specificTiles
       Entry: 7
-      Data: 7|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+      Data: 703|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
     - Name: 
       Entry: 12
       Data: 0
