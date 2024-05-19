@@ -1,4 +1,0 @@
-repository "TH@th_official@cloud.cn"
-  path "/"
-    smartbranch "/main" 
-     
