@@ -1,0 +1,472 @@
+﻿{
+  "allGameItemPrefabs": [
+    {
+      "id": "player_crouch",
+      "isActive": true,
+      "isDebugging": false,
+      "_initialGameTypesID": [],
+      "name": {},
+      "boolActionGroups": [
+        {
+          "actions": [
+            {
+              "type": "KeyBoardOrMouseOrJoyStick",
+              "keyCode": "S",
+              "keyBoardTriggerType": "KeyDown",
+              "holdThreshold": 0.0,
+              "runtimeData": {}
+            }
+          ]
+        },
+        {
+          "actions": [
+            {
+              "type": "KeyBoardOrMouseOrJoyStick",
+              "keyCode": "DownArrow",
+              "keyBoardTriggerType": "KeyDown",
+              "holdThreshold": 0.0,
+              "runtimeData": {}
+            }
+          ]
+        }
+      ],
+      "requireMouseInScreen": false,
+      "requireUpdate": true,
+      "triggerDuration": 0.2,
+      "triggerEventInvokeTrueOnce": false
+    },
+    {
+      "id": "player_crouch_cancel",
+      "isActive": true,
+      "isDebugging": false,
+      "_initialGameTypesID": [],
+      "name": {},
+      "boolActionGroups": [
+        {
+          "actions": [
+            {
+              "type": "KeyBoardOrMouseOrJoyStick",
+              "keyCode": "S",
+              "keyBoardTriggerType": "KeyUp",
+              "holdThreshold": 0.0,
+              "runtimeData": {}
+            }
+          ]
+        },
+        {
+          "actions": [
+            {
+              "type": "KeyBoardOrMouseOrJoyStick",
+              "keyCode": "DownArrow",
+              "keyBoardTriggerType": "KeyUp",
+              "holdThreshold": 0.0,
+              "runtimeData": {}
+            }
+          ]
+        }
+      ],
+      "requireMouseInScreen": false,
+      "requireUpdate": true,
+      "triggerDuration": 0.2,
+      "triggerEventInvokeTrueOnce": false
+    },
+    {
+      "id": "player_movement",
+      "isActive": true,
+      "isDebugging": false,
+      "_initialGameTypesID": null,
+      "name": {},
+      "isFloatFromAxis": false,
+      "floatInputAxisType": "MouseWheelScroll",
+      "floatPositiveActionGroups": [
+        {
+          "actions": [
+            {
+              "type": "KeyBoardOrMouseOrJoyStick",
+              "keyCode": "D",
+              "keyBoardTriggerType": "KeyStay",
+              "holdThreshold": 0.0,
+              "runtimeData": {}
+            }
+          ]
+        },
+        {
+          "actions": [
+            {
+              "type": "KeyBoardOrMouseOrJoyStick",
+              "keyCode": "RightArrow",
+              "keyBoardTriggerType": "KeyStay",
+              "holdThreshold": 0.0,
+              "runtimeData": {}
+            }
+          ]
+        }
+      ],
+      "floatNegativeActionGroups": [
+        {
+          "actions": [
+            {
+              "type": "KeyBoardOrMouseOrJoyStick",
+              "keyCode": "A",
+              "keyBoardTriggerType": "KeyStay",
+              "holdThreshold": 0.0,
+              "runtimeData": {}
+            }
+          ]
+        },
+        {
+          "actions": [
+            {
+              "type": "KeyBoardOrMouseOrJoyStick",
+              "keyCode": "LeftArrow",
+              "keyBoardTriggerType": "KeyStay",
+              "holdThreshold": 0.0,
+              "runtimeData": {}
+            }
+          ]
+        }
+      ],
+      "requireMouseInScreen": false,
+      "requireUpdate": true,
+      "triggerDuration": 0.1,
+      "triggerEventInvokeTrueOnce": false
+    },
+    {
+      "id": "player_jump",
+      "isActive": true,
+      "isDebugging": false,
+      "_initialGameTypesID": [],
+      "name": {},
+      "boolActionGroups": [
+        {
+          "actions": [
+            {
+              "type": "KeyBoardOrMouseOrJoyStick",
+              "keyCode": "Space",
+              "keyBoardTriggerType": "KeyDown",
+              "holdThreshold": 0.0,
+              "runtimeData": {}
+            }
+          ]
+        },
+        {
+          "actions": [
+            {
+              "type": "KeyBoardOrMouseOrJoyStick",
+              "keyCode": "W",
+              "keyBoardTriggerType": "KeyDown",
+              "holdThreshold": 0.0,
+              "runtimeData": {}
+            }
+          ]
+        },
+        {
+          "actions": [
+            {
+              "type": "KeyBoardOrMouseOrJoyStick",
+              "keyCode": "UpArrow",
+              "keyBoardTriggerType": "KeyDown",
+              "holdThreshold": 0.0,
+              "runtimeData": {}
+            }
+          ]
+        }
+      ],
+      "requireMouseInScreen": false,
+      "requireUpdate": true,
+      "triggerDuration": 0.2,
+      "triggerEventInvokeTrueOnce": false
+    },
+    {
+      "id": "player_dash",
+      "isActive": true,
+      "isDebugging": false,
+      "_initialGameTypesID": [],
+      "name": {},
+      "boolActionGroups": [
+        {
+          "actions": [
+            {
+              "type": "KeyBoardOrMouseOrJoyStick",
+              "keyCode": "LeftShift",
+              "keyBoardTriggerType": "KeyDown",
+              "holdThreshold": 0.0,
+              "runtimeData": {}
+            }
+          ]
+        }
+      ],
+      "requireMouseInScreen": false,
+      "requireUpdate": true,
+      "triggerDuration": 0.2,
+      "triggerEventInvokeTrueOnce": false
+    },
+    {
+      "id": "player_dash_direction",
+      "isActive": true,
+      "isDebugging": false,
+      "_initialGameTypesID": [],
+      "name": {},
+      "argMagnitudeLessThan1": false,
+      "isVector2XFromAxis": false,
+      "vector2XInputAxisType": "MouseWheelScroll",
+      "vector2XPositiveActionGroups": [
+        {
+          "actions": [
+            {
+              "type": "KeyBoardOrMouseOrJoyStick",
+              "keyCode": "D",
+              "keyBoardTriggerType": "KeyStay",
+              "holdThreshold": 0.0,
+              "runtimeData": {}
+            }
+          ]
+        },
+        {
+          "actions": [
+            {
+              "type": "KeyBoardOrMouseOrJoyStick",
+              "keyCode": "RightArrow",
+              "keyBoardTriggerType": "KeyStay",
+              "holdThreshold": 0.0,
+              "runtimeData": {}
+            }
+          ]
+        }
+      ],
+      "vector2XNegativeActionGroups": [
+        {
+          "actions": [
+            {
+              "type": "KeyBoardOrMouseOrJoyStick",
+              "keyCode": "A",
+              "keyBoardTriggerType": "KeyStay",
+              "holdThreshold": 0.0,
+              "runtimeData": {}
+            }
+          ]
+        },
+        {
+          "actions": [
+            {
+              "type": "KeyBoardOrMouseOrJoyStick",
+              "keyCode": "LeftArrow",
+              "keyBoardTriggerType": "KeyStay",
+              "holdThreshold": 0.0,
+              "runtimeData": {}
+            }
+          ]
+        }
+      ],
+      "isVector2YFromAxis": false,
+      "vector2YInputAxisType": "MouseWheelScroll",
+      "vector2YPositiveActionGroups": [
+        {
+          "actions": [
+            {
+              "type": "KeyBoardOrMouseOrJoyStick",
+              "keyCode": "W",
+              "keyBoardTriggerType": "KeyStay",
+              "holdThreshold": 0.0,
+              "runtimeData": {}
+            }
+          ]
+        },
+        {
+          "actions": [
+            {
+              "type": "KeyBoardOrMouseOrJoyStick",
+              "keyCode": "UpArrow",
+              "keyBoardTriggerType": "KeyStay",
+              "holdThreshold": 0.0,
+              "runtimeData": {}
+            }
+          ]
+        }
+      ],
+      "vector2YNegativeActionGroups": [
+        {
+          "actions": [
+            {
+              "type": "KeyBoardOrMouseOrJoyStick",
+              "keyCode": "S",
+              "keyBoardTriggerType": "KeyStay",
+              "holdThreshold": 0.0,
+              "runtimeData": {}
+            }
+          ]
+        },
+        {
+          "actions": [
+            {
+              "type": "KeyBoardOrMouseOrJoyStick",
+              "keyCode": "DownArrow",
+              "keyBoardTriggerType": "KeyStay",
+              "holdThreshold": 0.0,
+              "runtimeData": {}
+            }
+          ]
+        }
+      ],
+      "requireMouseInScreen": false,
+      "requireUpdate": true,
+      "triggerDuration": 0.2,
+      "triggerEventInvokeTrueOnce": false
+    },
+    {
+      "id": "player_fly",
+      "isActive": true,
+      "isDebugging": false,
+      "_initialGameTypesID": [],
+      "name": {},
+      "boolActionGroups": [
+        {
+          "actions": [
+            {
+              "type": "KeyBoardOrMouseOrJoyStick",
+              "keyCode": "LeftShift",
+              "keyBoardTriggerType": "HoldDown",
+              "holdThreshold": 0.35,
+              "runtimeData": {}
+            }
+          ]
+        }
+      ],
+      "requireMouseInScreen": false,
+      "requireUpdate": true,
+      "triggerDuration": 0.2,
+      "triggerEventInvokeTrueOnce": false
+    },
+    {
+      "id": "player_fly_cancel",
+      "isActive": true,
+      "isDebugging": false,
+      "_initialGameTypesID": [],
+      "name": {},
+      "boolActionGroups": [
+        {
+          "actions": [
+            {
+              "type": "KeyBoardOrMouseOrJoyStick",
+              "keyCode": "LeftShift",
+              "keyBoardTriggerType": "KeyUp",
+              "holdThreshold": 0.0,
+              "runtimeData": {}
+            }
+          ]
+        },
+        {
+          "actions": [
+            {
+              "type": "KeyBoardOrMouseOrJoyStick",
+              "keyCode": "Space",
+              "keyBoardTriggerType": "KeyDown",
+              "holdThreshold": 0.0,
+              "runtimeData": {}
+            }
+          ]
+        }
+      ],
+      "requireMouseInScreen": false,
+      "requireUpdate": true,
+      "triggerDuration": 0.2,
+      "triggerEventInvokeTrueOnce": false
+    },
+    {
+      "id": "spell_one",
+      "isActive": true,
+      "isDebugging": false,
+      "_initialGameTypesID": [],
+      "name": {},
+      "boolActionGroups": [
+        {
+          "actions": [
+            {
+              "type": "KeyBoardOrMouseOrJoyStick",
+              "keyCode": "Mouse0",
+              "keyBoardTriggerType": "KeyStay",
+              "holdThreshold": 0.0,
+              "runtimeData": {}
+            }
+          ]
+        }
+      ],
+      "requireMouseInScreen": false,
+      "requireUpdate": true,
+      "triggerDuration": 0.2,
+      "triggerEventInvokeTrueOnce": false
+    },
+    {
+      "id": "spell_two",
+      "isActive": true,
+      "isDebugging": false,
+      "_initialGameTypesID": [],
+      "name": {},
+      "boolActionGroups": [
+        {
+          "actions": [
+            {
+              "type": "KeyBoardOrMouseOrJoyStick",
+              "keyCode": "Mouse1",
+              "keyBoardTriggerType": "KeyStay",
+              "holdThreshold": 0.0,
+              "runtimeData": {}
+            }
+          ]
+        }
+      ],
+      "requireMouseInScreen": false,
+      "requireUpdate": true,
+      "triggerDuration": 0.2,
+      "triggerEventInvokeTrueOnce": false
+    },
+    {
+      "id": "spell_three",
+      "isActive": true,
+      "isDebugging": false,
+      "_initialGameTypesID": [],
+      "name": {},
+      "boolActionGroups": [
+        {
+          "actions": [
+            {
+              "type": "KeyBoardOrMouseOrJoyStick",
+              "keyCode": "Q",
+              "keyBoardTriggerType": "KeyStay",
+              "holdThreshold": 0.0,
+              "runtimeData": {}
+            }
+          ]
+        }
+      ],
+      "requireMouseInScreen": false,
+      "requireUpdate": true,
+      "triggerDuration": 0.2,
+      "triggerEventInvokeTrueOnce": false
+    },
+    {
+      "id": "spell_four",
+      "isActive": true,
+      "isDebugging": false,
+      "_initialGameTypesID": [],
+      "name": {},
+      "boolActionGroups": [
+        {
+          "actions": [
+            {
+              "type": "KeyBoardOrMouseOrJoyStick",
+              "keyCode": "E",
+              "keyBoardTriggerType": "KeyStay",
+              "holdThreshold": 0.0,
+              "runtimeData": {}
+            }
+          ]
+        }
+      ],
+      "requireMouseInScreen": false,
+      "requireUpdate": true,
+      "triggerDuration": 0.2,
+      "triggerEventInvokeTrueOnce": false
+    }
+  ]
+}

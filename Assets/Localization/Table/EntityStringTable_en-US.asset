@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: EntityStringTable_en-US
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en-US
+  m_SharedData: {fileID: 11400000, guid: 16694f2bcd0de2b4088d2716b367335a, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 69926498304
+    m_Localized: Zombie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69993607168
+    m_Localized: 'Will move towards the player when there is a player nearby
+
+      There
+      are more of them, and they will jump quickly when they encounter the terrain
+      group.
+
+      Will attack players when close to them'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69993607169
+    m_Localized: Player
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69993607170
+    m_Localized: Player controlled character
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70001995776
+    m_Localized: Drop item
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70001995777
+    m_Localized: Items that drop from monsters, boxes, etc.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70001995778
+    m_Localized: Apple projectile
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70001995779
+    m_Localized: A barrage that looks like Apple, used for testing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7438978887680
+    m_Localized: Test Laser Beam
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6347887473700864
+    m_Localized: Test Seeker
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6349867155828736
+    m_Localized: Apple
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6350554673557504
+    m_Localized: Test Fixed Laser Beam
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

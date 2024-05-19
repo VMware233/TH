@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0eaf312409714aa4ab5bb90f94478276, type: 3}
+  m_Name: DamageGeneralSetting
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  useSpecificJsonFile: 0
+  jsonFile: {fileID: 0}
+  dataFolderRelativePath: Configurations
+  defaultJSONFileSuffix: txt
+  <defaultLocalizationTableName>k__BackingField: 
+  healthChangePopupUIPanelID: health_change_popup_ui
+  healthReductionColor: {r: 1, g: 0, b: 0, a: 1}
+  healthRegainColor: {r: 0, g: 1, b: 0.06332922, a: 1}

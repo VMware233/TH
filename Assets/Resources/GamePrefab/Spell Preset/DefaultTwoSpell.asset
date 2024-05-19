@@ -1,0 +1,329 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78139273e9e448e197222669525fbb69, type: 3}
+  m_Name: DefaultTwoSpell
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -5027509340213622084, guid: b412bc7efab786440b9a7894efe4b775, type: 3}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: gamePrefab
+      Entry: 7
+      Data: 0|TH.Spells.GeneralSpellPreset, Assembly-CSharp
+    - Name: _id
+      Entry: 1
+      Data: default_two_spell
+    - Name: isActive
+      Entry: 5
+      Data: true
+    - Name: isDebugging
+      Entry: 5
+      Data: false
+    - Name: _initialGameTypesID
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 1
+      Data: default_spell_type
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: name
+      Entry: 7
+      Data: 2|VMFramework.Localization.LocalizedStringReference, Assembly-CSharp
+    - Name: _tableName
+      Entry: 1
+      Data: SpellStringTable
+    - Name: key
+      Entry: 1
+      Data: DefaultTwoSpellName
+    - Name: defaultValue
+      Entry: 1
+      Data: Default Two
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: nameFormat
+      Entry: 7
+      Data: 3|VMFramework.Configuration.TextTagFormat, Assembly-CSharp
+    - Name: overrideFontColor
+      Entry: 5
+      Data: false
+    - Name: fontColor
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: overrideBoldStyle
+      Entry: 5
+      Data: false
+    - Name: isBold
+      Entry: 5
+      Data: false
+    - Name: overrideItalicStyle
+      Entry: 5
+      Data: false
+    - Name: isItalic
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: hasDescription
+      Entry: 5
+      Data: false
+    - Name: description
+      Entry: 7
+      Data: 4|VMFramework.Localization.LocalizedStringReference, Assembly-CSharp
+    - Name: _tableName
+      Entry: 1
+      Data: SpellStringTable
+    - Name: key
+      Entry: 1
+      Data: DefaultTwoSpellDescription
+    - Name: defaultValue
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: descriptionFormat
+      Entry: 7
+      Data: 5|VMFramework.Configuration.TextTagFormat, Assembly-CSharp
+    - Name: overrideFontColor
+      Entry: 5
+      Data: false
+    - Name: fontColor
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: overrideBoldStyle
+      Entry: 5
+      Data: false
+    - Name: isBold
+      Entry: 5
+      Data: false
+    - Name: overrideItalicStyle
+      Entry: 5
+      Data: false
+    - Name: isItalic
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: icon
+      Entry: 10
+      Data: 0
+    - Name: maxCooldown
+      Entry: 4
+      Data: 0.5
+    - Name: spellUnitActions
+      Entry: 7
+      Data: 6|System.Collections.Generic.List`1[[TH.Spells.SpellUnitAction, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 7|TH.Spells.ProjectileUnitAction, Assembly-CSharp
+    - Name: projectileType
+      Entry: 3
+      Data: 2
+    - Name: linearProjectileID
+      Entry: 7
+      Data: 8|VMFramework.Configuration.SingleGamePrefabIDChooserValue`1[[TH.Entities.ILinearProjectileConfig,
+        Assembly-CSharp]], Assembly-CSharp
+    - Name: value
+      Entry: 7
+      Data: VMFramework.Configuration.GamePrefabIDConfig`1[[TH.Entities.ILinearProjectileConfig,
+        Assembly-CSharp]], Assembly-CSharp
+    - Name: id
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: seekerProjectileID
+      Entry: 7
+      Data: 9|VMFramework.Configuration.SingleGamePrefabIDChooserValue`1[[TH.Entities.ISeekerProjectileConfig,
+        Assembly-CSharp]], Assembly-CSharp
+    - Name: value
+      Entry: 7
+      Data: VMFramework.Configuration.GamePrefabIDConfig`1[[TH.Entities.ISeekerProjectileConfig,
+        Assembly-CSharp]], Assembly-CSharp
+    - Name: id
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: laserProjectileID
+      Entry: 7
+      Data: 10|VMFramework.Configuration.SingleGamePrefabIDChooserValue`1[[TH.Entities.IFixedLaserBeamConfig,
+        Assembly-CSharp]], Assembly-CSharp
+    - Name: value
+      Entry: 7
+      Data: VMFramework.Configuration.GamePrefabIDConfig`1[[TH.Entities.IFixedLaserBeamConfig,
+        Assembly-CSharp]], Assembly-CSharp
+    - Name: id
+      Entry: 1
+      Data: test_fixed_laser_beam
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: projectileScatterAngle
+      Entry: 7
+      Data: 11|VMFramework.Configuration.SingleVectorChooserConfig`1[[System.Single,
+        mscorlib]], Assembly-CSharp
+    - Name: value
+      Entry: 4
+      Data: 30
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: noMouseAngle
+      Entry: 5
+      Data: false
+    - Name: noScatter
+      Entry: 5
+      Data: false
+    - Name: shuffleProjectiles
+      Entry: 5
+      Data: false
+    - Name: projectileNumbers
+      Entry: 7
+      Data: 12|VMFramework.Configuration.SingleVectorChooserConfig`1[[System.Int32,
+        mscorlib]], Assembly-CSharp
+    - Name: value
+      Entry: 3
+      Data: 7
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: projectileInterval
+      Entry: 7
+      Data: 13|VMFramework.Configuration.SingleVectorChooserConfig`1[[System.Single,
+        mscorlib]], Assembly-CSharp
+    - Name: value
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: projectileSpeed
+      Entry: 7
+      Data: 14|VMFramework.Configuration.SingleValueChooserConfig`1[[System.Single,
+        mscorlib]], Assembly-CSharp
+    - Name: value
+      Entry: 4
+      Data: 10
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: projectileSpawnPosition
+      Entry: 3
+      Data: 0
+    - Name: delay
+      Entry: 7
+      Data: 15|VMFramework.Configuration.SingleVectorChooserConfig`1[[System.Single,
+        mscorlib]], Assembly-CSharp
+    - Name: value
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: isMelee
+      Entry: 5
+      Data: false
+    - Name: physicalAttack
+      Entry: 7
+      Data: 16|VMFramework.Configuration.SingleVectorChooserConfig`1[[System.Int32,
+        mscorlib]], Assembly-CSharp
+    - Name: value
+      Entry: 3
+      Data: 6
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: magicalAttack
+      Entry: 7
+      Data: 17|VMFramework.Configuration.SingleVectorChooserConfig`1[[System.Int32,
+        mscorlib]], Assembly-CSharp
+    - Name: value
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 

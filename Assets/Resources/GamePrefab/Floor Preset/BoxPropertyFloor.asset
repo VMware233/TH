@@ -1,0 +1,259 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78139273e9e448e197222669525fbb69, type: 3}
+  m_Name: BoxPropertyFloor
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: gamePrefab
+      Entry: 7
+      Data: 0|TH.Map.DamageableFloorPreset, Assembly-CSharp
+    - Name: _id
+      Entry: 1
+      Data: box_property_floor
+    - Name: isActive
+      Entry: 5
+      Data: true
+    - Name: isDebugging
+      Entry: 5
+      Data: false
+    - Name: _initialGameTypesID
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 1
+      Data: default_floor_type
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: name
+      Entry: 7
+      Data: 2|VMFramework.Localization.LocalizedStringReference, Assembly-CSharp
+    - Name: _tableName
+      Entry: 1
+      Data: FloorStringTable
+    - Name: key
+      Entry: 1
+      Data: BoxPropertyFloorName
+    - Name: defaultValue
+      Entry: 1
+      Data: Box Property
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: nameFormat
+      Entry: 7
+      Data: 3|VMFramework.Configuration.TextTagFormat, Assembly-CSharp
+    - Name: overrideFontColor
+      Entry: 5
+      Data: false
+    - Name: fontColor
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: overrideBoldStyle
+      Entry: 5
+      Data: false
+    - Name: isBold
+      Entry: 5
+      Data: false
+    - Name: overrideItalicStyle
+      Entry: 5
+      Data: false
+    - Name: isItalic
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: hasDescription
+      Entry: 5
+      Data: false
+    - Name: description
+      Entry: 7
+      Data: 4|VMFramework.Localization.LocalizedStringReference, Assembly-CSharp
+    - Name: _tableName
+      Entry: 1
+      Data: FloorStringTable
+    - Name: key
+      Entry: 1
+      Data: BoxPropertyFloorDescription
+    - Name: defaultValue
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: descriptionFormat
+      Entry: 7
+      Data: 5|VMFramework.Configuration.TextTagFormat, Assembly-CSharp
+    - Name: overrideFontColor
+      Entry: 5
+      Data: false
+    - Name: fontColor
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: overrideBoldStyle
+      Entry: 5
+      Data: false
+    - Name: isBold
+      Entry: 5
+      Data: false
+    - Name: overrideItalicStyle
+      Entry: 5
+      Data: false
+    - Name: isItalic
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: prewarmCount
+      Entry: 3
+      Data: 10
+    - Name: tileID
+      Entry: 1
+      Data: box_property_tile
+    - Name: useGridCompositeCollider
+      Entry: 5
+      Data: true
+    - Name: useBoxCollider
+      Entry: 5
+      Data: true
+    - Name: boxColliderSize
+      Entry: 7
+      Data: 6|VMFramework.Configuration.RectangleFloatConfig, Assembly-CSharp
+    - Name: min
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: max
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: isRigidbody
+      Entry: 5
+      Data: true
+    - Name: enableMouseCollider
+      Entry: 5
+      Data: true
+    - Name: dropItems
+      Entry: 7
+      Data: 7|VMFramework.Configuration.SingleValueChooserConfig`1[[System.Collections.Generic.List`1[[TH.Items.ItemGenerationConfig,
+        Assembly-CSharp]], mscorlib]], Assembly-CSharp
+    - Name: value
+      Entry: 7
+      Data: 8|System.Collections.Generic.List`1[[TH.Items.ItemGenerationConfig, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 9|TH.Items.ItemGenerationConfig, Assembly-CSharp
+    - Name: itemID
+      Entry: 1
+      Data: test_relic
+    - Name: count
+      Entry: 7
+      Data: 10|VMFramework.Configuration.RangeIntegerChooserConfig, Assembly-CSharp
+    - Name: min
+      Entry: 3
+      Data: 0
+    - Name: max
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: defaultHealth
+      Entry: 3
+      Data: 5
+    - Name: ignoreProjectile
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 

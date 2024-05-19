@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3aecb6d5c5bef64eaa13ba0344b3441, type: 3}
+  m_Name: WorldGeneralSetting
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  dataFolderRelativePath: Configurations
+  defaultJSONFileSuffix: txt
+  <defaultLocalizationTableName>k__BackingField: 
+  initialGamePrefabWrappers:
+  - {fileID: 11400000, guid: b682e3b4a56f3424a984bdc94ee1b9b9, type: 2}
+  <defaultGameType>k__BackingField: default_world_type
+  prefab: {fileID: 4586326319834837850, guid: 5e90cfcc62e26984da1858563666b2ac, type: 3}
+  container:
+    containerID: '%Map'
+    container: {fileID: 0}
+  defaultWorldPreset: overworld
+  renderRadius: 2

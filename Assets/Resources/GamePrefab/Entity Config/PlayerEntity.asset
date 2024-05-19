@@ -1,0 +1,326 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78139273e9e448e197222669525fbb69, type: 3}
+  m_Name: PlayerEntity
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 4637565504697854013, guid: 37b171bc8f622664bb7912c2bf5695e9, type: 3}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: gamePrefab
+      Entry: 7
+      Data: 0|TH.Entities.PlayerConfig, Assembly-CSharp
+    - Name: _id
+      Entry: 1
+      Data: player_entity
+    - Name: isActive
+      Entry: 5
+      Data: true
+    - Name: isDebugging
+      Entry: 5
+      Data: false
+    - Name: _initialGameTypesID
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 1
+      Data: default_entity_type
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: name
+      Entry: 7
+      Data: 2|VMFramework.Localization.LocalizedStringReference, Assembly-CSharp
+    - Name: _tableName
+      Entry: 1
+      Data: EntityStringTable
+    - Name: key
+      Entry: 1
+      Data: PlayerEntityName
+    - Name: defaultValue
+      Entry: 1
+      Data: Player
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: nameFormat
+      Entry: 7
+      Data: 3|VMFramework.Configuration.TextTagFormat, Assembly-CSharp
+    - Name: overrideFontColor
+      Entry: 5
+      Data: false
+    - Name: fontColor
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: overrideBoldStyle
+      Entry: 5
+      Data: false
+    - Name: isBold
+      Entry: 5
+      Data: false
+    - Name: overrideItalicStyle
+      Entry: 5
+      Data: false
+    - Name: isItalic
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: hasDescription
+      Entry: 5
+      Data: true
+    - Name: description
+      Entry: 7
+      Data: 4|VMFramework.Localization.LocalizedStringReference, Assembly-CSharp
+    - Name: _tableName
+      Entry: 1
+      Data: EntityStringTable
+    - Name: key
+      Entry: 1
+      Data: PlayerEntityDescription
+    - Name: defaultValue
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: descriptionFormat
+      Entry: 7
+      Data: 5|VMFramework.Configuration.TextTagFormat, Assembly-CSharp
+    - Name: overrideFontColor
+      Entry: 5
+      Data: false
+    - Name: fontColor
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: overrideBoldStyle
+      Entry: 5
+      Data: false
+    - Name: isBold
+      Entry: 5
+      Data: false
+    - Name: overrideItalicStyle
+      Entry: 5
+      Data: false
+    - Name: isItalic
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: prewarmCount
+      Entry: 3
+      Data: 0
+    - Name: prefab
+      Entry: 10
+      Data: 0
+    - Name: defaultMaxHealth
+      Entry: 3
+      Data: 20
+    - Name: autoDestroyWhenHealthZero
+      Entry: 5
+      Data: false
+    - Name: defaultDefense
+      Entry: 3
+      Data: 1
+    - Name: defaultDefensePercent
+      Entry: 4
+      Data: 0
+    - Name: defaultMovementSpeed
+      Entry: 4
+      Data: 10
+    - Name: defaultAttack
+      Entry: 3
+      Data: 4
+    - Name: defaultAttackMultiplier
+      Entry: 3
+      Data: 1
+    - Name: defaultCriticalRate
+      Entry: 4
+      Data: 0.15
+    - Name: defaultCriticalDamageMultiplier
+      Entry: 4
+      Data: 1.5
+    - Name: relicInventoryID
+      Entry: 1
+      Data: relic_inventory_container
+    - Name: defaultMaxJumpTimes
+      Entry: 3
+      Data: 2
+    - Name: defaultJumpForce
+      Entry: 4
+      Data: 15
+    - Name: defaultFlySpeed
+      Entry: 4
+      Data: 10
+    - Name: defaultLuck
+      Entry: 3
+      Data: 0
+    - Name: defaultCoinCount
+      Entry: 3
+      Data: 999
+    - Name: spellOneID
+      Entry: 1
+      Data: default_one_spell
+    - Name: spellTwoID
+      Entry: 1
+      Data: default_two_spell
+    - Name: spellThreeID
+      Entry: 1
+      Data: default_three_spell
+    - Name: spellFourID
+      Entry: 1
+      Data: default_one_spell
+    - Name: initialPlayerActionStateConfigs
+      Entry: 7
+      Data: 6|System.Collections.Generic.List`1[[TH.Entities.InitialPlayerActionStateConfig,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: 
+      Entry: 7
+      Data: 7|TH.Entities.InitialPlayerActionStateConfig, Assembly-CSharp
+    - Name: playerActionStateID
+      Entry: 1
+      Data: idle_player_state
+    - Name: autoEnter
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 8|TH.Entities.InitialPlayerActionStateConfig, Assembly-CSharp
+    - Name: playerActionStateID
+      Entry: 1
+      Data: move_player_state
+    - Name: autoEnter
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 9|TH.Entities.InitialPlayerActionStateConfig, Assembly-CSharp
+    - Name: playerActionStateID
+      Entry: 1
+      Data: jump_player_state
+    - Name: autoEnter
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 10|TH.Entities.InitialPlayerActionStateConfig, Assembly-CSharp
+    - Name: playerActionStateID
+      Entry: 1
+      Data: dash_player_state
+    - Name: autoEnter
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 11|TH.Entities.InitialPlayerActionStateConfig, Assembly-CSharp
+    - Name: playerActionStateID
+      Entry: 1
+      Data: fly_player_state
+    - Name: autoEnter
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 12|TH.Entities.InitialPlayerActionStateConfig, Assembly-CSharp
+    - Name: playerActionStateID
+      Entry: 1
+      Data: crouch_player_state
+    - Name: autoEnter
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: initialRelics
+      Entry: 7
+      Data: 13|System.Collections.Generic.List`1[[TH.Items.RelicGenerationConfig,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 

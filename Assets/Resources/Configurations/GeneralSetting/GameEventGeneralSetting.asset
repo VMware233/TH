@@ -1,0 +1,136 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ebbfd3004cc454b880ddfefa4a58668, type: 3}
+  m_Name: GameEventGeneralSetting
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: <keyCodeTranslations>k__BackingField
+      Entry: 7
+      Data: 0|VMFramework.Configuration.DictionaryConfigs`2[[UnityEngine.KeyCode,
+        UnityEngine.CoreModule],[VMFramework.GameEvents.KeyCodeTranslation, Assembly-CSharp]],
+        Assembly-CSharp
+    - Name: configs
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[VMFramework.GameEvents.KeyCodeTranslation,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 2|VMFramework.GameEvents.KeyCodeTranslation, Assembly-CSharp
+    - Name: <keyCode>k__BackingField
+      Entry: 3
+      Data: 323
+    - Name: <translation>k__BackingField
+      Entry: 7
+      Data: 3|VMFramework.Localization.LocalizedStringReference, Assembly-CSharp
+    - Name: _tableName
+      Entry: 1
+      Data: GameEventStringTable
+    - Name: key
+      Entry: 1
+      Data: LeftMouseName
+    - Name: defaultValue
+      Entry: 1
+      Data: Left Mouse
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 4|VMFramework.GameEvents.KeyCodeTranslation, Assembly-CSharp
+    - Name: <keyCode>k__BackingField
+      Entry: 3
+      Data: 324
+    - Name: <translation>k__BackingField
+      Entry: 7
+      Data: 5|VMFramework.Localization.LocalizedStringReference, Assembly-CSharp
+    - Name: _tableName
+      Entry: 1
+      Data: GameEventStringTable
+    - Name: key
+      Entry: 1
+      Data: RightMouseName
+    - Name: defaultValue
+      Entry: 1
+      Data: Right Mouse
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 6|VMFramework.GameEvents.KeyCodeTranslation, Assembly-CSharp
+    - Name: <keyCode>k__BackingField
+      Entry: 3
+      Data: 325
+    - Name: <translation>k__BackingField
+      Entry: 7
+      Data: 7|VMFramework.Localization.LocalizedStringReference, Assembly-CSharp
+    - Name: _tableName
+      Entry: 1
+      Data: GameEventStringTable
+    - Name: key
+      Entry: 1
+      Data: MiddleMouseName
+    - Name: defaultValue
+      Entry: 1
+      Data: Middle Mouse
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  dataFolderRelativePath: Configurations
+  defaultJSONFileSuffix: txt
+  <defaultLocalizationTableName>k__BackingField: GameEventStringTable
+  initialGamePrefabWrappers:
+  - {fileID: 11400000, guid: abb4675fdc3ee7d4483dfbc690679e37, type: 2}
+  - {fileID: 11400000, guid: 8446c544fad858c42a818b2ff3431436, type: 2}
+  - {fileID: 11400000, guid: bc28b94db05571e4d9d33408eefceb55, type: 2}
+  - {fileID: 11400000, guid: ca1023e5116047740a11c9f4476af13e, type: 2}
+  - {fileID: 11400000, guid: 690cad5f069034648aae016308eb53f9, type: 2}
+  - {fileID: 11400000, guid: 5673dd982efead9409ce57c0ca732bbb, type: 2}
+  - {fileID: 11400000, guid: cad5a1c3c31ba08409899d5a5168726a, type: 2}
+  - {fileID: 11400000, guid: e4ff9ab66ebea0249844bdb440993ac0, type: 2}
+  - {fileID: 11400000, guid: 545b5e84175498a45816a5da349a744b, type: 2}
+  - {fileID: 11400000, guid: c7beed4de6c56e04fb784cd5741303d7, type: 2}
+  - {fileID: 11400000, guid: e716a0b0feaf1c74c8885b574ec438bf, type: 2}
+  - {fileID: 11400000, guid: 504d782d582038c459c1a1604b7e0c98, type: 2}
+  - {fileID: 11400000, guid: 2b1665b6e5658174c8b76ec345c7d440, type: 2}
+  - {fileID: 11400000, guid: 60169b8969f1f5848a4cf26287a5978c, type: 2}
+  - {fileID: 11400000, guid: ab740f08fa5641342a0639e8bedbc007, type: 2}
+  <defaultGameType>k__BackingField: 

@@ -1,0 +1,25 @@
+﻿{
+  "Prefabs": [
+    {
+      "id": "default_map_core",
+      "isActive": true,
+      "isDebugging": false,
+      "_initialGameTypesID": null,
+      "name": {
+        "allTranslations": [
+          {
+            "languageType": "en-US",
+            "translation": "Default Map Core"
+          },
+          {
+            "languageType": "zh-CN",
+            "translation": "默认地图核心"
+          }
+        ]
+      },
+      "isInfiniteInX": true,
+      "isInfiniteInY": true,
+      "isInfiniteInZ": false
+    }
+  ]
+}

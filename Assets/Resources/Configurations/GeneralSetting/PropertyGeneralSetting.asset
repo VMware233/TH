@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c350c70f8ea037d4e9bcf19c9e6e7bf6, type: 3}
+  m_Name: PropertyGeneralSetting
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  dataFolderRelativePath: Configurations
+  defaultJSONFileSuffix: txt
+  <defaultLocalizationTableName>k__BackingField: PropertyStringTable
+  initialGamePrefabWrappers:
+  - {fileID: 11400000, guid: 21f13f8c6014a8241b037bd5cafd5b29, type: 2}
+  - {fileID: 11400000, guid: 70ef5ead7fcd7cf488a17caa5d3cd650, type: 2}
+  - {fileID: 11400000, guid: 59e4e662f7d1f924dbf767e48e5e386e, type: 2}
+  - {fileID: 11400000, guid: f1fb41eb5018a9e45ae2bfe8237681fb, type: 2}
+  - {fileID: 11400000, guid: dec204864a5402941ae7796165073063, type: 2}
+  - {fileID: 11400000, guid: 3e19b3c4f61856f41882aec826de808b, type: 2}
+  - {fileID: 11400000, guid: abe0c2423d97cb8458adb229100178eb, type: 2}
+  - {fileID: 11400000, guid: 42b820b14319f68498b52130db478f83, type: 2}
+  - {fileID: 11400000, guid: 3089fedc293ee6043b593a973a719e28, type: 2}
+  - {fileID: 11400000, guid: d2b5ac87f9be8d34b9f4a2db9958abaf, type: 2}
+  - {fileID: 11400000, guid: 08953a7327aba264db609f1958aa8699, type: 2}
+  - {fileID: 11400000, guid: dbf6d34bad6c1904ba101218a7f71c39, type: 2}
+  <defaultGameType>k__BackingField: default_property_type
+  tooltipID: universal_ui_toolkit_tooltip_ui

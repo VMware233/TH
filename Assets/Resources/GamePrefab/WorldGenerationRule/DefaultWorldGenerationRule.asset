@@ -1,0 +1,452 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78139273e9e448e197222669525fbb69, type: 3}
+  m_Name: DefaultWorldGenerationRule
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: gamePrefab
+      Entry: 7
+      Data: 0|TH.Map.WorldGenerationRule, Assembly-CSharp
+    - Name: _id
+      Entry: 1
+      Data: default_world_generation_rule
+    - Name: isActive
+      Entry: 5
+      Data: true
+    - Name: isDebugging
+      Entry: 5
+      Data: false
+    - Name: firstRoomInfo
+      Entry: 7
+      Data: 1|VMFramework.Configuration.SingleValueChooserConfig`1[[TH.Map.RoomGenerationProcedureUnit,
+        Assembly-CSharp]], Assembly-CSharp
+    - Name: value
+      Entry: 7
+      Data: 2|TH.Map.RoomGenerationProcedureUnit, Assembly-CSharp
+    - Name: roomGameTypeID
+      Entry: 1
+      Data: pass_start_room
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: firstRoomValidExitGatewayDirection
+      Entry: 3
+      Data: 14
+    - Name: mainRoomProcedures
+      Entry: 7
+      Data: 3|System.Collections.Generic.List`1[[VMFramework.Configuration.IChooserConfig`1[[TH.Map.RoomGenerationProcedure,
+        Assembly-CSharp]], Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 4|VMFramework.Configuration.SingleValueChooserConfig`1[[TH.Map.RoomGenerationProcedure,
+        Assembly-CSharp]], Assembly-CSharp
+    - Name: value
+      Entry: 7
+      Data: 5|TH.Map.RoomGenerationProcedure, Assembly-CSharp
+    - Name: priorityDirection
+      Entry: 3
+      Data: 2
+    - Name: isPriorityDirectionExitGatewayChooseWeight
+      Entry: 3
+      Data: 0
+    - Name: isConsecutiveDirectionExitGatewayChooseWeight
+      Entry: 3
+      Data: -100
+    - Name: includingPriorityDirectionNextRoomChooseWeight
+      Entry: 3
+      Data: 0
+    - Name: includingConsecutiveDirectionNextRoomChooseWeight
+      Entry: 3
+      Data: -100
+    - Name: excludingConsecutiveDirectionNextRoomChooseWeight
+      Entry: 3
+      Data: 100
+    - Name: validExitGatewayCountNextRoomChooseWeight
+      Entry: 3
+      Data: 5
+    - Name: validUnitCountNextRoomChooseWeight
+      Entry: 3
+      Data: 0
+    - Name: units
+      Entry: 7
+      Data: 6|System.Collections.Generic.List`1[[VMFramework.Configuration.IChooserConfig`1[[TH.Map.RoomGenerationProcedureUnit,
+        Assembly-CSharp]], Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 10
+    - Name: 
+      Entry: 7
+      Data: 7|VMFramework.Configuration.SingleValueChooserConfig`1[[TH.Map.RoomGenerationProcedureUnit,
+        Assembly-CSharp]], Assembly-CSharp
+    - Name: value
+      Entry: 7
+      Data: 8|TH.Map.RoomGenerationProcedureUnit, Assembly-CSharp
+    - Name: roomGameTypeID
+      Entry: 1
+      Data: pass_fight_room
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 9|VMFramework.Configuration.SingleValueChooserConfig`1[[TH.Map.RoomGenerationProcedureUnit,
+        Assembly-CSharp]], Assembly-CSharp
+    - Name: value
+      Entry: 7
+      Data: 10|TH.Map.RoomGenerationProcedureUnit, Assembly-CSharp
+    - Name: roomGameTypeID
+      Entry: 1
+      Data: pass_fight_room
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 11|VMFramework.Configuration.SingleValueChooserConfig`1[[TH.Map.RoomGenerationProcedureUnit,
+        Assembly-CSharp]], Assembly-CSharp
+    - Name: value
+      Entry: 7
+      Data: 12|TH.Map.RoomGenerationProcedureUnit, Assembly-CSharp
+    - Name: roomGameTypeID
+      Entry: 1
+      Data: pass_fight_room
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 13|VMFramework.Configuration.SingleValueChooserConfig`1[[TH.Map.RoomGenerationProcedureUnit,
+        Assembly-CSharp]], Assembly-CSharp
+    - Name: value
+      Entry: 7
+      Data: 14|TH.Map.RoomGenerationProcedureUnit, Assembly-CSharp
+    - Name: roomGameTypeID
+      Entry: 1
+      Data: pass_fight_room
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 15|VMFramework.Configuration.SingleValueChooserConfig`1[[TH.Map.RoomGenerationProcedureUnit,
+        Assembly-CSharp]], Assembly-CSharp
+    - Name: value
+      Entry: 7
+      Data: 16|TH.Map.RoomGenerationProcedureUnit, Assembly-CSharp
+    - Name: roomGameTypeID
+      Entry: 1
+      Data: pass_fight_room
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 17|VMFramework.Configuration.SingleValueChooserConfig`1[[TH.Map.RoomGenerationProcedureUnit,
+        Assembly-CSharp]], Assembly-CSharp
+    - Name: value
+      Entry: 7
+      Data: 18|TH.Map.RoomGenerationProcedureUnit, Assembly-CSharp
+    - Name: roomGameTypeID
+      Entry: 1
+      Data: pass_fight_room
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 19|VMFramework.Configuration.SingleValueChooserConfig`1[[TH.Map.RoomGenerationProcedureUnit,
+        Assembly-CSharp]], Assembly-CSharp
+    - Name: value
+      Entry: 7
+      Data: 20|TH.Map.RoomGenerationProcedureUnit, Assembly-CSharp
+    - Name: roomGameTypeID
+      Entry: 1
+      Data: pass_fight_room
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 21|VMFramework.Configuration.SingleValueChooserConfig`1[[TH.Map.RoomGenerationProcedureUnit,
+        Assembly-CSharp]], Assembly-CSharp
+    - Name: value
+      Entry: 7
+      Data: 22|TH.Map.RoomGenerationProcedureUnit, Assembly-CSharp
+    - Name: roomGameTypeID
+      Entry: 1
+      Data: pass_fight_room
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 23|VMFramework.Configuration.SingleValueChooserConfig`1[[TH.Map.RoomGenerationProcedureUnit,
+        Assembly-CSharp]], Assembly-CSharp
+    - Name: value
+      Entry: 7
+      Data: 24|TH.Map.RoomGenerationProcedureUnit, Assembly-CSharp
+    - Name: roomGameTypeID
+      Entry: 1
+      Data: pass_fight_room
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 25|VMFramework.Configuration.SingleValueChooserConfig`1[[TH.Map.RoomGenerationProcedureUnit,
+        Assembly-CSharp]], Assembly-CSharp
+    - Name: value
+      Entry: 7
+      Data: 26|TH.Map.RoomGenerationProcedureUnit, Assembly-CSharp
+    - Name: roomGameTypeID
+      Entry: 1
+      Data: pass_end_room
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: branchRoomProcedures
+      Entry: 7
+      Data: 27|System.Collections.Generic.List`1[[VMFramework.Configuration.IChooserConfig`1[[TH.Map.RoomGenerationProcedure,
+        Assembly-CSharp]], Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 28|VMFramework.Configuration.SingleValueChooserConfig`1[[TH.Map.RoomGenerationProcedure,
+        Assembly-CSharp]], Assembly-CSharp
+    - Name: value
+      Entry: 7
+      Data: 29|TH.Map.RoomGenerationProcedure, Assembly-CSharp
+    - Name: priorityDirection
+      Entry: 3
+      Data: 4
+    - Name: isPriorityDirectionExitGatewayChooseWeight
+      Entry: 3
+      Data: 0
+    - Name: isConsecutiveDirectionExitGatewayChooseWeight
+      Entry: 3
+      Data: 0
+    - Name: includingPriorityDirectionNextRoomChooseWeight
+      Entry: 3
+      Data: 5
+    - Name: includingConsecutiveDirectionNextRoomChooseWeight
+      Entry: 3
+      Data: 0
+    - Name: excludingConsecutiveDirectionNextRoomChooseWeight
+      Entry: 3
+      Data: 0
+    - Name: validExitGatewayCountNextRoomChooseWeight
+      Entry: 3
+      Data: 1
+    - Name: validUnitCountNextRoomChooseWeight
+      Entry: 3
+      Data: 0
+    - Name: units
+      Entry: 7
+      Data: 30|System.Collections.Generic.List`1[[VMFramework.Configuration.IChooserConfig`1[[TH.Map.RoomGenerationProcedureUnit,
+        Assembly-CSharp]], Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 31|VMFramework.Configuration.SingleValueChooserConfig`1[[TH.Map.RoomGenerationProcedureUnit,
+        Assembly-CSharp]], Assembly-CSharp
+    - Name: value
+      Entry: 7
+      Data: 32|TH.Map.RoomGenerationProcedureUnit, Assembly-CSharp
+    - Name: roomGameTypeID
+      Entry: 1
+      Data: pass_start_room
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 33|VMFramework.Configuration.SingleValueChooserConfig`1[[TH.Map.RoomGenerationProcedureUnit,
+        Assembly-CSharp]], Assembly-CSharp
+    - Name: value
+      Entry: 7
+      Data: 34|TH.Map.RoomGenerationProcedureUnit, Assembly-CSharp
+    - Name: roomGameTypeID
+      Entry: 1
+      Data: pass_start_room
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 35|VMFramework.Configuration.SingleValueChooserConfig`1[[TH.Map.RoomGenerationProcedureUnit,
+        Assembly-CSharp]], Assembly-CSharp
+    - Name: value
+      Entry: 7
+      Data: 36|TH.Map.RoomGenerationProcedureUnit, Assembly-CSharp
+    - Name: roomGameTypeID
+      Entry: 1
+      Data: pass_end_room
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: postProcessors
+      Entry: 7
+      Data: 37|System.Collections.Generic.List`1[[TH.Map.WorldGenerationPostProcessor,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 38|TH.Map.OutlineRoomPostProcessor, Assembly-CSharp
+    - Name: roomGameTypeID
+      Entry: 1
+      Data: fill_room
+    - Name: outlineWidth
+      Entry: 3
+      Data: 1
+    - Name: nonEmptyRoomWeight
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: gatewayMismatchRate
+      Entry: 4
+      Data: 0.5
+    - Name: branchOnlyOnMainBranch
+      Entry: 5
+      Data: true
+    - Name: branchMinDepth
+      Entry: 3
+      Data: 2
+    - Name: branchMaxMainBranchDepthDistance
+      Entry: 3
+      Data: 2
+    - Name: branchMaxGlobalDepthDistance
+      Entry: 3
+      Data: 2
+    - Name: branchEvaluationRangeSize
+      Entry: 7
+      Data: UnityEngine.Vector2Int, UnityEngine.CoreModule
+    - Name: 
+      Entry: 3
+      Data: 7
+    - Name: 
+      Entry: 3
+      Data: 7
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: branchRectEmptyWeight
+      Entry: 3
+      Data: 1
+    - Name: branchMinDepthDistanceToOtherBranchWeight
+      Entry: 3
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 

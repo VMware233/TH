@@ -1,0 +1,805 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848e4a1c15bd2c148ade98cc6c8b4a79, type: 3}
+  m_Name: GameTypeGeneralSetting
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: subrootGameTypeInfos
+      Entry: 7
+      Data: 0|System.Collections.Generic.List`1[[VMFramework.GameLogicArchitecture.GameTypeGeneralSetting+GameTypeInfo,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 9
+    - Name: 
+      Entry: 7
+      Data: 1|VMFramework.GameLogicArchitecture.GameTypeGeneralSetting+GameTypeInfo,
+        Assembly-CSharp
+    - Name: id
+      Entry: 1
+      Data: property_type
+    - Name: subtypes
+      Entry: 7
+      Data: 2|System.Collections.Generic.List`1[[VMFramework.GameLogicArchitecture.GameTypeGeneralSetting+GameTypeInfo,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 7
+      Data: 3|VMFramework.GameLogicArchitecture.GameTypeGeneralSetting+GameTypeInfo,
+        Assembly-CSharp
+    - Name: id
+      Entry: 1
+      Data: default_property_type
+    - Name: subtypes
+      Entry: 7
+      Data: 4|System.Collections.Generic.List`1[[VMFramework.GameLogicArchitecture.GameTypeGeneralSetting+GameTypeInfo,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parentID
+      Entry: 1
+      Data: property_type
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 5|VMFramework.GameLogicArchitecture.GameTypeGeneralSetting+GameTypeInfo,
+        Assembly-CSharp
+    - Name: id
+      Entry: 1
+      Data: spell_property_type
+    - Name: subtypes
+      Entry: 7
+      Data: 6|System.Collections.Generic.List`1[[VMFramework.GameLogicArchitecture.GameTypeGeneralSetting+GameTypeInfo,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parentID
+      Entry: 1
+      Data: property_type
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 7|VMFramework.GameLogicArchitecture.GameTypeGeneralSetting+GameTypeInfo,
+        Assembly-CSharp
+    - Name: id
+      Entry: 1
+      Data: entity_property_type
+    - Name: subtypes
+      Entry: 7
+      Data: 8|System.Collections.Generic.List`1[[VMFramework.GameLogicArchitecture.GameTypeGeneralSetting+GameTypeInfo,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parentID
+      Entry: 1
+      Data: property_type
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 9|VMFramework.GameLogicArchitecture.GameTypeGeneralSetting+GameTypeInfo,
+        Assembly-CSharp
+    - Name: id
+      Entry: 1
+      Data: floor_property_type
+    - Name: subtypes
+      Entry: 7
+      Data: 10|System.Collections.Generic.List`1[[VMFramework.GameLogicArchitecture.GameTypeGeneralSetting+GameTypeInfo,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parentID
+      Entry: 1
+      Data: property_type
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parentID
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 11|VMFramework.GameLogicArchitecture.GameTypeGeneralSetting+GameTypeInfo,
+        Assembly-CSharp
+    - Name: id
+      Entry: 1
+      Data: entity_type
+    - Name: subtypes
+      Entry: 7
+      Data: 12|System.Collections.Generic.List`1[[VMFramework.GameLogicArchitecture.GameTypeGeneralSetting+GameTypeInfo,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 13|VMFramework.GameLogicArchitecture.GameTypeGeneralSetting+LocalizedGameTypeInfo,
+        Assembly-CSharp
+    - Name: id
+      Entry: 1
+      Data: default_entity_type
+    - Name: subtypes
+      Entry: 7
+      Data: 14|System.Collections.Generic.List`1[[VMFramework.GameLogicArchitecture.GameTypeGeneralSetting+GameTypeInfo,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parentID
+      Entry: 1
+      Data: entity_type
+    - Name: name
+      Entry: 7
+      Data: 15|VMFramework.Localization.LocalizedStringReference, Assembly-CSharp
+    - Name: _tableName
+      Entry: 1
+      Data: GameTypeTable
+    - Name: key
+      Entry: 1
+      Data: DefaultEntityTypeName
+    - Name: defaultValue
+      Entry: 1
+      Data: Default Entity Type
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parentID
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 16|VMFramework.GameLogicArchitecture.GameTypeGeneralSetting+GameTypeInfo,
+        Assembly-CSharp
+    - Name: id
+      Entry: 1
+      Data: item_type
+    - Name: subtypes
+      Entry: 7
+      Data: 17|System.Collections.Generic.List`1[[VMFramework.GameLogicArchitecture.GameTypeGeneralSetting+GameTypeInfo,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 18|VMFramework.GameLogicArchitecture.GameTypeGeneralSetting+LocalizedGameTypeInfo,
+        Assembly-CSharp
+    - Name: id
+      Entry: 1
+      Data: default_item_type
+    - Name: subtypes
+      Entry: 7
+      Data: 19|System.Collections.Generic.List`1[[VMFramework.GameLogicArchitecture.GameTypeGeneralSetting+GameTypeInfo,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parentID
+      Entry: 1
+      Data: item_type
+    - Name: name
+      Entry: 7
+      Data: 20|VMFramework.Localization.LocalizedStringReference, Assembly-CSharp
+    - Name: _tableName
+      Entry: 1
+      Data: GameTypeTable
+    - Name: key
+      Entry: 1
+      Data: DefaultItemTypeName
+    - Name: defaultValue
+      Entry: 1
+      Data: Default Item Type
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parentID
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 21|VMFramework.GameLogicArchitecture.GameTypeGeneralSetting+GameTypeInfo,
+        Assembly-CSharp
+    - Name: id
+      Entry: 1
+      Data: room_type
+    - Name: subtypes
+      Entry: 7
+      Data: 22|System.Collections.Generic.List`1[[VMFramework.GameLogicArchitecture.GameTypeGeneralSetting+GameTypeInfo,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 23|VMFramework.GameLogicArchitecture.GameTypeGeneralSetting+GameTypeInfo,
+        Assembly-CSharp
+    - Name: id
+      Entry: 1
+      Data: default_room_type
+    - Name: subtypes
+      Entry: 7
+      Data: 24|System.Collections.Generic.List`1[[VMFramework.GameLogicArchitecture.GameTypeGeneralSetting+GameTypeInfo,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parentID
+      Entry: 1
+      Data: room_type
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 25|VMFramework.GameLogicArchitecture.GameTypeGeneralSetting+GameTypeInfo,
+        Assembly-CSharp
+    - Name: id
+      Entry: 1
+      Data: fill_room
+    - Name: subtypes
+      Entry: 7
+      Data: 26|System.Collections.Generic.List`1[[VMFramework.GameLogicArchitecture.GameTypeGeneralSetting+GameTypeInfo,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parentID
+      Entry: 1
+      Data: room_type
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 27|VMFramework.GameLogicArchitecture.GameTypeGeneralSetting+GameTypeInfo,
+        Assembly-CSharp
+    - Name: id
+      Entry: 1
+      Data: pass_room
+    - Name: subtypes
+      Entry: 7
+      Data: 28|System.Collections.Generic.List`1[[VMFramework.GameLogicArchitecture.GameTypeGeneralSetting+GameTypeInfo,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 29|VMFramework.GameLogicArchitecture.GameTypeGeneralSetting+GameTypeInfo,
+        Assembly-CSharp
+    - Name: id
+      Entry: 1
+      Data: pass_start_room
+    - Name: subtypes
+      Entry: 7
+      Data: 30|System.Collections.Generic.List`1[[VMFramework.GameLogicArchitecture.GameTypeGeneralSetting+GameTypeInfo,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parentID
+      Entry: 1
+      Data: pass_room
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 31|VMFramework.GameLogicArchitecture.GameTypeGeneralSetting+GameTypeInfo,
+        Assembly-CSharp
+    - Name: id
+      Entry: 1
+      Data: pass_fight_room
+    - Name: subtypes
+      Entry: 7
+      Data: 32|System.Collections.Generic.List`1[[VMFramework.GameLogicArchitecture.GameTypeGeneralSetting+GameTypeInfo,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parentID
+      Entry: 1
+      Data: pass_room
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 33|VMFramework.GameLogicArchitecture.GameTypeGeneralSetting+GameTypeInfo,
+        Assembly-CSharp
+    - Name: id
+      Entry: 1
+      Data: pass_end_room
+    - Name: subtypes
+      Entry: 7
+      Data: 34|System.Collections.Generic.List`1[[VMFramework.GameLogicArchitecture.GameTypeGeneralSetting+GameTypeInfo,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parentID
+      Entry: 1
+      Data: pass_room
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parentID
+      Entry: 1
+      Data: room_type
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parentID
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 35|VMFramework.GameLogicArchitecture.GameTypeGeneralSetting+GameTypeInfo,
+        Assembly-CSharp
+    - Name: id
+      Entry: 1
+      Data: world_type
+    - Name: subtypes
+      Entry: 7
+      Data: 36|System.Collections.Generic.List`1[[VMFramework.GameLogicArchitecture.GameTypeGeneralSetting+GameTypeInfo,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 37|VMFramework.GameLogicArchitecture.GameTypeGeneralSetting+LocalizedGameTypeInfo,
+        Assembly-CSharp
+    - Name: id
+      Entry: 1
+      Data: default_world_type
+    - Name: subtypes
+      Entry: 7
+      Data: 38|System.Collections.Generic.List`1[[VMFramework.GameLogicArchitecture.GameTypeGeneralSetting+GameTypeInfo,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parentID
+      Entry: 1
+      Data: world_type
+    - Name: name
+      Entry: 7
+      Data: 39|VMFramework.Localization.LocalizedStringReference, Assembly-CSharp
+    - Name: _tableName
+      Entry: 1
+      Data: GameTypeTable
+    - Name: key
+      Entry: 1
+      Data: DefaultWorldTypeName
+    - Name: defaultValue
+      Entry: 1
+      Data: Default World Type
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parentID
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 40|VMFramework.GameLogicArchitecture.GameTypeGeneralSetting+GameTypeInfo,
+        Assembly-CSharp
+    - Name: id
+      Entry: 1
+      Data: spell_type
+    - Name: subtypes
+      Entry: 7
+      Data: 41|System.Collections.Generic.List`1[[VMFramework.GameLogicArchitecture.GameTypeGeneralSetting+GameTypeInfo,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 42|VMFramework.GameLogicArchitecture.GameTypeGeneralSetting+LocalizedGameTypeInfo,
+        Assembly-CSharp
+    - Name: id
+      Entry: 1
+      Data: default_spell_type
+    - Name: subtypes
+      Entry: 7
+      Data: 43|System.Collections.Generic.List`1[[VMFramework.GameLogicArchitecture.GameTypeGeneralSetting+GameTypeInfo,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parentID
+      Entry: 1
+      Data: spell_type
+    - Name: name
+      Entry: 7
+      Data: 44|VMFramework.Localization.LocalizedStringReference, Assembly-CSharp
+    - Name: _tableName
+      Entry: 1
+      Data: GameTypeTable
+    - Name: key
+      Entry: 1
+      Data: DefaultSpellTypeName
+    - Name: defaultValue
+      Entry: 1
+      Data: Default Spell Type
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parentID
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 45|VMFramework.GameLogicArchitecture.GameTypeGeneralSetting+GameTypeInfo,
+        Assembly-CSharp
+    - Name: id
+      Entry: 1
+      Data: container_type
+    - Name: subtypes
+      Entry: 7
+      Data: 46|System.Collections.Generic.List`1[[VMFramework.GameLogicArchitecture.GameTypeGeneralSetting+GameTypeInfo,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 47|VMFramework.GameLogicArchitecture.GameTypeGeneralSetting+GameTypeInfo,
+        Assembly-CSharp
+    - Name: id
+      Entry: 1
+      Data: default_container_type
+    - Name: subtypes
+      Entry: 7
+      Data: 48|System.Collections.Generic.List`1[[VMFramework.GameLogicArchitecture.GameTypeGeneralSetting+GameTypeInfo,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parentID
+      Entry: 1
+      Data: container_type
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parentID
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 49|VMFramework.GameLogicArchitecture.GameTypeGeneralSetting+GameTypeInfo,
+        Assembly-CSharp
+    - Name: id
+      Entry: 1
+      Data: floor_type
+    - Name: subtypes
+      Entry: 7
+      Data: 50|System.Collections.Generic.List`1[[VMFramework.GameLogicArchitecture.GameTypeGeneralSetting+GameTypeInfo,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 51|VMFramework.GameLogicArchitecture.GameTypeGeneralSetting+LocalizedGameTypeInfo,
+        Assembly-CSharp
+    - Name: id
+      Entry: 1
+      Data: default_floor_type
+    - Name: subtypes
+      Entry: 7
+      Data: 52|System.Collections.Generic.List`1[[VMFramework.GameLogicArchitecture.GameTypeGeneralSetting+GameTypeInfo,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parentID
+      Entry: 1
+      Data: floor_type
+    - Name: name
+      Entry: 7
+      Data: 53|VMFramework.Localization.LocalizedStringReference, Assembly-CSharp
+    - Name: _tableName
+      Entry: 1
+      Data: GameTypeTable
+    - Name: key
+      Entry: 1
+      Data: DefaultFloorTypeName
+    - Name: defaultValue
+      Entry: 1
+      Data: Default Floor Type
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parentID
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 54|VMFramework.GameLogicArchitecture.GameTypeGeneralSetting+GameTypeInfo,
+        Assembly-CSharp
+    - Name: id
+      Entry: 1
+      Data: buff_type
+    - Name: subtypes
+      Entry: 7
+      Data: 55|System.Collections.Generic.List`1[[VMFramework.GameLogicArchitecture.GameTypeGeneralSetting+GameTypeInfo,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 56|VMFramework.GameLogicArchitecture.GameTypeGeneralSetting+LocalizedGameTypeInfo,
+        Assembly-CSharp
+    - Name: id
+      Entry: 1
+      Data: default_buff_type
+    - Name: subtypes
+      Entry: 7
+      Data: 57|System.Collections.Generic.List`1[[VMFramework.GameLogicArchitecture.GameTypeGeneralSetting+GameTypeInfo,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parentID
+      Entry: 1
+      Data: buff_type
+    - Name: name
+      Entry: 7
+      Data: 58|VMFramework.Localization.LocalizedStringReference, Assembly-CSharp
+    - Name: _tableName
+      Entry: 1
+      Data: GameTypeTable
+    - Name: key
+      Entry: 1
+      Data: DefaultBuffTypeName
+    - Name: defaultValue
+      Entry: 1
+      Data: Default Buff Type
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parentID
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  dataFolderRelativePath: Configurations
+  defaultJSONFileSuffix: txt
+  <defaultLocalizationTableName>k__BackingField: GameTypeTable

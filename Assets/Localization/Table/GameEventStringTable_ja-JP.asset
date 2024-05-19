@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: GameEventStringTable_ja-JP
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: ja-JP
+  m_SharedData: {fileID: 11400000, guid: 7c2f8beee94dfff498d6e8e456e77d77, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 131968643072
+    m_Localized: Player Dash
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11048659824640
+    m_Localized: Player Move
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21736316841984
+    m_Localized: Player Direction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28077739585536
+    m_Localized: Left Mouse
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28088699301888
+    m_Localized: Right Mouse
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28099927453696
+    m_Localized: Middle Mouse
+    m_Metadata:
+      m_Items: []
+  - m_Id: 333516880588800
+    m_Localized: Player Jump
+    m_Metadata:
+      m_Items: []
+  - m_Id: 338422471438336
+    m_Localized: Player Fly
+    m_Metadata:
+      m_Items: []
+  - m_Id: 338423218024448
+    m_Localized: Player Fly Cancel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 338424006553600
+    m_Localized: Player Crouch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 338424837025792
+    m_Localized: Player Crouch Cancel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 338425612972032
+    m_Localized: Player Spell One Cast
+    m_Metadata:
+      m_Items: []
+  - m_Id: 338426405695488
+    m_Localized: Player Spell Two Cast
+    m_Metadata:
+      m_Items: []
+  - m_Id: 338427248750592
+    m_Localized: Player Spell Three Cast
+    m_Metadata:
+      m_Items: []
+  - m_Id: 338428041474048
+    m_Localized: Player Spell Four Cast
+    m_Metadata:
+      m_Items: []
+  - m_Id: 848585016061952
+    m_Localized: Collider Mouse
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1068365463531520
+    m_Localized: Container Create
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1068393103994880
+    m_Localized: Container Destroy
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

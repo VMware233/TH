@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Resources/UIDocuments/Container%20UI/RelicInventoryStyle.uss?fileID=7433441132597879392&amp;guid=611390fd2ce7a2740b0e8233e99fa335&amp;type=3#RelicInventoryStyle" />
+    <Style src="project://database/Assets/Resources/UIDocuments/Container%20UI/DefaultSlotStyle.uss?fileID=7433441132597879392&amp;guid=9efd9057bb3d2b84f91f8e019ede32b1&amp;type=3#DefaultSlotStyle" />
+    <ui:VisualElement picking-mode="Ignore" style="flex-grow: 1; align-items: flex-start; flex-direction: row;">
+        <ui:VisualElement name="RelicInventory" picking-mode="Ignore" style="flex-direction: row; flex-wrap: wrap-reverse; max-width: 600px; align-self: flex-end; justify-content: flex-start;" />
+    </ui:VisualElement>
+</ui:UXML>

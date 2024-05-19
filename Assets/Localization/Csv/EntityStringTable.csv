@@ -1,0 +1,15 @@
+Key,English (United States)(en-US),Chinese (Simplified)(zh-CN)
+"ZombieName","Zombie","僵尸"
+"ZombieDescription","Will move towards the player when there is a player nearby
+There are more of them, and they will jump quickly when they encounter the terrain group.
+Will attack players when close to them","附近有玩家时会朝向玩家移动
+数量较多，碰到地形组当时会快速的跳跃
+靠近玩家时会对玩家造成攻击"
+"PlayerName","Player","玩家"
+"PlayerDescription","Player controlled character","玩家控制的角色"
+"ItemDropName","Drop item","掉落物品"
+"ItemDropDescription","Items that drop from monsters, boxes, etc.","会从怪物、箱子之类的地方掉落的道具"
+"AppleProjectileName","Apple projectile","苹果弹幕"
+"AppleProjectileDescription","A barrage that looks like Apple, used for testing","长得和苹果一样的弹幕，测试使用"
+"EntityTypeName","Entity Type","实体类型"
+"DefaultEntityTypeName","Default Entity Type","默认实体类型"

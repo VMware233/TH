@@ -1,0 +1,275 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: GlobalEventStringTable_en-US
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en-US
+  m_SharedData: {fileID: 11400000, guid: d5b5fe61d98f1f140ac2bf12f158af47, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 60917133312
+    m_Localized: Left Mouse
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60950687744
+    m_Localized: Right Mouse
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60950687745
+    m_Localized: Middle Mouse
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4514215946727424
+    m_Localized: Player Movement
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4514244023398400
+    m_Localized: Player Crouch Cancel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4514255352213504
+    m_Localized: Player Crouch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4515137103966208
+    m_Localized: Player Jump
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4519791615389696
+    m_Localized: Player Dash
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4520008658038784
+    m_Localized: Player Dash Direction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4520406936563712
+    m_Localized: Player Fly
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4521159801548800
+    m_Localized: Player Fly Cancel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4521475758469120
+    m_Localized: Spell One
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4521683359739904
+    m_Localized: Spell Two
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4521764213338112
+    m_Localized: Spell Three
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4521999635427328
+    m_Localized: Spell Four
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5231715575508992
+    m_Localized: Player Crouch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5231742637158400
+    m_Localized: Player Crouch Cancel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5231757573074944
+    m_Localized: Player Movement
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5231769187102720
+    m_Localized: Player Jump
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5231796957589504
+    m_Localized: Player Dash
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5231881078550528
+    m_Localized: Player Fly
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5231900548509696
+    m_Localized: Player Fly Cancel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5231910300266496
+    m_Localized: Spell One
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5231919074750464
+    m_Localized: Spell Two
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5231930860744704
+    m_Localized: Spell Three
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5231946224480256
+    m_Localized: Spell Four
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5272966819590144
+    m_Localized: Player Dash Direction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5446850374119424
+    m_Localized: Player Crouch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5446852047646720
+    m_Localized: Player Crouch Cancel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5446853154942976
+    m_Localized: Player Movement
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5446855168208896
+    m_Localized: Player Jump
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5446856497803264
+    m_Localized: Player Dash
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5446857537990656
+    m_Localized: Player Dash Direction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5446858586566656
+    m_Localized: Player Fly
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5446859693862912
+    m_Localized: Player Fly Cancel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5446860767604736
+    m_Localized: Spell One
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5446861841346560
+    m_Localized: Spell Two
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5446862902505472
+    m_Localized: Spell Three
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5446864043356160
+    m_Localized: Spell Four
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5579726788866048
+    m_Localized: Player Crouch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5579728097488896
+    m_Localized: Player Crouch Cancel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5579729292865536
+    m_Localized: Player Movement
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5579730484047872
+    m_Localized: Player Jump
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5579731595538432
+    m_Localized: Player Dash
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5579732694446080
+    m_Localized: Player Dash Direction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5579733810130944
+    m_Localized: Player Fly
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5579734925815808
+    m_Localized: Player Fly Cancel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5579736024723456
+    m_Localized: Spell One
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5579737228488704
+    m_Localized: Spell Two
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5579738386116608
+    m_Localized: Spell Three
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5579739556327424
+    m_Localized: Spell Four
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5581589160505344
+    m_Localized: Player Crouch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5581590095835136
+    m_Localized: Player Crouch Cancel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5581590578180096
+    m_Localized: Player Movement
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5581591064719360
+    m_Localized: Player Jump
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5581591559647232
+    m_Localized: Player Dash
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5581592062963712
+    m_Localized: Player Dash Direction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5581592591446016
+    m_Localized: Player Fly
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5581593153482752
+    m_Localized: Player Fly Cancel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5581593677770752
+    m_Localized: Spell One
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5581594227224576
+    m_Localized: Spell Two
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5581594734735360
+    m_Localized: Spell Three
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5581595233857536
+    m_Localized: Spell Four
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

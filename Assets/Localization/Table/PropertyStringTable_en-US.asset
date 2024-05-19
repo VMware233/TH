@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: PropertyStringTable_en-US
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en-US
+  m_SharedData: {fileID: 11400000, guid: ad89e951be276c3499e7f7adf5f78ff6, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 36355289088
+    m_Localized: MovSpd
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36393037824
+    m_Localized: MaxJump
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36393037825
+    m_Localized: FlySpd
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36393037826
+    m_Localized: Exp
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36393037827
+    m_Localized: ExpBoost
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36393037828
+    m_Localized: Luck
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36393037829
+    m_Localized: HP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36393037830
+    m_Localized: HP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36393037831
+    m_Localized: CD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36393037832
+    m_Localized: Pos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7393476240060416
+    m_Localized: "Duration\t"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7393538647109632
+    m_Localized: Level
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

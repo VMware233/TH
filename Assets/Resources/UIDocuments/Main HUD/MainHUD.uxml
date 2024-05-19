@@ -1,0 +1,18 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Resources/UIDocuments/Container%20UI/DefaultSlotStyle.uss?fileID=7433441132597879392&amp;guid=9efd9057bb3d2b84f91f8e019ede32b1&amp;type=3#DefaultSlotStyle" />
+    <Style src="project://database/Assets/Resources/UIDocuments/Main%20HUD/MainHUDStyle.uss?fileID=7433441132597879392&amp;guid=0320290fa4749bb4495cb0929c0be82f&amp;type=3#MainHUDStyle" />
+    <ui:VisualElement picking-mode="Ignore" style="flex-grow: 1; flex-direction: column-reverse;">
+        <ui:VisualElement picking-mode="Ignore" style="align-items: center; flex-direction: row;">
+            <ui:VisualElement name="VisualElement" picking-mode="Ignore" style="flex-grow: 1; align-items: center; justify-content: center; align-self: flex-end; flex-direction: row;">
+                <VMFramework.UI.SlotVisualElement name="SpellOne" />
+                <VMFramework.UI.SlotVisualElement name="SpellTwo" />
+                <VMFramework.UI.SlotVisualElement name="SpellThree" />
+                <VMFramework.UI.SlotVisualElement name="SpellFour" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement style="flex-grow: 1; position: absolute; left: 0; top: 193px; flex-direction: row;">
+        <ui:VisualElement style="width: 90px; height: 90px; background-image: resource(&apos;Images/UI/Main HUD/Coin Icon&apos;);" />
+        <ui:Label tabindex="-1" text="x111" parse-escape-sequences="true" display-tooltip-when-elided="true" name="IconCountLabel" style="font-size: 45px; -unity-text-align: lower-left; color: rgb(255, 255, 255);" />
+    </ui:VisualElement>
+</ui:UXML>

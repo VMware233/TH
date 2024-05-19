@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: EntityStringTable Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: EntityStringTable
+  m_TableCollectionNameGuidString: 16694f2bcd0de2b4088d2716b367335a
+  m_Entries:
+  - m_Id: 69926498304
+    m_Key: ZombieEntityName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69993607168
+    m_Key: ZombieEntityDescription
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69993607169
+    m_Key: PlayerEntityName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69993607170
+    m_Key: PlayerEntityDescription
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70001995776
+    m_Key: ItemDropEntityName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70001995777
+    m_Key: ItemDropEntityDescription
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70001995778
+    m_Key: AppleProjectileEntityName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70001995779
+    m_Key: AppleProjectileEntityDescription
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6347887473700864
+    m_Key: TestSeekerProjectileName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6349867155828736
+    m_Key: AppleProjectileName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6350554673557504
+    m_Key: TestFixedLaserBeamName
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 430474232363745297
+  references:
+    version: 2
+    RefIds:
+    - rid: 430474232363745297
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1711988478389

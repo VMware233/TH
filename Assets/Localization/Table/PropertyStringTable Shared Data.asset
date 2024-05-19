@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: PropertyStringTable Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: PropertyStringTable
+  m_TableCollectionNameGuidString: ad89e951be276c3499e7f7adf5f78ff6
+  m_Entries:
+  - m_Id: 36355289088
+    m_Key: CreatureMovementSpeedPropertyName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36393037824
+    m_Key: PlayerMaxJumpTimesPropertyName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36393037825
+    m_Key: PlayerFlySpeedPropertyName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36393037826
+    m_Key: PlayerExperiencePropertyName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36393037827
+    m_Key: PlayerExperienceBoostPropertyName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36393037828
+    m_Key: PlayerLuckPropertyName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36393037829
+    m_Key: DamageableFloorHealthPropertyName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36393037830
+    m_Key: HealthOwnerEntityHealthPropertyName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36393037831
+    m_Key: SpellCooldownPropertyName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36393037832
+    m_Key: FloorPositionPropertyName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7393476240060416
+    m_Key: BuffDurationPropertyName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7393538647109632
+    m_Key: BuffLevelPropertyName
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 430474232363745323
+  references:
+    version: 2
+    RefIds:
+    - rid: 430474232363745323
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1711988692628

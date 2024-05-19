@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: GlobalEventStringTable Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: GlobalEventStringTable
+  m_TableCollectionNameGuidString: d5b5fe61d98f1f140ac2bf12f158af47
+  m_Entries:
+  - m_Id: 60917133312
+    m_Key: LeftMouseName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60950687744
+    m_Key: RightMouseName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60950687745
+    m_Key: MiddleMouseName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5581589160505344
+    m_Key: PlayerCrouchName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5581590095835136
+    m_Key: PlayerCrouchCancelName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5581590578180096
+    m_Key: PlayerMovementName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5581591064719360
+    m_Key: PlayerJumpName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5581591559647232
+    m_Key: PlayerDashName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5581592062963712
+    m_Key: PlayerDashDirectionName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5581592591446016
+    m_Key: PlayerFlyName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5581593153482752
+    m_Key: PlayerFlyCancelName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5581593677770752
+    m_Key: SpellOneName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5581594227224576
+    m_Key: SpellTwoName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5581594734735360
+    m_Key: SpellThreeName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5581595233857536
+    m_Key: SpellFourName
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 430474232363745306
+  references:
+    version: 2
+    RefIds:
+    - rid: 430474232363745306
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1711988618045

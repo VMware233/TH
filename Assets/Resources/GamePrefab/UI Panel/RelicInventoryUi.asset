@@ -1,0 +1,169 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78139273e9e448e197222669525fbb69, type: 3}
+  m_Name: RelicInventoryUi
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 9197481963319205126, guid: e078801db9a1e294180e182c1b125d67, type: 3}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: gamePrefab
+      Entry: 7
+      Data: 0|TH.UI.RelicInventoryUIPanelPreset, Assembly-CSharp
+    - Name: _id
+      Entry: 1
+      Data: relic_inventory_ui
+    - Name: isActive
+      Entry: 5
+      Data: true
+    - Name: isDebugging
+      Entry: 5
+      Data: false
+    - Name: name
+      Entry: 7
+      Data: 1|VMFramework.Localization.LocalizedStringReference, Assembly-CSharp
+    - Name: _tableName
+      Entry: 1
+      Data: UIStringTable
+    - Name: key
+      Entry: 1
+      Data: RelicInventoryUiName
+    - Name: defaultValue
+      Entry: 1
+      Data: Relic Inventory
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: sortingOrder
+      Entry: 3
+      Data: 30
+    - Name: isUnique
+      Entry: 5
+      Data: true
+    - Name: prewarmCount
+      Entry: 3
+      Data: 0
+    - Name: autoOpenOnCreation
+      Entry: 5
+      Data: false
+    - Name: gameEventDisabledOnOpen
+      Entry: 7
+      Data: 2|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: enableUICloseGameEvent
+      Entry: 5
+      Data: false
+    - Name: uiCloseGameEventID
+      Entry: 6
+      Data: 
+    - Name: enableUIGameEvent
+      Entry: 5
+      Data: false
+    - Name: uiToggleGameEventID
+      Entry: 6
+      Data: 
+    - Name: visualTree
+      Entry: 10
+      Data: 0
+    - Name: useDefaultPanelSettings
+      Entry: 5
+      Data: true
+    - Name: customPanelSettings
+      Entry: 6
+      Data: 
+    - Name: ignoreMouseEvents
+      Entry: 5
+      Data: false
+    - Name: closeUIButtonName
+      Entry: 6
+      Data: 
+    - Name: bindContainerID
+      Entry: 1
+      Data: relic_inventory_container
+    - Name: useCustomSlotSourceContainer
+      Entry: 5
+      Data: false
+    - Name: customSlotSourceContainerNames
+      Entry: 7
+      Data: 3|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: autoAllocateSlotIndex
+      Entry: 5
+      Data: false
+    - Name: ignorePreallocateSlotIndex
+      Entry: 5
+      Data: true
+    - Name: autoFillSlot
+      Entry: 5
+      Data: true
+    - Name: autoFillContainerConfigs
+      Entry: 7
+      Data: 4|System.Collections.Generic.List`1[[VMFramework.UI.AutoFillContainerConfig,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 5|VMFramework.UI.AutoFillContainerConfig, Assembly-CSharp
+    - Name: preset
+      Entry: 9
+      Data: 0
+    - Name: autoFillSlotContainerName
+      Entry: 1
+      Data: RelicInventory
+    - Name: autoFillContainerSlotsPreprocessMode
+      Entry: 3
+      Data: 1
+    - Name: autoFillSlotStartIndex
+      Entry: 3
+      Data: 0
+    - Name: slotsDisplayNoneIfNull
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: containerUIPriority
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 

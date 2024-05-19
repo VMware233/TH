@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4035fb1a70f55bd47b48af5eab4b73cb, type: 3}
+  m_Name: GameSetting
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  managerCreationGeneralSetting: {fileID: 11400000, guid: 23b4bcc7a4b19be40919b5e46bfc045b, type: 2}
+  gameTypeGeneralSetting: {fileID: 11400000, guid: 091528e91218a854cb80692e47ad903c, type: 2}
+  gameEventGeneralSetting: {fileID: 11400000, guid: 35633aa477cac5c4e9b7ff94b6dddfb5, type: 2}
+  colliderMouseEventGeneralSetting: {fileID: 11400000, guid: 255c000afc6e349419097d5c59e90f82, type: 2}
+  particleGeneralSetting: {fileID: 11400000, guid: 9380d82a4cb81814bbc44759861ccacc, type: 2}
+  trailGeneralSetting: {fileID: 11400000, guid: ab04461b88f515a41a2ab069ca63a52c, type: 2}
+  audioGeneralSetting: {fileID: 11400000, guid: 3b20f875e8e66f24a963608f84908e44, type: 2}
+  modelGeneralSetting: {fileID: 11400000, guid: 3dcb19dc1bc23ee4584fd2f12e69c9cf, type: 2}
+  spriteGeneralSetting: {fileID: 11400000, guid: 52470b586aaee3e42a456a4c4554d3d0, type: 2}
+  propertyGeneralSetting: {fileID: 11400000, guid: b541f7e4c728e934d8059dab50eb62c4, type: 2}
+  tooltipPropertyGeneralSetting: {fileID: 11400000, guid: e7068f2a2b6e0c04aa911e4117cf8a4d, type: 2}
+  cameraGeneralSetting: {fileID: 11400000, guid: 7aecbdb65115d724887c9174c50e640d, type: 2}
+  containerGeneralSetting: {fileID: 11400000, guid: 5fbfe41477cb2f1429a575615fe004ae, type: 2}
+  recipeGeneralSetting: {fileID: 11400000, guid: 858e53e883e8c3243a24ec5fffe7e138, type: 2}
+  uiPanelGeneralSetting: {fileID: 11400000, guid: 4bc770f7ebc07e5409ff4207b943d3f7, type: 2}
+  uiPanelProcedureGeneralSetting: {fileID: 11400000, guid: b20bd7a85aa7cee43a509d65905abb64, type: 2}
+  debugUIPanelGeneralSetting: {fileID: 11400000, guid: 3c3a78260f8e89f47960c6c828c997a9, type: 2}
+  tracingTooltipGeneralSetting: {fileID: 11400000, guid: 5dbfc8c5d2d7b1c4999212f9bb237464, type: 2}
+  contextMenuGeneralSetting: {fileID: 11400000, guid: 65631b45035f6a7468fe646ce2e0be10, type: 2}
+  gameEditorGeneralSetting: {fileID: 11400000, guid: 9d5c7ff2c7944a8488d801571ee274a5, type: 2}
+  colorfulHierarchyGeneralSetting: {fileID: 11400000, guid: fd69fba9fd8c3e34a8e78f3d26998441, type: 2}
+  hierarchyComponentIconGeneralSetting: {fileID: 11400000, guid: d6d1b9fa58719aa46a7b3e7269c30a37, type: 2}
+  textureImporterGeneralSetting: {fileID: 11400000, guid: 444d72bdeb2aa34488bcdd07b6c414ae, type: 2}
+  gamePrefabWrapperGeneralSetting: {fileID: 11400000, guid: 4999e24da798c394cb16a7b8cb15c5af, type: 2}
+  mapCoreGeneralSetting: {fileID: 11400000, guid: efbd6f94d79e2f04f9879074df46d0ff, type: 2}
+  extendedRuleTileGeneralSetting: {fileID: 11400000, guid: 1db3e0dcdfa0f544799801015770481f, type: 2}
+  worldGeneralSetting: {fileID: 11400000, guid: 1079096a0c86bfe45b83d26eaae5afdb, type: 2}
+  worldGenerationRuleGeneralSetting: {fileID: 11400000, guid: 9648b77b8fc8dc440a55a693df0f8ee9, type: 2}
+  roomGeneralSetting: {fileID: 11400000, guid: c2ee90357d210bd4dae0edf418608c9f, type: 2}
+  floorGeneralSetting: {fileID: 11400000, guid: 08b1568a33e806d49ac47c7c20dc342f, type: 2}
+  buffGeneralSetting: {fileID: 11400000, guid: ff2cfa4fb0fd6424780605c791fbe74a, type: 2}
+  damageGeneralSetting: {fileID: 11400000, guid: fb3a9ad4690520344b726a01eb401ade, type: 2}
+  itemGeneralSetting: {fileID: 11400000, guid: 84f4ed8bb63f5a849989af7b3be7c246, type: 2}
+  entityGeneralSetting: {fileID: 11400000, guid: f16bc5b064942094dae25912335fa851, type: 2}
+  playerGeneralSetting: {fileID: 11400000, guid: c977ace8965284649992a9728909c6c3, type: 2}
+  playerActionStateGeneralSetting: {fileID: 11400000, guid: 080dd0d77d51dc24c98aadd7122a79dc, type: 2}
+  projectileGeneralSetting: {fileID: 11400000, guid: 0571f2909540a8443b8e9c9f3bdca22f, type: 2}
+  spellGeneralSetting: {fileID: 11400000, guid: 6aba3fe817b3de74c9ceea0602b460c3, type: 2}

@@ -1,0 +1,976 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99e65a2486e6422a81802f83c4463baa, type: 3}
+  m_Name: PropertyTooltipGeneralSetting
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 21300000, guid: 3c14fa52f6f82bb4f8f36953e6291fed, type: 3}
+    - {fileID: 21300000, guid: b4f3ef37d3fd00c46a60b54210f1c98f, type: 3}
+    - {fileID: 21300000, guid: 23b36ca0be933a141840d4a59ab1d63e, type: 3}
+    - {fileID: 21300000, guid: a1073a0a40da8ae4ab44e054f6fbff4d, type: 3}
+    - {fileID: 21300000, guid: dcbe0a4cfed855947828e6010ab7e907, type: 3}
+    - {fileID: 21300000, guid: 7b9f70b414a3e5049abed60367d2188e, type: 3}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: tooltipPropertyConfigs
+      Entry: 7
+      Data: 0|VMFramework.Configuration.DictionaryConfigs`2[[System.Type, mscorlib],[VMFramework.Property.TooltipPropertyConfig,
+        VMFramework]], VMFramework
+    - Name: configs
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[VMFramework.Property.TooltipPropertyConfig,
+        VMFramework]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 7
+    - Name: 
+      Entry: 7
+      Data: 2|VMFramework.Property.TooltipPropertyConfig, VMFramework
+    - Name: _instanceType
+      Entry: 7
+      Data: 3|System.RuntimeType, mscorlib
+    - Name: 
+      Entry: 1
+      Data: TH.Entities.HealthOwnerEntity, Assembly-CSharp
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: tooltipPropertyConfigs
+      Entry: 7
+      Data: 4|System.Collections.Generic.List`1[[VMFramework.Property.InstanceTooltipPropertyConfig,
+        VMFramework]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 5|VMFramework.Property.InstanceTooltipPropertyConfig, VMFramework
+    - Name: filterType
+      Entry: 9
+      Data: 3
+    - Name: propertyID
+      Entry: 1
+      Data: health_owner_entity_health_property
+    - Name: propertyConfig
+      Entry: 7
+      Data: 6|TH.Property.HealthOwnerEntityHealthPropertyConfig, Assembly-CSharp
+    - Name: _id
+      Entry: 1
+      Data: health_owner_entity_health_property
+    - Name: isActive
+      Entry: 5
+      Data: true
+    - Name: isDebugging
+      Entry: 5
+      Data: false
+    - Name: _initialGameTypesID
+      Entry: 7
+      Data: 7|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 1
+      Data: default_property_type
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: name
+      Entry: 7
+      Data: 8|VMFramework.Localization.LocalizedStringReference, VMFramework
+    - Name: _tableName
+      Entry: 1
+      Data: PropertyStringTable
+    - Name: key
+      Entry: 1
+      Data: HealthOwnerEntityHealthPropertyName
+    - Name: defaultValue
+      Entry: 1
+      Data: Health Owner Entity Health Property
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: displayTooltip
+      Entry: 5
+      Data: true
+    - Name: icon
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: isStatic
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 9|VMFramework.Property.TooltipPropertyConfig, VMFramework
+    - Name: _instanceType
+      Entry: 7
+      Data: 10|System.RuntimeType, mscorlib
+    - Name: 
+      Entry: 1
+      Data: TH.Entities.Creature, Assembly-CSharp
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: tooltipPropertyConfigs
+      Entry: 7
+      Data: 11|System.Collections.Generic.List`1[[VMFramework.Property.InstanceTooltipPropertyConfig,
+        VMFramework]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 12|VMFramework.Property.InstanceTooltipPropertyConfig, VMFramework
+    - Name: filterType
+      Entry: 9
+      Data: 10
+    - Name: propertyID
+      Entry: 1
+      Data: creature_movement_speed_property
+    - Name: propertyConfig
+      Entry: 7
+      Data: 13|TH.Property.CreatureMovementSpeedProperty, Assembly-CSharp
+    - Name: _id
+      Entry: 1
+      Data: creature_movement_speed_property
+    - Name: isActive
+      Entry: 5
+      Data: true
+    - Name: isDebugging
+      Entry: 5
+      Data: false
+    - Name: _initialGameTypesID
+      Entry: 7
+      Data: 14|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 1
+      Data: default_property_type
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: name
+      Entry: 7
+      Data: 15|VMFramework.Localization.LocalizedStringReference, VMFramework
+    - Name: _tableName
+      Entry: 1
+      Data: PropertyStringTable
+    - Name: key
+      Entry: 1
+      Data: CreatureMovementSpeedPropertyName
+    - Name: defaultValue
+      Entry: 1
+      Data: Creature Movement Speed Property
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: displayTooltip
+      Entry: 5
+      Data: true
+    - Name: icon
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: isStatic
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 16|VMFramework.Property.TooltipPropertyConfig, VMFramework
+    - Name: _instanceType
+      Entry: 7
+      Data: 17|System.RuntimeType, mscorlib
+    - Name: 
+      Entry: 1
+      Data: TH.Entities.Player, Assembly-CSharp
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: tooltipPropertyConfigs
+      Entry: 7
+      Data: 18|System.Collections.Generic.List`1[[VMFramework.Property.InstanceTooltipPropertyConfig,
+        VMFramework]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 7
+      Data: 19|VMFramework.Property.InstanceTooltipPropertyConfig, VMFramework
+    - Name: filterType
+      Entry: 9
+      Data: 17
+    - Name: propertyID
+      Entry: 1
+      Data: player_luck_property
+    - Name: propertyConfig
+      Entry: 7
+      Data: 20|TH.Property.PlayerLuckPropertyConfig, Assembly-CSharp
+    - Name: _id
+      Entry: 1
+      Data: player_luck_property
+    - Name: isActive
+      Entry: 5
+      Data: true
+    - Name: isDebugging
+      Entry: 5
+      Data: false
+    - Name: _initialGameTypesID
+      Entry: 7
+      Data: 21|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 1
+      Data: default_property_type
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: name
+      Entry: 7
+      Data: 22|VMFramework.Localization.LocalizedStringReference, VMFramework
+    - Name: _tableName
+      Entry: 1
+      Data: PropertyStringTable
+    - Name: key
+      Entry: 1
+      Data: PlayerLuckPropertyName
+    - Name: defaultValue
+      Entry: 1
+      Data: Player Luck Property
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: displayTooltip
+      Entry: 5
+      Data: true
+    - Name: icon
+      Entry: 10
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: isStatic
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 23|VMFramework.Property.InstanceTooltipPropertyConfig, VMFramework
+    - Name: filterType
+      Entry: 9
+      Data: 17
+    - Name: propertyID
+      Entry: 1
+      Data: player_max_jump_times_property
+    - Name: propertyConfig
+      Entry: 7
+      Data: 24|TH.Property.PlayerMaxJumpTimesPropertyConfig, Assembly-CSharp
+    - Name: _id
+      Entry: 1
+      Data: player_max_jump_times_property
+    - Name: isActive
+      Entry: 5
+      Data: true
+    - Name: isDebugging
+      Entry: 5
+      Data: false
+    - Name: _initialGameTypesID
+      Entry: 7
+      Data: 25|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 1
+      Data: default_property_type
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: name
+      Entry: 7
+      Data: 26|VMFramework.Localization.LocalizedStringReference, VMFramework
+    - Name: _tableName
+      Entry: 1
+      Data: PropertyStringTable
+    - Name: key
+      Entry: 1
+      Data: PlayerMaxJumpTimesPropertyName
+    - Name: defaultValue
+      Entry: 1
+      Data: Player Max Jump Times Property
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: displayTooltip
+      Entry: 5
+      Data: true
+    - Name: icon
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: isStatic
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 27|VMFramework.Property.InstanceTooltipPropertyConfig, VMFramework
+    - Name: filterType
+      Entry: 9
+      Data: 17
+    - Name: propertyID
+      Entry: 1
+      Data: player_experience_property
+    - Name: propertyConfig
+      Entry: 7
+      Data: 28|TH.Property.PlayerExperiencePropertyConfig, Assembly-CSharp
+    - Name: _id
+      Entry: 1
+      Data: player_experience_property
+    - Name: isActive
+      Entry: 5
+      Data: true
+    - Name: isDebugging
+      Entry: 5
+      Data: false
+    - Name: _initialGameTypesID
+      Entry: 7
+      Data: 29|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 1
+      Data: default_property_type
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: name
+      Entry: 7
+      Data: 30|VMFramework.Localization.LocalizedStringReference, VMFramework
+    - Name: _tableName
+      Entry: 1
+      Data: PropertyStringTable
+    - Name: key
+      Entry: 1
+      Data: PlayerExperiencePropertyName
+    - Name: defaultValue
+      Entry: 1
+      Data: Player Experience Property
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: displayTooltip
+      Entry: 5
+      Data: true
+    - Name: icon
+      Entry: 10
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: isStatic
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 31|VMFramework.Property.InstanceTooltipPropertyConfig, VMFramework
+    - Name: filterType
+      Entry: 9
+      Data: 17
+    - Name: propertyID
+      Entry: 1
+      Data: player_fly_speed_property
+    - Name: propertyConfig
+      Entry: 7
+      Data: 32|TH.Property.PlayerFlySpeedPropertyConfig, Assembly-CSharp
+    - Name: _id
+      Entry: 1
+      Data: player_fly_speed_property
+    - Name: isActive
+      Entry: 5
+      Data: true
+    - Name: isDebugging
+      Entry: 5
+      Data: false
+    - Name: _initialGameTypesID
+      Entry: 7
+      Data: 33|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 1
+      Data: default_property_type
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: name
+      Entry: 7
+      Data: 34|VMFramework.Localization.LocalizedStringReference, VMFramework
+    - Name: _tableName
+      Entry: 1
+      Data: PropertyStringTable
+    - Name: key
+      Entry: 1
+      Data: PlayerFlySpeedPropertyName
+    - Name: defaultValue
+      Entry: 1
+      Data: Player Fly Speed Property
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: displayTooltip
+      Entry: 5
+      Data: true
+    - Name: icon
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: isStatic
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 35|VMFramework.Property.TooltipPropertyConfig, VMFramework
+    - Name: _instanceType
+      Entry: 7
+      Data: 36|System.RuntimeType, mscorlib
+    - Name: 
+      Entry: 1
+      Data: TH.Buffs.Buff, Assembly-CSharp
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: tooltipPropertyConfigs
+      Entry: 7
+      Data: 37|System.Collections.Generic.List`1[[VMFramework.Property.InstanceTooltipPropertyConfig,
+        VMFramework]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 38|VMFramework.Property.InstanceTooltipPropertyConfig, VMFramework
+    - Name: filterType
+      Entry: 9
+      Data: 36
+    - Name: propertyID
+      Entry: 1
+      Data: buff_level_property
+    - Name: propertyConfig
+      Entry: 7
+      Data: 39|TH.Property.BuffLevelPropertyConfig, Assembly-CSharp
+    - Name: _id
+      Entry: 1
+      Data: buff_level_property
+    - Name: isActive
+      Entry: 5
+      Data: true
+    - Name: isDebugging
+      Entry: 5
+      Data: false
+    - Name: _initialGameTypesID
+      Entry: 7
+      Data: 40|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 1
+      Data: default_property_type
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: name
+      Entry: 7
+      Data: 41|VMFramework.Localization.LocalizedStringReference, VMFramework
+    - Name: _tableName
+      Entry: 1
+      Data: PropertyStringTable
+    - Name: key
+      Entry: 1
+      Data: BuffLevelPropertyName
+    - Name: defaultValue
+      Entry: 1
+      Data: Buff Level
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: displayTooltip
+      Entry: 5
+      Data: true
+    - Name: icon
+      Entry: 10
+      Data: 4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: isStatic
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 42|VMFramework.Property.InstanceTooltipPropertyConfig, VMFramework
+    - Name: filterType
+      Entry: 9
+      Data: 36
+    - Name: propertyID
+      Entry: 1
+      Data: buff_duration_property
+    - Name: propertyConfig
+      Entry: 7
+      Data: 43|TH.Property.BuffDurationPropertyConfig, Assembly-CSharp
+    - Name: _id
+      Entry: 1
+      Data: buff_duration_property
+    - Name: isActive
+      Entry: 5
+      Data: true
+    - Name: isDebugging
+      Entry: 5
+      Data: false
+    - Name: _initialGameTypesID
+      Entry: 7
+      Data: 44|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 1
+      Data: default_property_type
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: name
+      Entry: 7
+      Data: 45|VMFramework.Localization.LocalizedStringReference, VMFramework
+    - Name: _tableName
+      Entry: 1
+      Data: PropertyStringTable
+    - Name: key
+      Entry: 1
+      Data: BuffDurationPropertyName
+    - Name: defaultValue
+      Entry: 1
+      Data: Buff Duration
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: displayTooltip
+      Entry: 5
+      Data: true
+    - Name: icon
+      Entry: 10
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: isStatic
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 46|VMFramework.Property.TooltipPropertyConfig, VMFramework
+    - Name: _instanceType
+      Entry: 7
+      Data: 47|System.RuntimeType, mscorlib
+    - Name: 
+      Entry: 1
+      Data: TH.Spells.Spell, Assembly-CSharp
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: tooltipPropertyConfigs
+      Entry: 7
+      Data: 48|System.Collections.Generic.List`1[[VMFramework.Property.InstanceTooltipPropertyConfig,
+        VMFramework]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 49|VMFramework.Property.InstanceTooltipPropertyConfig, VMFramework
+    - Name: filterType
+      Entry: 9
+      Data: 47
+    - Name: propertyID
+      Entry: 1
+      Data: spell_cooldown_property
+    - Name: propertyConfig
+      Entry: 7
+      Data: 50|TH.Property.SpellCooldownPropertyConfig, Assembly-CSharp
+    - Name: _id
+      Entry: 1
+      Data: spell_cooldown_property
+    - Name: isActive
+      Entry: 5
+      Data: true
+    - Name: isDebugging
+      Entry: 5
+      Data: false
+    - Name: _initialGameTypesID
+      Entry: 7
+      Data: 51|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 1
+      Data: default_property_type
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: name
+      Entry: 7
+      Data: 52|VMFramework.Localization.LocalizedStringReference, VMFramework
+    - Name: _tableName
+      Entry: 1
+      Data: PropertyStringTable
+    - Name: key
+      Entry: 1
+      Data: SpellCooldownPropertyName
+    - Name: defaultValue
+      Entry: 1
+      Data: Spell Cooldown Property
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: displayTooltip
+      Entry: 5
+      Data: true
+    - Name: icon
+      Entry: 10
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: isStatic
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 53|VMFramework.Property.TooltipPropertyConfig, VMFramework
+    - Name: _instanceType
+      Entry: 7
+      Data: 54|System.RuntimeType, mscorlib
+    - Name: 
+      Entry: 1
+      Data: TH.Map.Floor, Assembly-CSharp
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: tooltipPropertyConfigs
+      Entry: 7
+      Data: 55|System.Collections.Generic.List`1[[VMFramework.Property.InstanceTooltipPropertyConfig,
+        VMFramework]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 56|VMFramework.Property.InstanceTooltipPropertyConfig, VMFramework
+    - Name: filterType
+      Entry: 9
+      Data: 54
+    - Name: propertyID
+      Entry: 1
+      Data: floor_position_property
+    - Name: propertyConfig
+      Entry: 7
+      Data: 57|TH.Property.FloorPositionPropertyConfig, Assembly-CSharp
+    - Name: _id
+      Entry: 1
+      Data: floor_position_property
+    - Name: isActive
+      Entry: 5
+      Data: true
+    - Name: isDebugging
+      Entry: 5
+      Data: false
+    - Name: _initialGameTypesID
+      Entry: 7
+      Data: 58|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 1
+      Data: default_property_type
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: name
+      Entry: 7
+      Data: 59|VMFramework.Localization.LocalizedStringReference, VMFramework
+    - Name: _tableName
+      Entry: 1
+      Data: PropertyStringTable
+    - Name: key
+      Entry: 1
+      Data: FloorPositionPropertyName
+    - Name: defaultValue
+      Entry: 1
+      Data: Floor Position Property
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: displayTooltip
+      Entry: 5
+      Data: true
+    - Name: icon
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: isStatic
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 60|VMFramework.Property.TooltipPropertyConfig, VMFramework
+    - Name: _instanceType
+      Entry: 7
+      Data: 61|System.RuntimeType, mscorlib
+    - Name: 
+      Entry: 1
+      Data: TH.Map.DamageableFloor, Assembly-CSharp
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: tooltipPropertyConfigs
+      Entry: 7
+      Data: 62|System.Collections.Generic.List`1[[VMFramework.Property.InstanceTooltipPropertyConfig,
+        VMFramework]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 63|VMFramework.Property.InstanceTooltipPropertyConfig, VMFramework
+    - Name: filterType
+      Entry: 9
+      Data: 61
+    - Name: propertyID
+      Entry: 1
+      Data: damageable_floor_health_property
+    - Name: propertyConfig
+      Entry: 7
+      Data: 64|TH.Property.DamageableFloorHealthPropertyConfig, Assembly-CSharp
+    - Name: _id
+      Entry: 1
+      Data: damageable_floor_health_property
+    - Name: isActive
+      Entry: 5
+      Data: true
+    - Name: isDebugging
+      Entry: 5
+      Data: false
+    - Name: _initialGameTypesID
+      Entry: 7
+      Data: 65|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 1
+      Data: default_property_type
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: name
+      Entry: 7
+      Data: 66|VMFramework.Localization.LocalizedStringReference, VMFramework
+    - Name: _tableName
+      Entry: 1
+      Data: PropertyStringTable
+    - Name: key
+      Entry: 1
+      Data: DamageableFloorHealthPropertyName
+    - Name: defaultValue
+      Entry: 1
+      Data: Damageable Floor Health Property
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: displayTooltip
+      Entry: 5
+      Data: true
+    - Name: icon
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: isStatic
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  useSpecificJsonFile: 0
+  jsonFile: {fileID: 0}
+  dataFolderRelativePath: Configurations
+  defaultJSONFileSuffix: txt
+  <defaultLocalizationTableName>k__BackingField: 

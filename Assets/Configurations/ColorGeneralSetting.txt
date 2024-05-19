@@ -1,0 +1,1004 @@
+﻿{
+  "colorNameDictionary": [
+    {
+      "color": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 1.0
+      },
+      "name": {
+        "allTranslations": [
+          {
+            "languageType": "zh-CN",
+            "translation": "黑色"
+          },
+          {
+            "languageType": "en-US",
+            "translation": "Black"
+          }
+        ]
+      }
+    },
+    {
+      "color": {
+        "r": 0.211764708,
+        "g": 0.211764708,
+        "b": 0.211764708,
+        "a": 1.0
+      },
+      "name": {
+        "allTranslations": [
+          {
+            "languageType": "zh-CN",
+            "translation": "浅黑"
+          },
+          {
+            "languageType": "en-US",
+            "translation": "Light Black"
+          }
+        ]
+      }
+    },
+    {
+      "color": {
+        "r": 0.184313729,
+        "g": 0.309803933,
+        "b": 0.309803933,
+        "a": 1.0
+      },
+      "name": {
+        "allTranslations": [
+          {
+            "languageType": "zh-CN",
+            "translation": "深石板灰"
+          },
+          {
+            "languageType": "en-US",
+            "translation": "Dark Slate Gray"
+          }
+        ]
+      }
+    },
+    {
+      "color": {
+        "r": 0.4392157,
+        "g": 0.5019608,
+        "b": 0.5647059,
+        "a": 1.0
+      },
+      "name": {
+        "allTranslations": [
+          {
+            "languageType": "zh-CN",
+            "translation": "石板灰"
+          },
+          {
+            "languageType": "en-US",
+            "translation": "Slate Gray"
+          }
+        ]
+      }
+    },
+    {
+      "color": {
+        "r": 0.6627451,
+        "g": 0.6627451,
+        "b": 0.6627451,
+        "a": 1.0
+      },
+      "name": {
+        "allTranslations": [
+          {
+            "languageType": "zh-CN",
+            "translation": "深灰色"
+          },
+          {
+            "languageType": "en-US",
+            "translation": "Dark Grey"
+          }
+        ]
+      }
+    },
+    {
+      "color": {
+        "r": 0.4117647,
+        "g": 0.4117647,
+        "b": 0.4117647,
+        "a": 1.0
+      },
+      "name": {
+        "allTranslations": [
+          {
+            "languageType": "zh-CN",
+            "translation": "暗灰色"
+          },
+          {
+            "languageType": "en-US",
+            "translation": "Dim Gray"
+          }
+        ]
+      }
+    },
+    {
+      "color": {
+        "r": 0.745098054,
+        "g": 0.745098054,
+        "b": 0.745098054,
+        "a": 1.0
+      },
+      "name": {
+        "allTranslations": [
+          {
+            "languageType": "zh-CN",
+            "translation": "灰色"
+          },
+          {
+            "languageType": "en-US",
+            "translation": "Gray"
+          }
+        ]
+      }
+    },
+    {
+      "color": {
+        "r": 0.827451,
+        "g": 0.827451,
+        "b": 0.827451,
+        "a": 1.0
+      },
+      "name": {
+        "allTranslations": [
+          {
+            "languageType": "zh-CN",
+            "translation": "浅灰色"
+          },
+          {
+            "languageType": "en-US",
+            "translation": "Light Gray"
+          }
+        ]
+      }
+    },
+    {
+      "color": {
+        "r": 0.972549,
+        "g": 0.972549,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "name": {
+        "allTranslations": [
+          {
+            "languageType": "zh-CN",
+            "translation": "幽灵白"
+          },
+          {
+            "languageType": "en-US",
+            "translation": "Ghost White"
+          }
+        ]
+      }
+    },
+    {
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "name": {
+        "allTranslations": [
+          {
+            "languageType": "zh-CN",
+            "translation": "白色"
+          },
+          {
+            "languageType": "en-US",
+            "translation": "White"
+          }
+        ]
+      }
+    },
+    {
+      "color": {
+        "r": 0.0,
+        "g": 1.0,
+        "b": 0.498039216,
+        "a": 1.0
+      },
+      "name": {
+        "allTranslations": [
+          {
+            "languageType": "zh-CN",
+            "translation": "春绿色"
+          },
+          {
+            "languageType": "en-US",
+            "translation": "Spring Green"
+          }
+        ]
+      }
+    },
+    {
+      "color": {
+        "r": 0.5647059,
+        "g": 0.933333337,
+        "b": 0.5647059,
+        "a": 1.0
+      },
+      "name": {
+        "allTranslations": [
+          {
+            "languageType": "zh-CN",
+            "translation": "浅绿色"
+          },
+          {
+            "languageType": "en-US",
+            "translation": "Light Green"
+          }
+        ]
+      }
+    },
+    {
+      "color": {
+        "r": 0.6784314,
+        "g": 1.0,
+        "b": 0.184313729,
+        "a": 1.0
+      },
+      "name": {
+        "allTranslations": [
+          {
+            "languageType": "zh-CN",
+            "translation": "黄绿色"
+          },
+          {
+            "languageType": "en-US",
+            "translation": "Green Yellow"
+          }
+        ]
+      }
+    },
+    {
+      "color": {
+        "r": 0.180392161,
+        "g": 0.545098066,
+        "b": 0.34117648,
+        "a": 1.0
+      },
+      "name": {
+        "allTranslations": [
+          {
+            "languageType": "zh-CN",
+            "translation": "海绿色"
+          },
+          {
+            "languageType": "en-US",
+            "translation": "Sea Green"
+          }
+        ]
+      }
+    },
+    {
+      "color": {
+        "r": 0.419607848,
+        "g": 0.5568628,
+        "b": 0.137254909,
+        "a": 1.0
+      },
+      "name": {
+        "allTranslations": [
+          {
+            "languageType": "zh-CN",
+            "translation": "草绿色"
+          },
+          {
+            "languageType": "en-US",
+            "translation": "OliveDrab"
+          }
+        ]
+      }
+    },
+    {
+      "color": {
+        "r": 0.333333343,
+        "g": 0.419607848,
+        "b": 0.184313729,
+        "a": 1.0
+      },
+      "name": {
+        "allTranslations": [
+          {
+            "languageType": "zh-CN",
+            "translation": "深橄榄绿"
+          },
+          {
+            "languageType": "en-US",
+            "translation": "Dark Olive Green"
+          }
+        ]
+      }
+    },
+    {
+      "color": {
+        "r": 0.0,
+        "g": 0.392156869,
+        "b": 0.0,
+        "a": 1.0
+      },
+      "name": {
+        "allTranslations": [
+          {
+            "languageType": "zh-CN",
+            "translation": "深绿色"
+          },
+          {
+            "languageType": "en-US",
+            "translation": "Dark Green"
+          }
+        ]
+      }
+    },
+    {
+      "color": {
+        "r": 0.0,
+        "g": 1.0,
+        "b": 0.0,
+        "a": 1.0
+      },
+      "name": {
+        "allTranslations": [
+          {
+            "languageType": "zh-CN",
+            "translation": "绿色"
+          },
+          {
+            "languageType": "en-US",
+            "translation": "Green"
+          }
+        ]
+      }
+    },
+    {
+      "color": {
+        "r": 0.5019608,
+        "g": 0.2509804,
+        "b": 0.0,
+        "a": 1.0
+      },
+      "name": {
+        "allTranslations": [
+          {
+            "languageType": "zh-CN",
+            "translation": "棕色"
+          },
+          {
+            "languageType": "en-US",
+            "translation": "Brown"
+          }
+        ]
+      }
+    },
+    {
+      "color": {
+        "r": 0.698039234,
+        "g": 0.13333334,
+        "b": 0.13333334,
+        "a": 1.0
+      },
+      "name": {
+        "allTranslations": [
+          {
+            "languageType": "zh-CN",
+            "translation": "砖红色"
+          },
+          {
+            "languageType": "en-US",
+            "translation": "Firebrick"
+          }
+        ]
+      }
+    },
+    {
+      "color": {
+        "r": 0.8039216,
+        "g": 0.360784322,
+        "b": 0.360784322,
+        "a": 1.0
+      },
+      "name": {
+        "allTranslations": [
+          {
+            "languageType": "zh-CN",
+            "translation": "印度红"
+          },
+          {
+            "languageType": "en-US",
+            "translation": "Indian Red"
+          }
+        ]
+      }
+    },
+    {
+      "color": {
+        "r": 0.5660378,
+        "g": 0.243350461,
+        "b": 0.243350461,
+        "a": 1.0
+      },
+      "name": {
+        "allTranslations": [
+          {
+            "languageType": "zh-CN",
+            "translation": "栗色"
+          },
+          {
+            "languageType": "en-US",
+            "translation": "Maroon"
+          }
+        ]
+      }
+    },
+    {
+      "color": {
+        "r": 0.545098066,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 1.0
+      },
+      "name": {
+        "allTranslations": [
+          {
+            "languageType": "zh-CN",
+            "translation": "深红色"
+          },
+          {
+            "languageType": "en-US",
+            "translation": "Dark Red"
+          }
+        ]
+      }
+    },
+    {
+      "color": {
+        "r": 1.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 1.0
+      },
+      "name": {
+        "allTranslations": [
+          {
+            "languageType": "zh-CN",
+            "translation": "红色"
+          },
+          {
+            "languageType": "en-US",
+            "translation": "Red"
+          }
+        ]
+      }
+    },
+    {
+      "color": {
+        "r": 0.2509804,
+        "g": 0.8784314,
+        "b": 0.8156863,
+        "a": 1.0
+      },
+      "name": {
+        "allTranslations": [
+          {
+            "languageType": "zh-CN",
+            "translation": "绿松石色"
+          },
+          {
+            "languageType": "en-US",
+            "translation": "Turquoise"
+          }
+        ]
+      }
+    },
+    {
+      "color": {
+        "r": 0.09803922,
+        "g": 0.09803922,
+        "b": 0.4392157,
+        "a": 1.0
+      },
+      "name": {
+        "allTranslations": [
+          {
+            "languageType": "zh-CN",
+            "translation": "午夜蓝"
+          },
+          {
+            "languageType": "en-US",
+            "translation": "Midnight Blue"
+          }
+        ]
+      }
+    },
+    {
+      "color": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "name": {
+        "allTranslations": [
+          {
+            "languageType": "zh-CN",
+            "translation": "蓝色"
+          },
+          {
+            "languageType": "en-US",
+            "translation": "Blue"
+          }
+        ]
+      }
+    },
+    {
+      "color": {
+        "r": 1.0,
+        "g": 0.843137264,
+        "b": 0.0,
+        "a": 1.0
+      },
+      "name": {
+        "allTranslations": [
+          {
+            "languageType": "zh-CN",
+            "translation": "金色"
+          },
+          {
+            "languageType": "en-US",
+            "translation": "Gold"
+          }
+        ]
+      }
+    },
+    {
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 0.0,
+        "a": 1.0
+      },
+      "name": {
+        "allTranslations": [
+          {
+            "languageType": "zh-CN",
+            "translation": "黄色"
+          },
+          {
+            "languageType": "en-US",
+            "translation": "Yellow"
+          }
+        ]
+      }
+    },
+    {
+      "color": {
+        "r": 0.1254902,
+        "g": 0.698039234,
+        "b": 0.6666667,
+        "a": 1.0
+      },
+      "name": {
+        "allTranslations": [
+          {
+            "languageType": "zh-CN",
+            "translation": "浅海绿色"
+          },
+          {
+            "languageType": "en-US",
+            "translation": "Light Sea Green"
+          }
+        ]
+      }
+    },
+    {
+      "color": {
+        "r": 0.117647059,
+        "g": 0.5647059,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "name": {
+        "allTranslations": [
+          {
+            "languageType": "zh-CN",
+            "translation": "道奇蓝"
+          },
+          {
+            "languageType": "en-US",
+            "translation": "Dodger Blue"
+          }
+        ]
+      }
+    },
+    {
+      "color": {
+        "r": 0.0,
+        "g": 0.7490196,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "name": {
+        "allTranslations": [
+          {
+            "languageType": "zh-CN",
+            "translation": "深天蓝色"
+          },
+          {
+            "languageType": "en-US",
+            "translation": "Deep Sky Blue"
+          }
+        ]
+      }
+    },
+    {
+      "color": {
+        "r": 0.5294118,
+        "g": 0.807843149,
+        "b": 0.921568632,
+        "a": 1.0
+      },
+      "name": {
+        "allTranslations": [
+          {
+            "languageType": "zh-CN",
+            "translation": "天蓝色"
+          },
+          {
+            "languageType": "en-US",
+            "translation": "Sky Blue"
+          }
+        ]
+      }
+    },
+    {
+      "color": {
+        "r": 0.9411765,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "name": {
+        "allTranslations": [
+          {
+            "languageType": "zh-CN",
+            "translation": "蔚蓝色"
+          },
+          {
+            "languageType": "en-US",
+            "translation": "Azure"
+          }
+        ]
+      }
+    },
+    {
+      "color": {
+        "r": 0.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "name": {
+        "allTranslations": [
+          {
+            "languageType": "zh-CN",
+            "translation": "青色"
+          },
+          {
+            "languageType": "en-US",
+            "translation": "Aqua"
+          }
+        ]
+      }
+    },
+    {
+      "color": {
+        "r": 0.7294118,
+        "g": 0.333333343,
+        "b": 0.827451,
+        "a": 1.0
+      },
+      "name": {
+        "allTranslations": [
+          {
+            "languageType": "zh-CN",
+            "translation": "中兰花色"
+          },
+          {
+            "languageType": "en-US",
+            "translation": "Meduim Orchid"
+          }
+        ]
+      }
+    },
+    {
+      "color": {
+        "r": 0.933333337,
+        "g": 0.509803951,
+        "b": 0.933333337,
+        "a": 1.0
+      },
+      "name": {
+        "allTranslations": [
+          {
+            "languageType": "zh-CN",
+            "translation": "紫罗兰色"
+          },
+          {
+            "languageType": "en-US",
+            "translation": "Violet"
+          }
+        ]
+      }
+    },
+    {
+      "color": {
+        "r": 0.8666667,
+        "g": 0.627451,
+        "b": 0.8666667,
+        "a": 1.0
+      },
+      "name": {
+        "allTranslations": [
+          {
+            "languageType": "zh-CN",
+            "translation": "李子"
+          },
+          {
+            "languageType": "en-US",
+            "translation": "Plum"
+          }
+        ]
+      }
+    },
+    {
+      "color": {
+        "r": 0.41568628,
+        "g": 0.3529412,
+        "b": 0.8039216,
+        "a": 1.0
+      },
+      "name": {
+        "allTranslations": [
+          {
+            "languageType": "zh-CN",
+            "translation": "石板蓝"
+          },
+          {
+            "languageType": "en-US",
+            "translation": "Slate Blue"
+          }
+        ]
+      }
+    },
+    {
+      "color": {
+        "r": 0.5764706,
+        "g": 0.4392157,
+        "b": 0.858823538,
+        "a": 1.0
+      },
+      "name": {
+        "allTranslations": [
+          {
+            "languageType": "zh-CN",
+            "translation": "中紫"
+          },
+          {
+            "languageType": "en-US",
+            "translation": "Meduim Purple"
+          }
+        ]
+      }
+    },
+    {
+      "color": {
+        "r": 0.627451,
+        "g": 0.1254902,
+        "b": 0.9411765,
+        "a": 1.0
+      },
+      "name": {
+        "allTranslations": [
+          {
+            "languageType": "zh-CN",
+            "translation": "紫色"
+          },
+          {
+            "languageType": "en-US",
+            "translation": "Purple"
+          }
+        ]
+      }
+    },
+    {
+      "color": {
+        "r": 0.545098066,
+        "g": 0.0,
+        "b": 0.545098066,
+        "a": 1.0
+      },
+      "name": {
+        "allTranslations": [
+          {
+            "languageType": "zh-CN",
+            "translation": "深洋红"
+          },
+          {
+            "languageType": "en-US",
+            "translation": "Dark Magenta"
+          }
+        ]
+      }
+    },
+    {
+      "color": {
+        "r": 1.0,
+        "g": 0.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "name": {
+        "allTranslations": [
+          {
+            "languageType": "zh-CN",
+            "translation": "品红"
+          },
+          {
+            "languageType": "en-US",
+            "translation": "Magenta"
+          }
+        ]
+      }
+    },
+    {
+      "color": {
+        "r": 1.0,
+        "g": 0.3882353,
+        "b": 0.2784314,
+        "a": 1.0
+      },
+      "name": {
+        "allTranslations": [
+          {
+            "languageType": "zh-CN",
+            "translation": "番茄色"
+          },
+          {
+            "languageType": "en-US",
+            "translation": "Tomato"
+          }
+        ]
+      }
+    },
+    {
+      "color": {
+        "r": 1.0,
+        "g": 0.498039216,
+        "b": 0.3137255,
+        "a": 1.0
+      },
+      "name": {
+        "allTranslations": [
+          {
+            "languageType": "zh-CN",
+            "translation": "珊瑚色"
+          },
+          {
+            "languageType": "en-US",
+            "translation": "Coral"
+          }
+        ]
+      }
+    },
+    {
+      "color": {
+        "r": 1.0,
+        "g": 0.5019608,
+        "b": 0.0,
+        "a": 1.0
+      },
+      "name": {
+        "allTranslations": [
+          {
+            "languageType": "zh-CN",
+            "translation": "橙色"
+          },
+          {
+            "languageType": "en-US",
+            "translation": "Orange"
+          }
+        ]
+      }
+    },
+    {
+      "color": {
+        "r": 1.0,
+        "g": 0.4117647,
+        "b": 0.7058824,
+        "a": 1.0
+      },
+      "name": {
+        "allTranslations": [
+          {
+            "languageType": "zh-CN",
+            "translation": "亮粉色"
+          },
+          {
+            "languageType": "en-US",
+            "translation": "Hot Pink"
+          }
+        ]
+      }
+    },
+    {
+      "color": {
+        "r": 0.847058833,
+        "g": 0.7490196,
+        "b": 0.847058833,
+        "a": 1.0
+      },
+      "name": {
+        "allTranslations": [
+          {
+            "languageType": "zh-CN",
+            "translation": "蓟色"
+          },
+          {
+            "languageType": "en-US",
+            "translation": "Thistle"
+          }
+        ]
+      }
+    },
+    {
+      "color": {
+        "r": 1.0,
+        "g": 0.7529412,
+        "b": 0.796078444,
+        "a": 1.0
+      },
+      "name": {
+        "allTranslations": [
+          {
+            "languageType": "zh-CN",
+            "translation": "粉色"
+          },
+          {
+            "languageType": "en-US",
+            "translation": "Pink"
+          }
+        ]
+      }
+    },
+    {
+      "color": {
+        "r": 0.9607843,
+        "g": 0.870588243,
+        "b": 0.7019608,
+        "a": 1.0
+      },
+      "name": {
+        "allTranslations": [
+          {
+            "languageType": "zh-CN",
+            "translation": "小麦色"
+          },
+          {
+            "languageType": "en-US",
+            "translation": "Wheat"
+          }
+        ]
+      }
+    }
+  ]
+}

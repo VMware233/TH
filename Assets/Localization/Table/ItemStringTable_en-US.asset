@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: ItemStringTable_en-US
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en-US
+  m_SharedData: {fileID: 11400000, guid: af6f53bca504f74498f04b5697515e7e, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 160053702656
+    m_Localized: Mana Stone
+    m_Metadata:
+      m_Items: []
+  - m_Id: 160087257088
+    m_Localized: 
+    m_Metadata:
+      m_Items: []
+  - m_Id: 160087257089
+    m_Localized: Mage Canno
+    m_Metadata:
+      m_Items: []
+  - m_Id: 160087257090
+    m_Localized: 
+    m_Metadata:
+      m_Items: []
+  - m_Id: 160087257091
+    m_Localized: Item Type
+    m_Metadata:
+      m_Items: []
+  - m_Id: 160087257092
+    m_Localized: Default Item Type
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5074041548800
+    m_Localized: Mana Stone
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5074079297536
+    m_Localized: What?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5074083491840
+    m_Localized: Mage Canno
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5074083491841
+    m_Localized: 
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5074083491842
+    m_Localized: Item Type
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5074083491843
+    m_Localized: Default Item Type
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8105007697211392
+    m_Localized: Test
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10091577686867968
+    m_Localized: Yin Yang Orb
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []
