@@ -1,6 +1,7 @@
 ﻿#if UNITY_EDITOR
 using VMFramework.Core;
 using VMFramework.Editor;
+using VMFramework.Editor.GameEditor;
 using VMFramework.ExtendedTilemap;
 using VMFramework.GameLogicArchitecture;
 
