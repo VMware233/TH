@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using FishNet;
 using FishNet.Connection;
 using FishNet.Object;
@@ -14,12 +16,10 @@ using VMFramework.Procedure;
 namespace TH.Map
 {
     [ManagerCreationProvider(nameof(GameManagerType.Map))]
-    public class WorldManager : UUIDManager<WorldManager, World, WorldManager.WorldInfo>
+    public class WorldManager : UUIDManager<WorldManager, World>
     {
-        public class WorldInfo : OwnerInfo
-        {
-            public bool downloadComplete;
-        }
+        [ShowInInspector]
+        private static readonly Dictionary<World, bool> isDownloadCompletedDict = new();
 
         public static WorldGeneralSetting setting => GameSetting.worldGeneralSetting;
 
@@ -62,8 +62,6 @@ namespace TH.Map
 
             gameMapObject.name = world.name;
 
-            world.uuid = Guid.NewGuid().ToString();
-
             gameMapNetwork.Init(world);
 
             return world;
@@ -80,14 +78,12 @@ namespace TH.Map
                 return null;
             }
 
-            if (TryGetInfo(currentWorldUUID, out var info))
+            if (UUIDCoreManager.TryGetOwnerWithWarning(currentWorldUUID, out World world) == false)
             {
-                return info.owner;
+                return null;
             }
 
-            Debug.LogError($"无法找到世界：{currentWorldUUID}");
-
-            return null;
+            return world;
         }
 
         public static GameMap GetCurrentGameMap()
@@ -143,30 +139,44 @@ namespace TH.Map
         [ServerRpc(RequireOwnership = false)]
         private void RequestDownloadAllChunks(string worldUUID, NetworkConnection connection = null)
         {
-            if (TryGetInfo(worldUUID, out var info) == false)
+            if (UUIDCoreManager.TryGetOwnerWithWarning(worldUUID, out World world) == false)
             {
-                Debug.LogError($"无法找到世界：{worldUUID}");
                 return;
             }
 
-            info.owner.gameMapNetwork.ResponseAllChunksDownload(connection, DownloadAllChunksComplete);
+            world.gameMapNetwork.ResponseAllChunksDownload(connection, DownloadAllChunksComplete);
         }
 
         [TargetRpc(ExcludeServer = true)]
         private void SendAllChunksDownloadCompleteToClient(NetworkConnection connection, string worldUUID)
         {
-            if (TryGetInfo(worldUUID, out var info) == false)
+            if (UUIDCoreManager.TryGetOwnerWithWarning(worldUUID, out World world) == false)
             {
-                Debug.LogError($"无法找到世界：{worldUUID}");
                 return;
             }
 
-            info.downloadComplete = true;
+            SetDownloadCompleted(world, true);
         }
 
         private static void DownloadAllChunksComplete(NetworkConnection connection, string worldUUID)
         {
             _instance.SendAllChunksDownloadCompleteToClient(connection, worldUUID);
+        }
+
+        #endregion
+
+        #region Download Completed
+
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        private static void SetDownloadCompleted(World world, bool value)
+        {
+            isDownloadCompletedDict[world] = value;
+        }
+
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static bool IsDownloadCompleted(World world)
+        {
+            return CollectionExtensions.GetValueOrDefault(isDownloadCompletedDict, world, false);
         }
 
         #endregion

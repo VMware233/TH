@@ -37,17 +37,17 @@ namespace TH.Spells
                 return;
             }
 
-            foreach (var spellInfo in GetAllOwnerInfos())
+            foreach (var spell in GetAllOwners())
             {
                 if (IsServerStarted)
                 {
-                    spellInfo.owner.Update();
+                    spell.Update();
                 }
                 else
                 {
-                    if (spellInfo.isObserver)
+                    if (spell.IsObserver())
                     {
-                        spellInfo.owner.Update();
+                        spell.Update();
                     }
                 }
             }
@@ -60,25 +60,25 @@ namespace TH.Spells
                 {
                     reconcileTimer = 0;
 
-                    foreach (var spellInfo in GetAllOwnerInfos())
+                    foreach (var spell in GetAllOwners())
                     {
-                        ReconcileCooldownOnObservers(spellInfo);
+                        ReconcileCooldownOnObservers(spell);
                     }
                 }
             }
         }
 
         [Server]
-        private static void ReconcileCooldownOnObservers(OwnerInfo spellInfo)
+        private static void ReconcileCooldownOnObservers(Spell spell)
         {
-            foreach (var observer in spellInfo.observers)
+            foreach (var observer in spell.GetObservers())
             {
-                ReconcileCooldownOnTargetObserve(observer, spellInfo);
+                ReconcileCooldownOnTargetObserve(observer, spell);
             }
         }
 
         [Server]
-        private static void ReconcileCooldownOnTargetObserve(int observer, OwnerInfo spellInfo)
+        private static void ReconcileCooldownOnTargetObserve(int observer, Spell spell)
         {
             if (_instance.ServerManager.Clients.TryGetValue(observer, out var observerConnection) == false)
             {
@@ -91,19 +91,15 @@ namespace TH.Spells
                 return;
             }
 
-            _instance.ReconcileCooldown(observerConnection, spellInfo.owner.uuid, spellInfo.owner.cooldown);
+            _instance.ReconcileCooldown(observerConnection, spell.uuid, spell.cooldown);
         }
 
         [TargetRpc]
         private void ReconcileCooldown(NetworkConnection connection, string uuid, float cooldown)
         {
-            if (TryGetInfo(uuid, out var spellInfo))
+            if (UUIDCoreManager.TryGetOwnerWithWarning(uuid, out Spell spell))
             {
-                spellInfo.owner.cooldown.value = cooldown;
-            }
-            else
-            {
-                Debug.LogWarning($"不存在此{nameof(uuid)}:{uuid}对应的{nameof(spellInfo)}");
+                spell.cooldown.value = cooldown;
             }
         }
 
@@ -114,15 +110,11 @@ namespace TH.Spells
         [Server]
         private static void CastInstantaneously(string uuid, Spell.SpellCastInfo spellCastInfo)
         {
-            if (TryGetInfo(uuid, out var spellInfo))
+            if (UUIDCoreManager.TryGetOwnerWithWarning(uuid, out Spell spell))
             {
-                spellInfo.owner.Cast(spellCastInfo);
+                spell.Cast(spellCastInfo);
 
-                ReconcileCooldownOnObservers(spellInfo);
-            }
-            else
-            {
-                Debug.LogWarning($"不存在此{nameof(uuid)}:{uuid}对应的{nameof(spellInfo)}");
+                ReconcileCooldownOnObservers(spell);
             }
         }
 

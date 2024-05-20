@@ -6,7 +6,6 @@ using TH.Damage;
 using TH.GameCore;
 using TH.Items;
 using UnityEngine;
-using UnityEngine.Scripting;
 using VMFramework.Core;
 using VMFramework.GameLogicArchitecture;
 using VMFramework.Network;
@@ -16,14 +15,8 @@ using VMFramework.Procedure;
 namespace TH.Entities
 {
     [ManagerCreationProvider(nameof(GameManagerType.Entity))]
-    public class EntityManager : UUIDManager<EntityManager, Entity, EntityManager.EntityInfo>
+    public class EntityManager : UUIDManager<EntityManager, Entity>
     {
-        [Preserve]
-        public class EntityInfo : OwnerInfo
-        {
-
-        }
-
         #region Create & Destroy
 
         [Server]
@@ -56,11 +49,9 @@ namespace TH.Entities
                 return;
             }
 
-            if (TryGetInfo(entity.uuid, out var info))
+            if (UUIDCoreManager.TryGetInfo(entity.uuid, out var _))
             {
-                Unregister(entity);
-
-                entity.Destroy();
+                IGameItem.Destroy(entity);
 
                 entity.controller.Disable();
 

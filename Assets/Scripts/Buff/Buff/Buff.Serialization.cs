@@ -1,4 +1,5 @@
 ﻿using FishNet.Serializing;
+using VMFramework.Network;
 
 namespace TH.Buffs
 {
@@ -19,7 +20,7 @@ namespace TH.Buffs
 
             duration = new(reader.ReadSingle(AutoPackType.PackedLess));
             level = new(reader.ReadInt32());
-            SetUUID(reader.ReadString());
+            this.TrySetUUIDAndRegister(reader.ReadString());
         }
     }
 }

@@ -27,6 +27,12 @@ namespace TH.Spells
 
         #region UUID Owner
 
+        string IUUIDOwner.uuid
+        {
+            get => uuid;
+            set => uuid = value;
+        }
+
         bool IUUIDOwner.isDirty
         {
             get => true;
@@ -55,13 +61,6 @@ namespace TH.Spells
             base.OnCreate();
 
             cooldown = new(0);
-
-            if (isServer)
-            {
-                uuid = Guid.NewGuid().ToString();
-
-                SpellManager.Register(this);
-            }
         }
 
         #endregion
@@ -76,29 +75,6 @@ namespace TH.Spells
             }
 
             this.owner = owner;
-        }
-
-        #endregion
-
-        #region Set UUID
-
-        public void SetUUID(string uuid)
-        {
-            if (string.IsNullOrEmpty(uuid))
-            {
-                Debug.LogWarning("试图设置UUID为null或空字符串");
-                return;
-            }
-
-            if (string.IsNullOrEmpty(this.uuid))
-            {
-                this.uuid = uuid;
-                SpellManager.Register(this);
-            }
-            else
-            {
-                Debug.LogWarning($"试图修改已经生成的{nameof(Spell)}的UUID");
-            }
         }
 
         #endregion

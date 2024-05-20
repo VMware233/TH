@@ -5,6 +5,7 @@ using TH.Items;
 using UnityEngine;
 using VMFramework.Containers;
 using VMFramework.GameLogicArchitecture;
+using VMFramework.Network;
 using VMFramework.Procedure;
 
 namespace TH.Entities
@@ -34,10 +35,8 @@ namespace TH.Entities
 
         private static void AddItemDropInstantaneously(IContainer container, ItemDrop itemDrop)
         {
-            if (ContainerManager.TryGetInfo(container.uuid, out var containerInfo) ==
-                false)
+            if (UUIDCoreManager.CheckConsistency(container) == false)
             {
-                Debug.LogWarning($"不存在此{container.uuid}对应的Container");
                 return;
             }
             
@@ -65,28 +64,24 @@ namespace TH.Entities
         private void AddItemDropRequest(string containerUUID, string itemDropUUID,
             NetworkConnection connection = null)
         {
-            if (ContainerManager.TryGetInfo(containerUUID, out var containerInfo) ==
+            if (UUIDCoreManager.TryGetOwnerWithWarning(containerUUID, out IContainer container) ==
                 false)
             {
-                Debug.LogWarning($"不存在此{containerUUID}对应的Container");
                 return;
             }
 
-            if (EntityManager.TryGetInfo(itemDropUUID, out var entityInfo) == false)
+            if (UUIDCoreManager.TryGetOwnerWithWarning(itemDropUUID, out Entity entity) == false)
             {
-                Debug.LogWarning(
-                    $"不存在{itemDropUUID}对应的{nameof(EntityManager.EntityInfo)}");
                 return;
             }
 
-            if (entityInfo.owner is not ItemDrop itemDrop)
+            if (entity is not ItemDrop itemDrop)
             {
-                Debug.LogWarning(
-                    $"{itemDropUUID}对应的{nameof(Entities)}不是{nameof(ItemDrop)}");
+                Debug.LogWarning($"{itemDropUUID}对应的{nameof(Entities)}不是{nameof(ItemDrop)}");
                 return;
             }
 
-            AddItemDropInstantaneously(containerInfo.owner, itemDrop);
+            AddItemDropInstantaneously(container, itemDrop);
         }
 
         #endregion

@@ -1,18 +1,20 @@
 ﻿using FishNet.Serializing;
+using UnityEngine.Scripting;
 using VMFramework.GameLogicArchitecture;
 
 namespace TH.Buffs
 {
+    [Preserve]
     public static class BuffSerializer
     {
-        public static void WriteBuff(this Writer writer, Buff buff)
+        public static void WriteBuff(this Writer writer, IBuff buff)
         {
-            GameItem.WriteGameItem(writer, buff);
+            buff.WriteGameItem(writer);
         }
 
-        public static Buff ReadBuff(this Reader reader)
+        public static IBuff ReadBuff(this Reader reader)
         {
-            return GameItem.ReadGameItem<Buff>(reader);
+            return reader.ReadGameItem<IBuff>();
         }
     }
 }

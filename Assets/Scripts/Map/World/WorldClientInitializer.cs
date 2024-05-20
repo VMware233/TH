@@ -4,6 +4,7 @@ using FishNet;
 using UnityEngine;
 using UnityEngine.Scripting;
 using VMFramework.Core;
+using VMFramework.Network;
 using VMFramework.Procedure;
 
 namespace TH.Map
@@ -18,20 +19,19 @@ namespace TH.Map
                 WorldManager.currentWorldUUID.IsNullOrEmpty() == false);
 
             await UniTask.WaitUntil(() =>
-                WorldManager.TryGetInfo(WorldManager.currentWorldUUID, out _));
+                UUIDCoreManager.TryGetInfo(WorldManager.currentWorldUUID, out _));
 
-            if (WorldManager.TryGetInfo(WorldManager.currentWorldUUID, out var info) ==
+            if (UUIDCoreManager.TryGetOwnerWithWarning(WorldManager.currentWorldUUID, out World world) ==
                 false)
             {
-                Debug.LogError($"无法找到默认世界：{WorldManager.currentWorldUUID}");
                 return;
             }
 
-            await UniTask.WaitUntil(() => info.owner.gameMapNetwork.initDone);
+            await UniTask.WaitUntil(() => world.gameMapNetwork.initDone);
 
             if (InstanceFinder.ClientManager.Connection.IsHost == false)
             {
-                await UniTask.WaitUntil(() => info.downloadComplete);
+                await UniTask.WaitUntil(() => WorldManager.IsDownloadCompleted(world));
             }
 
             onDone();

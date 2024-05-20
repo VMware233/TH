@@ -9,8 +9,6 @@ namespace VMFramework.Containers
     {
         public bool isOpen { get; }
 
-        public bool isDestroyed { get; }
-
         public int size { get; }
 
         public int validItemsSize { get; }

@@ -9,6 +9,7 @@ using TH.Spells;
 using UnityEngine;
 using VMFramework.Containers;
 using VMFramework.GameLogicArchitecture;
+using VMFramework.Network;
 using VMFramework.Property;
 
 namespace TH.Entities
@@ -145,7 +146,7 @@ namespace TH.Entities
         {
             base.OnRead(reader);
 
-            relicInventory.SetUUID(reader.ReadString());
+            relicInventory.TrySetUUIDAndRegister(reader.ReadString());
 
             maxJumpTimes.value = reader.ReadInt32();
             jumpForce = reader.ReadBaseBoostFloatProperty();
@@ -159,10 +160,10 @@ namespace TH.Entities
             experience.value = reader.ReadInt32();
             experienceBoost = reader.ReadBaseBoostFloatProperty();
 
-            spellOne.SetUUID(reader.ReadString());
-            spellTwo.SetUUID(reader.ReadString());
-            spellThree.SetUUID(reader.ReadString());
-            spellFour.SetUUID(reader.ReadString());
+            spellOne.TrySetUUIDAndRegister(reader.ReadString());
+            spellTwo.TrySetUUIDAndRegister(reader.ReadString());
+            spellThree.TrySetUUIDAndRegister(reader.ReadString());
+            spellFour.TrySetUUIDAndRegister(reader.ReadString());
         }
 
         #endregion

@@ -55,7 +55,7 @@ namespace VMFramework.GameLogicArchitecture
         [NotSerializer]
         protected virtual void OnWrite(Writer writer)
         {
-            Debug.LogWarning($"is Writing GameItem :{this}");
+            // Debug.LogWarning($"is Writing GameItem :{this}");
         }
 
         /// <summary>
@@ -65,7 +65,7 @@ namespace VMFramework.GameLogicArchitecture
         [NotSerializer]
         protected virtual void OnRead(Reader reader)
         {
-            Debug.LogWarning($"is Reading GameItem :{this}");
+            // Debug.LogWarning($"is Reading GameItem :{this}");
         }
 
         void IGameItem.OnWriteFishnet(Writer writer)

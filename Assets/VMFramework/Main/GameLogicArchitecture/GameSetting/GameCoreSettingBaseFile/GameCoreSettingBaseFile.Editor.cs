@@ -17,6 +17,7 @@ namespace VMFramework.GameLogicArchitecture
     {
         [LabelText("游戏编辑器"), TabGroup(TAB_GROUP_NAME, EDITOR_EXTENSION_CATEGORY)]
         [Required]
+        [SerializeField]
         internal GameEditorGeneralSetting gameEditorGeneralSetting;
 
         [LabelText("带颜色的层级"), TabGroup(TAB_GROUP_NAME, EDITOR_EXTENSION_CATEGORY)]

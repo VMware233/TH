@@ -11,7 +11,7 @@ namespace TH.Map
     {
         protected WorldPreset worldPreset => (WorldPreset)gamePrefab;
 
-        public string uuid;
+        public string uuid { get; private set; }
 
         public GameMapNetwork gameMapNetwork { get; private set; }
 
@@ -50,7 +50,11 @@ namespace TH.Map
 
         #region UUID Owner
 
-        string IUUIDOwner.uuid => uuid;
+        string IUUIDOwner.uuid
+        {
+            get => uuid;
+            set => uuid = value;
+        }
 
         bool IUUIDOwner.isDirty
         {
@@ -69,6 +73,11 @@ namespace TH.Map
         void IUUIDOwner.OnUnobserved(NetworkConnection connection)
         {
             OnUnobservedEvent?.Invoke(this, connection);
+        }
+
+        public void SetUUID(string uuid)
+        {
+            
         }
 
         #endregion

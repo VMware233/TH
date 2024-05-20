@@ -32,13 +32,6 @@ namespace TH.Map
 
         #region Init
 
-        protected override void OnCreate()
-        {
-            base.OnCreate();
-
-            isDestroyed = false;
-        }
-
         public void Init(GameMap gameMap, ITileBasicData tile, FloorController floorController)
         {
             this.gameMap = gameMap;
@@ -70,8 +63,6 @@ namespace TH.Map
         #endregion
 
         #region Destroy
-        
-        public bool isDestroyed { get; private set; } = false;
 
         public void Destroy(FloorDestructionInfo info)
         {
@@ -80,7 +71,7 @@ namespace TH.Map
             gameMap = null;
             floorController = null;
 
-            isDestroyed = true;
+            IGameItem.Destroy(this);
         }
 
         protected virtual void OnDestroy(FloorDestructionInfo info)

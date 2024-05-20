@@ -4,6 +4,7 @@ using FishNet.Serializing;
 using TH.Entities;
 using UnityEngine;
 using UnityEngine.Scripting;
+using VMFramework.Network;
 
 namespace TH.Spells
 {
@@ -40,7 +41,7 @@ namespace TH.Spells
         {
             var casterUUID = reader.ReadString();
 
-            if (EntityManager.TryGetOwner(casterUUID, out var casterEntity) == false)
+            if (UUIDCoreManager.TryGetOwner(casterUUID, out var casterEntity) == false)
             {
                 Debug.LogWarning($"不存在此uuid:{casterUUID}对应的{nameof(Entity)}");
             }
@@ -59,7 +60,7 @@ namespace TH.Spells
 
                 foreach (var uuid in entitiesUUID)
                 {
-                    if (EntityManager.TryGetOwner(uuid, out var entity))
+                    if (UUIDCoreManager.TryGetOwner(uuid, out Entity entity))
                     {
                         entities.Add(entity);
                     }

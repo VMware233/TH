@@ -27,13 +27,6 @@ namespace TH.Buffs
 
             duration = new(0);
             level = new(1);
-
-            if (isServer)
-            {
-                uuid = Guid.NewGuid().ToString();
-
-                BuffManager.Register(this);
-            }
         }
 
         #endregion
@@ -82,6 +75,12 @@ namespace TH.Buffs
         
         public string uuid { get; private set; }
 
+        string IUUIDOwner.uuid
+        {
+            get => uuid;
+            set => uuid = value;
+        }
+
         bool IUUIDOwner.isDirty
         {
             get => false;
@@ -99,25 +98,6 @@ namespace TH.Buffs
         void IUUIDOwner.OnUnobserved(NetworkConnection connection)
         {
             OnUnobservedEvent?.Invoke(this, connection);
-        }
-        
-        public void SetUUID(string uuid)
-        {
-            if (string.IsNullOrEmpty(uuid))
-            {
-                Debug.LogWarning("试图设置UUID为null或空字符串");
-                return;
-            }
-
-            if (string.IsNullOrEmpty(this.uuid))
-            {
-                this.uuid = uuid;
-                BuffManager.Register(this);
-            }
-            else
-            {
-                Debug.LogWarning($"试图修改已经生成的{nameof(Buff)}的UUID");
-            }
         }
 
         #endregion

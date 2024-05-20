@@ -11,7 +11,7 @@ using VMFramework.Procedure;
 namespace TH.Buffs
 {
     [ManagerCreationProvider(nameof(GameManagerType.Buff))]
-    public class BuffManager : UUIDManager<BuffManager, Buff>
+    public class BuffManager : UUIDManager<BuffManager, IBuff>
     {
         #region Update
 
@@ -28,23 +28,19 @@ namespace TH.Buffs
                 return;
             }
 
-            foreach (var buffInfo in GetAllOwnerInfos().ToList())
+            foreach (var buff in GetAllOwners().Where(buff => buff.owner == null).ToList())
             {
-                if (buffInfo.owner.owner == null)
-                {
-                    Unregister(buffInfo.owner);
-                }
+                UUIDCoreManager.Unregister(buff);
             }
 
-            foreach (var buffInfo in GetAllOwnerInfos())
+            foreach (var buff in GetAllOwners())
             {
                 if (IsServerStarted)
                 {
-                    buffInfo.owner.Update();
+                    buff.Update();
 
-                    if (buffInfo.owner.duration <= 0)
+                    if (buff.duration <= 0)
                     {
-                        var buff = buffInfo.owner;
                         var entity = buff.owner;
                         if (entity != null)
                         {
@@ -54,9 +50,9 @@ namespace TH.Buffs
                 }
                 else
                 {
-                    if (buffInfo.isObserver)
+                    if (buff.IsObserver())
                     {
-                        buffInfo.owner.Update();
+                        buff.Update();
                     }
                 }
             }
@@ -69,25 +65,25 @@ namespace TH.Buffs
                 {
                     reconcileTimer = 0;
 
-                    foreach (var buffInfo in GetAllOwnerInfos())
+                    foreach (var buff in GetAllOwners())
                     {
-                        ReconcileDurationOnObservers(buffInfo);
+                        ReconcileDurationOnObservers(buff);
                     }
                 }
             }
         }
 
         [Server]
-        private static void ReconcileDurationOnObservers(OwnerInfo buffInfo)
+        private static void ReconcileDurationOnObservers(IBuff buff)
         {
-            foreach (var observer in buffInfo.observers)
+            foreach (var observer in buff.GetObservers())
             {
-                ReconcileDurationOnTargetObserve(observer, buffInfo);
+                ReconcileDurationOnTargetObserve(observer, buff);
             }
         }
 
         [Server]
-        private static void ReconcileDurationOnTargetObserve(int observer, OwnerInfo buffInfo)
+        private static void ReconcileDurationOnTargetObserve(int observer, IBuff buff)
         {
             if (instance.ServerManager.Clients.TryGetValue(observer, out var observerConnection) == false)
             {
@@ -100,19 +96,15 @@ namespace TH.Buffs
                 return;
             }
 
-            instance.ReconcileDuration(observerConnection, buffInfo.owner.uuid, buffInfo.owner.duration);
+            instance.ReconcileDuration(observerConnection, buff.uuid, buff.duration);
         }
 
         [TargetRpc]
         private void ReconcileDuration(NetworkConnection connection, string uuid, float duration)
         {
-            if (TryGetInfo(uuid, out var buffInfo))
+            if (UUIDCoreManager.TryGetOwnerWithWarning(uuid, out IBuff buff))
             {
-                buffInfo.owner.duration.value = duration;
-            }
-            else
-            {
-                Debug.LogWarning($"不存在此{nameof(uuid)}:{uuid}对应的{nameof(buffInfo)}");
+                buff.duration = duration;
             }
         }
 
@@ -120,7 +112,7 @@ namespace TH.Buffs
 
         #region Observe & Unobserve
 
-        protected override void OnObserved(Buff buff, bool isDirty, NetworkConnection connection)
+        protected override void OnObserved(IBuff buff, bool isDirty, NetworkConnection connection)
         {
             base.OnObserved(buff, isDirty, connection);
 
@@ -132,9 +124,9 @@ namespace TH.Buffs
         #region Add
 
         [ObserversRpc(ExcludeServer = true)]
-        private void AddBuffOnClient(Buff buff, string entityUUID)
+        private void AddBuffOnClient(IBuff buff, string entityUUID)
         {
-            if (EntityManager.TryGetOwner(entityUUID, out var entity))
+            if (UUIDCoreManager.TryGetOwner(entityUUID, out Entity entity))
             {
                 entity.AddBuff(buff);
             }
@@ -145,7 +137,7 @@ namespace TH.Buffs
         }
 
         [Server]
-        public static void AddBuffOnServer(Buff buff, Entity entity)
+        public static void AddBuffOnServer(IBuff buff, Entity entity)
         {
             entity.AddBuff(buff);
             instance.AddBuffOnClient(buff, entity.uuid);
@@ -158,15 +150,15 @@ namespace TH.Buffs
         [ObserversRpc(ExcludeServer = true)]
         private void RemoveBuffOnClient(string buffUUID, string entityUUID)
         {
-            if (EntityManager.TryGetOwner(entityUUID, out var entity))
+            if (UUIDCoreManager.TryGetOwner(entityUUID, out Entity entity))
             {
-                if (TryGetOwner(buffUUID, out var buff))
+                if (UUIDCoreManager.TryGetOwner(buffUUID, out IBuff buff))
                 {
                     entity.RemoveBuff(buff);
                 }
                 else
                 {
-                    Debug.LogWarning($"{buffUUID}对应的{nameof(Buff)}不存在");
+                    Debug.LogWarning($"{buffUUID}对应的{nameof(IBuff)}不存在");
                 }
             }
             else

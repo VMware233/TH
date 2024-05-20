@@ -5,6 +5,7 @@ using FishNet.Connection;
 using FishNet.Object;
 using Sirenix.OdinInspector;
 using UnityEngine;
+using VMFramework.Network;
 
 namespace TH.Map
 {
@@ -47,7 +48,10 @@ namespace TH.Map
 
             gameMap.Init();
 
-            WorldManager.Register(world);
+            if (IsServerStarted == false)
+            {
+                UUIDCoreManager.Register(world);
+            }
 
             Debug.Log($"加载世界：{world}");
 

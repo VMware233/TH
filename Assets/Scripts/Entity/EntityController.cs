@@ -4,6 +4,8 @@ using FishNet.Connection;
 using FishNet.Object;
 using Sirenix.OdinInspector;
 using UnityEngine;
+using VMFramework.GameLogicArchitecture;
+using VMFramework.Network;
 using VMFramework.UI;
 
 namespace TH.Entities
@@ -61,12 +63,17 @@ namespace TH.Entities
         private void InitOnClient(NetworkConnection connection, Entity entity)
         {
             Init(entity);
+
+            if (connection.IsHost == false)
+            {
+                UUIDCoreManager.Register(entity);
+            }
         }
 
         [TargetRpc(ExcludeServer = true)]
         private void DestroyOnClient(NetworkConnection connection)
         {
-            entity?.Destroy();
+            IGameItem.Destroy(entity);
         }
 
         #endregion

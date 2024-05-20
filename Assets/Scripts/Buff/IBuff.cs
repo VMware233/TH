@@ -7,11 +7,15 @@ namespace TH.Buffs
 {
     public interface IBuff : IVisualGameItem, IUUIDOwner
     {
+        public Entity owner { get; }
+        
         public float duration { get; set; }
         
         public int level { get; set; }
         
         public Sprite icon { get; }
+
+        public void Update();
 
         public void OnAddToEntity(Entity entity);
 
