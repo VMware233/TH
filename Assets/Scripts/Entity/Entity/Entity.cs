@@ -1,16 +1,11 @@
-﻿using System;
-using VMFramework.GameLogicArchitecture;
+﻿using VMFramework.GameLogicArchitecture;
 using FishNet.Serializing;
 using UnityEngine;
-using VMFramework.Core;
 using Sirenix.OdinInspector;
-using FishNet.Connection;
-using VMFramework.Network;
-using VMFramework.UI;
 
 namespace TH.Entities
 {
-    public partial class Entity : VisualGameItem, IUUIDOwner, ITracingTooltipProvider
+    public partial class Entity : VisualGameItem
     {
         #region Properties
 
