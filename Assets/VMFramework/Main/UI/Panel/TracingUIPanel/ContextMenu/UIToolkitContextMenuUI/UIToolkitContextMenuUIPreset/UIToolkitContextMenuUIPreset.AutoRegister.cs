@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿#if UNITY_EDITOR
+using UnityEngine;
 using UnityEngine.UIElements;
 using VMFramework.Core.Editor;
 using VMFramework.GameEvents;
@@ -33,3 +34,4 @@ namespace VMFramework.UI
         }
     }
 }
+#endif

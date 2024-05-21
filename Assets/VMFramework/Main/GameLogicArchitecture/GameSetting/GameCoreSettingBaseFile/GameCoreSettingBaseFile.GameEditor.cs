@@ -11,8 +11,8 @@ namespace VMFramework.GameLogicArchitecture
         IEnumerable<IGameEditorToolBarProvider.ToolbarButtonConfig> IGameEditorToolBarProvider.
             GetToolbarButtons()
         {
-            yield return new(GameEditorNames.openScriptButtonName, this.OpenScriptOfObject);
-            yield return new(GameEditorNames.saveButtonName, this.EnforceSave);
+            yield return new(EditorNames.openScriptButtonName, this.OpenScriptOfObject);
+            yield return new(EditorNames.saveButtonName, this.EnforceSave);
         }
     }
 }

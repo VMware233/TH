@@ -15,12 +15,6 @@ namespace VMFramework.GameLogicArchitecture
 
         #endregion
 
-        #region Meta Data
-
-        public override bool localizationEnabled => true;
-
-        #endregion
-
         #region Configs
 
 #if UNITY_EDITOR

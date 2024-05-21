@@ -874,7 +874,13 @@ PlayerSettings:
   windowsGamepadBackendHint: 0
   cloudProjectId: baec56b0-cd19-4542-b7fe-e8743fa14174
   framebufferDepthMemorylessMode: 0
-  qualitySettingsNames: []
+  qualitySettingsNames:
+  - Very Low
+  - Low
+  - Medium
+  - High
+  - Very High
+  - Ultra
   projectName: 
   organizationId: 
   cloudEnabled: 0

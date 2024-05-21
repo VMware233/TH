@@ -97,7 +97,7 @@ namespace VMFramework.GameLogicArchitecture
                 throw new FileNotFoundException($"文件路径无效 : {jsonFileAbsolutePath}");
             }
             
-            string json = jsonFilePath.ReadText();
+            string json = jsonFileAbsolutePath.ReadText();
             
             JsonConvert.PopulateObject(json, this, new JsonSerializerSettings()
             {

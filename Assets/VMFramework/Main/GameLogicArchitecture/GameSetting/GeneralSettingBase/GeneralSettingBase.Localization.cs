@@ -28,6 +28,15 @@ namespace VMFramework.GameLogicArchitecture
         {
             
         }
+        
+        #region JSON
+
+        public bool ShouldSerializedefaultLocalizationTableName()
+        {
+            return localizationEnabled;
+        }
+
+        #endregion
     }
 }
 #endif

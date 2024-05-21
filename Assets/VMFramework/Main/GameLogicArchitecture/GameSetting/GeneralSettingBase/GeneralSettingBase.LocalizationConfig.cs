@@ -17,14 +17,5 @@ namespace VMFramework.GameLogicArchitecture
         [field: SerializeField]
         [JsonProperty]
         public string defaultLocalizationTableName { get; private set; }
-
-        #region JSON
-
-        public bool ShouldSerializedefaultLocalizationTableName()
-        {
-            return localizationEnabled;
-        }
-
-        #endregion
     }
 }
