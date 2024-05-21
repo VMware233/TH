@@ -5,7 +5,7 @@ using VMFramework.UI;
 
 namespace TH.Map
 {
-    public class FloorController : MonoBehaviour, ITracingTooltipProviderController
+    public class FloorController : MonoBehaviour, ITooltipProviderController
     {
         [ShowInInspector]
         public Floor floor { get; private set; }
@@ -47,6 +47,6 @@ namespace TH.Map
 
         }
 
-        public ITracingTooltipProvider provider => floor;
+        public ITooltipProvider provider => floor;
     }
 }

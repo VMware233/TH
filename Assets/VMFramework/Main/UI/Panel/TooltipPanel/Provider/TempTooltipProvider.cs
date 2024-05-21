@@ -3,26 +3,25 @@ using VMFramework.Localization;
 
 namespace VMFramework.UI
 {
-    public class TempTracingTooltipProvider : ITracingTooltipProvider
+    public class TempTooltipProvider : ITooltipProvider
     {
         private LocalizedStringReference title;
         private LocalizedStringReference description;
 
-        public TempTracingTooltipProvider(LocalizedStringReference title,
+        public TempTooltipProvider(LocalizedStringReference title,
             LocalizedStringReference description = null)
         {
             this.title = title;
             this.description = description;
         }
 
-        string ITracingTooltipProvider.GetTooltipTitle() => title;
+        string ITooltipProvider.GetTooltipTitle() => title;
 
-        IEnumerable<ITracingTooltipProvider.PropertyConfig>
-            ITracingTooltipProvider.GetTooltipProperties()
+        IEnumerable<TooltipPropertyInfo> ITooltipProvider.GetTooltipProperties()
         {
             yield break;
         }
 
-        string ITracingTooltipProvider.GetTooltipDescription() => description;
+        string ITooltipProvider.GetTooltipDescription() => description;
     }
 }

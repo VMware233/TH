@@ -132,7 +132,7 @@ namespace TH.Spells
                 Debug.LogWarning($"{this}被鼠标进入");
             }
 
-            TracingTooltipManager.Open(this, source);
+            TooltipManager.Open(this, source);
         }
 
         void ISlotProvider.HandleMouseLeaveEvent(UIPanelController source)
@@ -142,7 +142,7 @@ namespace TH.Spells
                 Debug.LogWarning($"{this}被鼠标退出");
             }
 
-            TracingTooltipManager.Close(this);
+            TooltipManager.Close(this);
         }
 
         #endregion

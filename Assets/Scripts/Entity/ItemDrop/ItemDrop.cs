@@ -8,7 +8,7 @@ using VMFramework.Procedure;
 
 namespace TH.Entities
 {
-    public class ItemDrop : Entity, ITracingTooltipProvider
+    public class ItemDrop : Entity, ITooltipProvider
     {
         public new ItemDropController controller =>
             base.controller as ItemDropController;
@@ -54,6 +54,16 @@ namespace TH.Entities
             if (isServer)
             {
                 UpdateDelegateManager.AddUpdateDelegate(UpdateType.Update, OnUpdate);
+            }
+        }
+
+        protected override void OnDestroy()
+        {
+            base.OnDestroy();
+
+            if (isServer)
+            {
+                UpdateDelegateManager.RemoveUpdateDelegate(UpdateType.Update, OnUpdate);
             }
         }
 
@@ -105,7 +115,7 @@ namespace TH.Entities
             return item?.GetTooltipDescription();
         }
 
-        public override IEnumerable<ITracingTooltipProvider.PropertyConfig> GetTooltipProperties()
+        public override IEnumerable<TooltipPropertyInfo> GetTooltipProperties()
         {
             return item?.GetTooltipProperties();
         }

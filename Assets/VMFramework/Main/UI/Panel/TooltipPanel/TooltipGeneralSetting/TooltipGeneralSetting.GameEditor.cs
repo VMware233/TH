@@ -7,12 +7,12 @@ using VMFramework.Localization;
 
 namespace VMFramework.UI
 {
-    public partial class TracingTooltipGeneralSetting : IGameEditorMenuTreeNode
+    public partial class TooltipGeneralSetting : IGameEditorMenuTreeNode
     {
         string INameOwner.name => new LocalizedTempString()
         {
-            { "zh-CN", "追踪提示框" },
-            { "en-US", "Tracing Tooltip" }
+            { "zh-CN", "提示框" },
+            { "en-US", "Tooltip" }
         };
 
         Icon IGameEditorMenuTreeNode.icon => SdfIconType.CardHeading;

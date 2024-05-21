@@ -7,7 +7,7 @@ using VMFramework.UI;
 
 namespace VMFramework.Property
 {
-    public abstract class PropertyOfGameItem : GameItem, ITracingTooltipProvider
+    public abstract class PropertyOfGameItem : GameItem, ITooltipProvider
     {
         protected PropertyConfig propertyConfig => (PropertyConfig)gamePrefab;
         
@@ -64,7 +64,7 @@ namespace VMFramework.Property
             return GameCoreSettingBase.propertyGeneralSetting.tooltipID;
         }
 
-        public bool DisplayTooltip()
+        public bool ShowTooltip()
         {
             return propertyConfig.displayTooltip;
         }
@@ -74,7 +74,7 @@ namespace VMFramework.Property
             return string.Empty;
         }
 
-        public virtual IEnumerable<ITracingTooltipProvider.PropertyConfig> GetTooltipProperties()
+        public virtual IEnumerable<TooltipPropertyInfo> GetTooltipProperties()
         {
             yield break;
         }

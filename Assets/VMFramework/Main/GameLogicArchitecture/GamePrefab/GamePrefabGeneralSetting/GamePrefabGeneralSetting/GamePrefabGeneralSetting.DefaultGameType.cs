@@ -10,7 +10,7 @@ namespace VMFramework.GameLogicArchitecture
     {
         [field: LabelText("默认游戏种类"), TabGroup(TAB_GROUP_NAME, GAME_TYPE_CATEGORY)]
         [field: InfoBox("GamePrefab游戏种类不可用", VisibleIf = "@!gamePrefabGameTypeEnabled")]
-        [field: GameType]
+        [field: GameTypeID]
         [field: EnableIf(nameof(gamePrefabGameTypeEnabled))]
         [field: SerializeField]
         [JsonProperty]

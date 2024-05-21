@@ -19,7 +19,7 @@ namespace VMFramework.UI
         protected VisualElement propertyContainer;
 
         [ShowInInspector] 
-        protected ITracingTooltipProvider tooltipProvider;
+        protected ITooltipProvider tooltipProvider;
 
         [ShowInInspector] 
         private List<TracingTooltipProviderUIToolkitRenderUtility.DynamicPropertyInfo> dynamicPropertyInfos = new();
@@ -105,7 +105,7 @@ namespace VMFramework.UI
             }
         }
 
-        public void Open(ITracingTooltipProvider tooltipProvider, IUIPanelController source)
+        public void Open(ITooltipProvider tooltipProvider, IUIPanelController source)
         {
             if (this.tooltipProvider == tooltipProvider)
             {
@@ -176,7 +176,7 @@ namespace VMFramework.UI
             dynamicPropertyInfos = renderResult.dynamicPropertyInfos;
         }
 
-        public void Close(ITracingTooltipProvider tooltipProvider)
+        public void Close(ITooltipProvider tooltipProvider)
         {
             if (isClosing)
             {

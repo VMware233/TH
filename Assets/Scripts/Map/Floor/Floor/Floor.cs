@@ -8,7 +8,7 @@ using VMFramework.Map;
 
 namespace TH.Map
 {
-    public partial class Floor : VisualGameItem, IContextMenuProvider, ITracingTooltipProvider
+    public partial class Floor : VisualGameItem, IContextMenuProvider, ITooltipProvider
     {
         protected FloorPreset floorPreset => (FloorPreset)gamePrefab;
         

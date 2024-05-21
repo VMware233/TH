@@ -21,7 +21,7 @@ namespace TH.Map
 
         [Button]
         private void AddSeveralUnitsToList(int count,
-            [GameType] string roomTypeID)
+            [GameTypeID] string roomTypeID)
         {
             for (int i = 0; i < count; i++)
             {

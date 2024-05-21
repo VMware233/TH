@@ -1,3 +1,4 @@
+#if FISHNET
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.CompilerServices;
@@ -145,3 +146,4 @@ namespace VMFramework.Containers
         #endregion
     }
 }
+#endif

@@ -10,7 +10,7 @@ using VMFramework.UI;
 
 namespace TH.Entities
 {
-    public class EntityController : NetworkBehaviour, ITracingTooltipProviderController
+    public class EntityController : NetworkBehaviour, ITooltipProviderController
     {
         #region Config
 
@@ -184,6 +184,6 @@ namespace TH.Entities
 
         #endregion
 
-        public ITracingTooltipProvider provider => entity;
+        public ITooltipProvider provider => entity;
     }
 }

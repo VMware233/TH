@@ -1,10 +1,7 @@
 ﻿namespace VMFramework.UI
 {
-    public interface ITracingTooltip : IUIPanelController
+    public interface ITracingTooltip : ITooltip
     {
-        public void Open(ITracingTooltipProvider tooltipProvider,
-            IUIPanelController source);
-
-        public void Close(ITracingTooltipProvider tooltipProvider);
+        
     }
 }

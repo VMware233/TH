@@ -13,7 +13,7 @@ namespace TH.Map
     {
         [LabelText("房间游戏类型")]
         [IsNotNullOrEmpty]
-        [GameType]
+        [GameTypeID]
         public string roomGameTypeID;
 
         [LabelText("非空房间所占权重")]

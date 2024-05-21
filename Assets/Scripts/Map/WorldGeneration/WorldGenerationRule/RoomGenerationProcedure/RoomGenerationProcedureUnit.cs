@@ -9,7 +9,7 @@ namespace TH.Map
     public class RoomGenerationProcedureUnit : BaseConfig
     {
         [LabelText("房间种类")]
-        [GameType]
+        [GameTypeID]
         [IsNotNullOrEmpty]
         public string roomGameTypeID;
 

@@ -2,11 +2,11 @@
 
 namespace VMFramework.OdinExtensions
 {
-    public class GameTypeAttribute : GeneralValueDropdownAttribute
+    public class GameTypeIDAttribute : GeneralValueDropdownAttribute
     {
         public bool LeafGameTypesOnly;
         
-        public GameTypeAttribute(bool leafGameTypesOnly = true)
+        public GameTypeIDAttribute(bool leafGameTypesOnly = true)
         {
             LeafGameTypesOnly = leafGameTypesOnly;
         }

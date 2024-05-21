@@ -218,6 +218,19 @@ namespace VMFramework.UI
         #region Unique Panels
 
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static IEnumerable<TController> GetUniquePanels<TController>()
+            where TController : IUIPanelController
+        {
+            foreach (var panelController in allUniquePanelControllers.Values)
+            {
+                if (panelController is TController controller)
+                {
+                    yield return controller;
+                }
+            }
+        }
+
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public static IUIPanelController GetUniquePanel(string id)
         {
             return allUniquePanelControllers.GetValueOrDefault(id);

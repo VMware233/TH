@@ -7,7 +7,7 @@ using VMFramework.GameLogicArchitecture;
 
 namespace VMFramework.OdinExtensions
 {
-    public class GameTypeAttributeDrawer : GeneralValueDropdownAttributeDrawer<GameTypeAttribute>
+    public class GameTypeIDAttributeDrawer : GeneralValueDropdownAttributeDrawer<GameTypeIDAttribute>
     {
         protected override IEnumerable<ValueDropdownItem> GetValues()
         {

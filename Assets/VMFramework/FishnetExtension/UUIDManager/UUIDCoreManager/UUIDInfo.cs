@@ -1,3 +1,4 @@
+#if FISHNET
 using System.Collections.Generic;
 
 namespace VMFramework.Network
@@ -26,3 +27,4 @@ namespace VMFramework.Network
         }
     }
 }
+#endif

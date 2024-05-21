@@ -1,3 +1,4 @@
+#if FISHNET
 using UnityEngine;
 
 namespace VMFramework.Network
@@ -34,3 +35,4 @@ namespace VMFramework.Network
         }
     }
 }
+#endif

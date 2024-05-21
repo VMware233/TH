@@ -1,6 +1,6 @@
 ﻿namespace VMFramework.UI
 {
-    public interface ITracingTooltipPreset : ITracingUIPanelPreset
+    public interface ITracingTooltipPreset : ITooltipPreset
     {
         
     }

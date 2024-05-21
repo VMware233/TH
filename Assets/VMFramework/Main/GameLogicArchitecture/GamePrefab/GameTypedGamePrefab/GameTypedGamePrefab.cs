@@ -17,7 +17,7 @@ namespace VMFramework.GameLogicArchitecture
          TabGroup(TAB_GROUP_NAME, BASIC_SETTING_CATEGORY, SdfIconType.Info, TextColor = "blue")]
         [OnCollectionChanged(nameof(OnInitialGameTypesIDChangedGUI))]
         [PropertyOrder(-6000)]
-        [GameType]
+        [GameTypeID]
         [ListDrawerSettings(ShowFoldout = false)]
 #endif
         [SerializeField, JsonProperty(Order = -6000)]

@@ -55,19 +55,19 @@ namespace VMFramework.UI
         }
     }
 
-    public sealed partial class TracingTooltipGeneralSetting : GeneralSettingBase
+    public sealed partial class TooltipGeneralSetting : GeneralSettingBase
     {
         public const string TOOLTIP_CATEGORY = "提示框设置";
 
-        #region Default Tooltip
-
-        [LabelText("默认的追踪提示框"), TabGroup(TAB_GROUP_NAME, TOOLTIP_CATEGORY)]
-        [GamePrefabID(typeof(UIToolkitTracingTooltipPreset))]
+        [LabelText("默认提示框"), TabGroup(TAB_GROUP_NAME, TOOLTIP_CATEGORY)]
+        [GamePrefabID(typeof(ITooltipPreset))]
         [IsNotNullOrEmpty]
-        [JsonProperty, SerializeField]
-        public string defaultTracingTooltipID;
-
-        #endregion
+        [JsonProperty]
+        public string defaultTooltipID;
+        
+        [LabelText("提示框绑定"), TabGroup(TAB_GROUP_NAME, TOOLTIP_CATEGORY)]
+        [JsonProperty]
+        public DictionaryConfigs<string, TooltipBindConfig> tooltipBindConfigs = new();
 
         #region Tooltip Priority
 
@@ -113,7 +113,7 @@ namespace VMFramework.UI
         {
             base.CheckSettings();
             
-            defaultTracingTooltipID.AssertIsNotNullOrEmpty(nameof(defaultTracingTooltipID));
+            defaultTooltipID.AssertIsNotNullOrEmpty(nameof(defaultTooltipID));
         }
     }
 }

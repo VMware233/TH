@@ -21,17 +21,36 @@ MonoBehaviour:
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes:
+    - Name: tooltipBindConfigs
+      Entry: 7
+      Data: 0|VMFramework.Configuration.DictionaryConfigs`2[[System.String, mscorlib],[VMFramework.UI.TooltipBindConfig,
+        Assembly-CSharp]], Assembly-CSharp
+    - Name: configs
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[VMFramework.UI.TooltipBindConfig,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: tooltipPriorityPresets
       Entry: 7
-      Data: 0|System.Collections.Generic.List`1[[VMFramework.UI.TracingTooltipGeneralSetting+TooltipPriorityPreset,
+      Data: 2|System.Collections.Generic.List`1[[VMFramework.UI.TooltipGeneralSetting+TooltipPriorityPreset,
         Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
       Data: 3
     - Name: 
       Entry: 7
-      Data: 1|VMFramework.UI.TracingTooltipGeneralSetting+TooltipPriorityPreset,
-        Assembly-CSharp
+      Data: 3|VMFramework.UI.TooltipGeneralSetting+TooltipPriorityPreset, Assembly-CSharp
     - Name: presetID
       Entry: 1
       Data: Floor
@@ -43,8 +62,7 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 7
-      Data: 2|VMFramework.UI.TracingTooltipGeneralSetting+TooltipPriorityPreset,
-        Assembly-CSharp
+      Data: 4|VMFramework.UI.TooltipGeneralSetting+TooltipPriorityPreset, Assembly-CSharp
     - Name: presetID
       Entry: 1
       Data: Entity
@@ -56,8 +74,7 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 7
-      Data: 3|VMFramework.UI.TracingTooltipGeneralSetting+TooltipPriorityPreset,
-        Assembly-CSharp
+      Data: 5|VMFramework.UI.TooltipGeneralSetting+TooltipPriorityPreset, Assembly-CSharp
     - Name: presetID
       Entry: 1
       Data: UI
@@ -75,7 +92,7 @@ MonoBehaviour:
       Data: 
     - Name: defaultPriority
       Entry: 7
-      Data: 4|VMFramework.UI.TooltipPriorityConfig, Assembly-CSharp
+      Data: 6|VMFramework.UI.TooltipPriorityConfig, Assembly-CSharp
     - Name: priorityType
       Entry: 3
       Data: 0
@@ -91,4 +108,4 @@ MonoBehaviour:
   dataFolderRelativePath: Configurations
   defaultJSONFileSuffix: txt
   <defaultLocalizationTableName>k__BackingField: 
-  defaultTracingTooltipID: universal_ui_toolkit_tooltip_ui
+  defaultTooltipID: universal_ui_toolkit_tooltip_ui

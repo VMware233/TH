@@ -20,7 +20,7 @@ namespace VMFramework.UI
         }
 
         public static RenderResult RenderToVisualElement(
-            this ITracingTooltipProvider tooltipProvider,
+            this ITooltipProvider tooltipProvider,
             Label titleLabel, Label descriptionLabel,
             VisualElement propertyContainer,
             Action<VisualElement, VisualElement> addVisualElementAction = null)
@@ -68,8 +68,7 @@ namespace VMFramework.UI
 
             return renderResult;
 
-            void AddPropertyEntry(
-                ITracingTooltipProvider.PropertyConfig propertyConfig)
+            void AddPropertyEntry(TooltipPropertyInfo propertyConfig)
             {
                 var content = propertyConfig.attributeValueGetter();
 

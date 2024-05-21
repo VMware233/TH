@@ -105,7 +105,7 @@ namespace VMFramework.GameLogicArchitecture
 
         [LabelText("追踪提示框通用设置"), TabGroup(TAB_GROUP_NAME, UI_CATEGORY)]
         [Required]
-        public TracingTooltipGeneralSetting tracingTooltipGeneralSetting;
+        public TooltipGeneralSetting tracingTooltipGeneralSetting;
 
         [LabelText("上下文菜单通用设置"), TabGroup(TAB_GROUP_NAME, UI_CATEGORY)]
         [Required]

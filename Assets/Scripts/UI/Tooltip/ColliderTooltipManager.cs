@@ -24,9 +24,9 @@ namespace TH.UI
                 return;
             }
             
-            if (mouseEvent.trigger.owner.TryGetComponent(out ITracingTooltipProviderController controller))
+            if (mouseEvent.trigger.owner.TryGetComponent(out ITooltipProviderController controller))
             {
-                TracingTooltipManager.Open(controller.provider, null);
+                TooltipManager.Open(controller.provider, null);
             }
         }
 
@@ -37,9 +37,9 @@ namespace TH.UI
                 return;
             }
             
-            if (mouseEvent.trigger.owner.TryGetComponent(out ITracingTooltipProviderController controller))
+            if (mouseEvent.trigger.owner.TryGetComponent(out ITooltipProviderController controller))
             {
-                TracingTooltipManager.Close(controller.provider);
+                TooltipManager.Close(controller.provider);
             }
         }
     }

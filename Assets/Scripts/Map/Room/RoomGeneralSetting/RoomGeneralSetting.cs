@@ -99,7 +99,7 @@ namespace TH.Map
         [Button, TabGroup(TAB_GROUP_NAME, DEBUGGING_CATEGORY)]
         public IReadOnlyCollection<Room> GetRoomsHavingGatewayDirection(
             FourTypesDirection2D direction,
-            [GameType] string roomGameType)
+            [GameTypeID] string roomGameType)
         {
             var result = new HashSet<Room>();
 
@@ -122,7 +122,7 @@ namespace TH.Map
         [Button, TabGroup(TAB_GROUP_NAME, DEBUGGING_CATEGORY)]
         public IReadOnlyCollection<Room> GetRoomsHavingAnyGatewayDirection(
             FourTypesDirection2D directions,
-            [GameType] string roomGameType)
+            [GameTypeID] string roomGameType)
         {
             var result = new HashSet<Room>();
 
@@ -138,7 +138,7 @@ namespace TH.Map
         [Button, TabGroup(TAB_GROUP_NAME, DEBUGGING_CATEGORY)]
         public IReadOnlyCollection<Room> GetRoomsHavingAllGatewayDirection(
             FourTypesDirection2D directions,
-            [GameType] string roomGameType)
+            [GameTypeID] string roomGameType)
         {
             var result = new HashSet<Room>();
 

@@ -1,7 +1,7 @@
 ﻿#if UNITY_EDITOR
 namespace VMFramework.UI
 {
-    public partial class TracingTooltipGeneralSetting
+    public partial class TooltipGeneralSetting
     {
         protected override void OnInspectorInit()
         {
