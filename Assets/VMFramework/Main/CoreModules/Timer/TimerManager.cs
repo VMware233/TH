@@ -24,7 +24,10 @@ namespace VMFramework.Timer
                 queue.Resize(capacity + QUEUE_SIZE_GAP);
             }
             
-            queue.Enqueue(timer, currentTime + delay);
+            double expectedTime = currentTime + delay;
+            queue.Enqueue(timer, expectedTime);
+            
+            timer.OnStart(currentTime, expectedTime);
         }
 
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
@@ -32,7 +35,7 @@ namespace VMFramework.Timer
         {
             queue.Remove(timer);
             
-            timer.OnStopped();
+            timer.OnStopped(currentTime);
         }
         
         [MethodImpl(MethodImplOptions.AggressiveInlining)]

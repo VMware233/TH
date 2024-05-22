@@ -92,7 +92,7 @@ namespace VMFramework.Core
         /// <summary>
         /// Returns (in O(1)!) whether the given node is in the queue.
         /// If node is or has been previously added to another queue,
-        /// the result is undefined unless oldQueue.ResetNode(node) has been called
+        /// the result is undefined unless oldQueue's <see cref="ResetNode"/> has been called
         /// O(1)
         /// </summary>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
@@ -113,7 +113,7 @@ namespace VMFramework.Core
         /// If the queue is full, the result is undefined.
         /// If the node is already enqueued, the result is undefined.
         /// If node is or has been previously added to another queue,
-        /// the result is undefined unless oldQueue.ResetNode(node) has been called
+        /// the result is undefined unless oldQueue's <see cref="ResetNode"/> has been called
         /// O(log n)
         /// </summary>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
@@ -320,7 +320,7 @@ namespace VMFramework.Core
 
         /// <summary>
         /// Returns true if 'higher' has higher priority than 'lower', false otherwise.
-        /// Note that calling HasHigherPriority(node, node)
+        /// Note that calling <see cref="HasHigherPriority"/>(node, node)
         /// (ie. both arguments the same node) will return false
         /// </summary>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
@@ -380,20 +380,20 @@ namespace VMFramework.Core
         /// to hold the existing nodes results in undefined behavior
         /// O(n)
         /// </summary>
-        public void Resize(int maxNodes)
+        public void Resize(int newCapacity)
         {
-            if (maxNodes <= 0)
+            if (newCapacity <= 0)
             {
                 throw new InvalidOperationException("Queue size cannot be smaller than 1");
             }
 
-            if (maxNodes < _numNodes)
+            if (newCapacity < _numNodes)
             {
-                throw new InvalidOperationException("Called Resize(" + maxNodes + "), but current queue contains " + _numNodes + " nodes");
+                throw new InvalidOperationException("Called Resize(" + newCapacity + "), but current queue contains " + _numNodes + " nodes");
             }
 
-            TItem[] newArray = new TItem[maxNodes + 1];
-            int highestIndexToCopy = System.Math.Min(maxNodes, _numNodes);
+            TItem[] newArray = new TItem[newCapacity + 1];
+            int highestIndexToCopy = System.Math.Min(newCapacity, _numNodes);
             Array.Copy(_nodes, newArray, highestIndexToCopy + 1);
             _nodes = newArray;
         }
