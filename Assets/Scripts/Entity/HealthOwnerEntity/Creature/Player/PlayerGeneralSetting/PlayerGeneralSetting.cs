@@ -6,7 +6,7 @@ using VMFramework.OdinExtensions;
 
 namespace TH.Entities
 {
-    public sealed partial class PlayerGeneralSetting : GeneralSettingBase
+    public sealed partial class PlayerGeneralSetting : GeneralSetting
     {
         [LabelText("每级的经验")]
         public int experiencePerLevel = 100;

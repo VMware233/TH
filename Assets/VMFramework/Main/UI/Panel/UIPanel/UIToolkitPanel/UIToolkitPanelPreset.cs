@@ -22,14 +22,13 @@ namespace VMFramework.UI
             {
                 if (useDefaultPanelSettings)
                 {
-                    return GameCoreSettingBase.uiPanelGeneralSetting.GetPanelSetting(sortingOrder);
+                    return GameCoreSetting.uiPanelGeneralSetting.GetPanelSetting(sortingOrder);
                 }
 
                 return customPanelSettings;
             }
         }
 
-        [LabelText("UI Template")]
         [SuffixLabel("UXML File")]
         [TabGroup(TAB_GROUP_NAME, UI_TOOLKIT_PANEL_CATEGORY, SdfIconType.ColumnsGap, TextColor = "red")]
         [Required]

@@ -6,7 +6,7 @@ using VMFramework.OdinExtensions;
 
 namespace TH.Entities
 {
-    public sealed partial class ProjectileGeneralSetting : GeneralSettingBase
+    public sealed partial class ProjectileGeneralSetting : GeneralSetting
     {
         [field: LabelText("投射物Layer")]
         [field: Layer]

@@ -7,7 +7,6 @@ namespace VMFramework.GameLogicArchitecture
     {
         private partial class LocalizedGameTypeInfo : GameTypeInfo, INameOwner, ILocalizedNameOwner
         {
-            [LabelText("名称")]
             [PropertyOrder(-5000)]
             public LocalizedStringReference name = new();
 

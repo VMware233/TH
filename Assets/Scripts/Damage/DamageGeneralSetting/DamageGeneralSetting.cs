@@ -5,7 +5,7 @@ using VMFramework.OdinExtensions;
 
 namespace TH.Damage
 {
-    public sealed partial class DamageGeneralSetting : GeneralSettingBase
+    public sealed partial class DamageGeneralSetting : GeneralSetting
     {
         private const string DAMAGE_UI_CATEGORY = "伤害UI设置";
 

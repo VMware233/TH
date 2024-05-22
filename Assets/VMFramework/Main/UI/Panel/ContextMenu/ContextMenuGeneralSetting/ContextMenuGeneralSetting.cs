@@ -8,7 +8,7 @@ using VMFramework.OdinExtensions;
 
 namespace VMFramework.UI
 {
-    public sealed partial class ContextMenuGeneralSetting : GeneralSettingBase
+    public sealed partial class ContextMenuGeneralSetting : GeneralSetting
     {
         private const string CONTEXT_MENU_CATEGORY = "Context Menu";
 

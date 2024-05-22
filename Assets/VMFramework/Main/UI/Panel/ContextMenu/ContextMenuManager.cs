@@ -9,7 +9,7 @@ namespace VMFramework.UI
     public sealed class ContextMenuManager : UniqueMonoBehaviour<ContextMenuManager>
     {
         private static ContextMenuGeneralSetting contextMenuGeneralSetting =>
-            GameCoreSettingBase.contextMenuGeneralSetting;
+            GameCoreSetting.contextMenuGeneralSetting;
         
         public static void Open(IContextMenuProvider contextMenuProvider, IUIPanelController source)
         {

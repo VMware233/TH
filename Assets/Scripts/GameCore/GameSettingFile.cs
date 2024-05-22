@@ -9,7 +9,7 @@ using VMFramework.GameLogicArchitecture;
 
 namespace TH.GameCore
 {
-    public class GameSettingFile : GameCoreSettingBaseFile
+    public class GameSettingFile : GameCoreSettingFile
     {
         public WorldGeneralSetting worldGeneralSetting;
         public WorldGenerationRuleGeneralSetting worldGenerationRuleGeneralSetting;

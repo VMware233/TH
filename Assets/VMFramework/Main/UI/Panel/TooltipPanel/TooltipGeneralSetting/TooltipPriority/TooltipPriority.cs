@@ -56,7 +56,7 @@ namespace VMFramework.UI
             switch (priorityType)
             {
                 case TooltipPriorityType.Preset:
-                    if (GameCoreSettingBase.tooltipGeneralSetting.tooltipPriorityPresets.TryGetConfigRuntime(
+                    if (GameCoreSetting.tooltipGeneralSetting.tooltipPriorityPresets.TryGetConfigRuntime(
                             presetID, out var config))
                     {
                         return config.priority;

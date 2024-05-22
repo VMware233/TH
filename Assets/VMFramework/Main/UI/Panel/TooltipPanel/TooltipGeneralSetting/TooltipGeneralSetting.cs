@@ -8,7 +8,7 @@ using VMFramework.OdinExtensions;
 
 namespace VMFramework.UI
 {
-    public sealed partial class TooltipGeneralSetting : GeneralSettingBase
+    public sealed partial class TooltipGeneralSetting : GeneralSetting
     {
         private const string TOOLTIP_CATEGORY = "Tooltip";
         private const string TOOLTIP_ID_BIND_CATEGORY = TAB_GROUP_NAME + "/" + TOOLTIP_CATEGORY + "/Tooltip ID Bind";
@@ -24,7 +24,7 @@ namespace VMFramework.UI
         [PropertyTooltip("提示框绑定")]
         [TitleGroup(TOOLTIP_ID_BIND_CATEGORY)]
         [JsonProperty]
-        public GameTypeBasedConfigs<TooltipBindConfig> tooltipBindConfigs = new();
+        public GameTypeBasedConfigs<TooltipBindConfig> tooltipIDBindConfigs = new();
 
         [PropertyTooltip("Tooltip优先级预设")]
         [TitleGroup(TOOLTIP_PRIORITY_CATEGORY)]
@@ -45,7 +45,7 @@ namespace VMFramework.UI
             
             defaultTooltipID.AssertIsNotNullOrEmpty(nameof(defaultTooltipID));
             
-            tooltipBindConfigs.CheckSettings();
+            tooltipIDBindConfigs.CheckSettings();
             
             tooltipPriorityPresets.CheckSettings();
             
@@ -56,7 +56,7 @@ namespace VMFramework.UI
         {
             base.OnInit();
             
-            tooltipBindConfigs.Init();
+            tooltipIDBindConfigs.Init();
             
             tooltipPriorityPresets.Init();
             

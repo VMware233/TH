@@ -11,7 +11,7 @@ namespace VMFramework.OdinExtensions
     {
         protected override IEnumerable<ValueDropdownItem> GetValues()
         {
-            return GameCoreSettingBase.tooltipGeneralSetting.tooltipPriorityPresets.GetNameList();
+            return GameCoreSetting.tooltipGeneralSetting.tooltipPriorityPresets.GetNameList();
         }
     }
 }

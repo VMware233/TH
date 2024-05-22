@@ -133,9 +133,6 @@ MonoBehaviour:
     - Name: containerVisualElementName
       Entry: 1
       Data: Tooltip
-    - Name: tooltipPriority
-      Entry: 3
-      Data: 0
     - Name: titleLabelName
       Entry: 1
       Data: Title

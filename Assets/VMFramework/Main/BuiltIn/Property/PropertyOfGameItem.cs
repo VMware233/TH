@@ -61,7 +61,7 @@ namespace VMFramework.Property
 
         public string GetTooltipID()
         {
-            return GameCoreSettingBase.propertyGeneralSetting.tooltipID;
+            return GameCoreSetting.propertyGeneralSetting.tooltipID;
         }
 
         public bool ShowTooltip()

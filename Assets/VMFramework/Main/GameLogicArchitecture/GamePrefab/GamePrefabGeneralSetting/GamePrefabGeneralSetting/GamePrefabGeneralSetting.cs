@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace VMFramework.GameLogicArchitecture
 {
-    public abstract partial class GamePrefabGeneralSetting : GeneralSettingBase, IInitialGamePrefabProvider
+    public abstract partial class GamePrefabGeneralSetting : GeneralSetting, IInitialGamePrefabProvider
     {
         #region Categories
 
