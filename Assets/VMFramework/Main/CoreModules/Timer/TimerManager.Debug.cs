@@ -16,7 +16,7 @@ namespace VMFramework.Timer
         [Button]
         private static void AddTimerDebug(float delay = 5)
         {
-            var timer = new Timer(() => Debug.LogError(233));
+            var timer = new Timer(_ => Debug.LogError(233));
             
             Add(timer, delay);
         }
