@@ -8,8 +8,8 @@ namespace VMFramework.GameLogicArchitecture
     public partial class GeneralSettingBase
     {
 #if UNITY_EDITOR
-        [field: LabelText("默认语言表名"), TabGroup(TAB_GROUP_NAME, LOCALIZABLE_SETTING_CATEGORY)]
-        [field: InfoBox("本地化设置不可用", VisibleIf = "@!localizationEnabled")]
+        [field: LabelText("Default Localization Table"), TabGroup(TAB_GROUP_NAME, LOCALIZABLE_SETTING_CATEGORY)]
+        [field: InfoBox("Localization Settings is disabled", VisibleIf = "@!localizationEnabled")]
         [field: TableName]
         [field: OnValueChanged(nameof(OnDefaultLocalizationTableNameChanged))]
         [field: EnableIf(nameof(localizationEnabled))]

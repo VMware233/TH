@@ -8,18 +8,19 @@ namespace VMFramework.UI
 {
     public class UIToolkitTracingTooltipController : UIToolkitTracingUIPanelController, ITracingTooltip
     {
-        protected static readonly HashSet<UIToolkitTracingTooltipController> openedTooltips = new();
-
         protected UIToolkitTracingTooltipPreset tracingTooltipPreset { get; private set; }
+        
+        [ShowInInspector]
+        protected ITooltipProvider tooltipProvider { get; private set; }
+        
+        [ShowInInspector]
+        protected TooltipOpenInfo currentOpenInfo { get; private set; }
 
         [ShowInInspector] 
         protected Label title, description;
 
         [ShowInInspector] 
         protected VisualElement propertyContainer;
-
-        [ShowInInspector] 
-        protected ITooltipProvider tooltipProvider;
 
         [ShowInInspector] 
         private List<TracingTooltipProviderUIToolkitRenderUtility.DynamicPropertyInfo> dynamicPropertyInfos = new();
@@ -48,8 +49,6 @@ namespace VMFramework.UI
             description.AssertIsNotNull(nameof(description));
             propertyContainer.AssertIsNotNull(nameof(propertyContainer));
 
-            openedTooltips.Add(this);
-
             dynamicPropertyInfos.Clear();
 
             groupVisualElements.Clear();
@@ -71,8 +70,6 @@ namespace VMFramework.UI
 
             title = null;
             description = null;
-
-            openedTooltips.Remove(this);
         }
 
         private void FixedUpdate()
@@ -105,7 +102,7 @@ namespace VMFramework.UI
             }
         }
 
-        public void Open(ITooltipProvider tooltipProvider, IUIPanelController source)
+        public void Open(ITooltipProvider tooltipProvider, IUIPanelController source, TooltipOpenInfo info)
         {
             if (this.tooltipProvider == tooltipProvider)
             {
@@ -124,40 +121,7 @@ namespace VMFramework.UI
 
             if (this.tooltipProvider != null)
             {
-                if (tooltipProvider.GetTooltipPriority() <
-                    this.tooltipProvider.GetTooltipPriority())
-                {
-                    return;
-                }
-            }
-
-            if (openedTooltips.Count > 0)
-            {
-                var minPriority = int.MinValue;
-
-                var willClosedTooltips = new List<UIToolkitTracingTooltipController>();
-
-                foreach (var openedTooltip in openedTooltips)
-                {
-                    var openedTooltipPriority =
-                        openedTooltip.tracingTooltipPreset.tooltipPriority;
-
-                    if (openedTooltipPriority < tracingTooltipPreset.tooltipPriority)
-                    {
-                        willClosedTooltips.Add(openedTooltip);
-                    }
-                    else if (openedTooltipPriority > minPriority)
-                    {
-                        minPriority = openedTooltip.tracingTooltipPreset.tooltipPriority;
-                    }
-                }
-
-                foreach (var willClosedTooltip in willClosedTooltips)
-                {
-                    willClosedTooltip.Close();
-                }
-
-                if (minPriority > tracingTooltipPreset.tooltipPriority)
+                if (info.priority < currentOpenInfo.priority)
                 {
                     return;
                 }
@@ -166,6 +130,7 @@ namespace VMFramework.UI
             this.Open(source);
 
             this.tooltipProvider = tooltipProvider;
+            currentOpenInfo = info;
 
             propertyContainer.Clear();
 

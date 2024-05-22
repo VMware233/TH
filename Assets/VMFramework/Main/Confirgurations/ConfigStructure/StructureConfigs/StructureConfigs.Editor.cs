@@ -1,7 +1,7 @@
 ﻿#if UNITY_EDITOR
 namespace VMFramework.Configuration
 {
-    public partial class DictionaryConfigs<TID, TConfig>
+    public partial class StructureConfigs<TConfig>
     {
         protected override void OnInspectorInit()
         {

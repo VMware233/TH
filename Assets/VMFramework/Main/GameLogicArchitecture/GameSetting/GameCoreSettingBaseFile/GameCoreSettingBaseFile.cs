@@ -103,9 +103,10 @@ namespace VMFramework.GameLogicArchitecture
         [Required]
         public DebugUIPanelGeneralSetting debugUIPanelGeneralSetting;
 
+        [FormerlySerializedAs("tracingTooltipGeneralSetting")]
         [LabelText("追踪提示框通用设置"), TabGroup(TAB_GROUP_NAME, UI_CATEGORY)]
         [Required]
-        public TooltipGeneralSetting tracingTooltipGeneralSetting;
+        public TooltipGeneralSetting tooltipGeneralSetting;
 
         [LabelText("上下文菜单通用设置"), TabGroup(TAB_GROUP_NAME, UI_CATEGORY)]
         [Required]

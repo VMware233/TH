@@ -19,7 +19,7 @@ namespace VMFramework.UI
         }
 
         [ShowInInspector]
-        protected ITooltipProvider tooltipProvider;
+        protected ITooltipProvider tooltipProvider { get; private set; }
 
         protected UIPanelController source;
 
@@ -47,6 +47,11 @@ namespace VMFramework.UI
 
                 OnMouseLeave?.Invoke();
             });
+        }
+
+        public void SetTooltip(ITooltipProvider provider)
+        {
+            tooltipProvider = provider;
         }
 
         public void SetTooltip(LocalizedStringReference newTooltip)

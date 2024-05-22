@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using VMFramework.Configuration;
+﻿using VMFramework.Configuration;
 using Newtonsoft.Json;
 using Sirenix.OdinInspector;
 using UnityEngine;
@@ -12,108 +8,59 @@ using VMFramework.OdinExtensions;
 
 namespace VMFramework.UI
 {
-    public class TooltipPriorityConfig : BaseConfig
-    {
-        private enum TooltipPriorityType
-        {
-            [LabelText("预设")]
-            Preset,
-            [LabelText("自定义")]
-            Custom
-        }
-
-        [LabelText("优先级类型")]
-        [JsonProperty, SerializeField]
-        private TooltipPriorityType priorityType;
-
-        [LabelText("优先级预设")]
-        [ValueDropdown("@GameCoreSettingBase.tracingTooltipGeneralSetting." +
-                       "GetTooltipPriorityPresetsID()")]
-        [ShowIf(nameof(priorityType), TooltipPriorityType.Preset)]
-        [JsonProperty, SerializeField]
-        private string presetID;
-
-        [LabelText("优先级")]
-        [ShowIf(nameof(priorityType), TooltipPriorityType.Custom)]
-        [JsonProperty, SerializeField]
-        private int priority;
-
-        public int GetPriority()
-        {
-            return priorityType switch
-            {
-                TooltipPriorityType.Preset => GameCoreSettingBase
-                    .tracingTooltipGeneralSetting.GetTooltipPriority(presetID),
-                TooltipPriorityType.Custom => priority,
-                _ => throw new ArgumentOutOfRangeException()
-            };
-        }
-
-        public static implicit operator int(TooltipPriorityConfig config)
-        {
-            return config.GetPriority();
-        }
-    }
-
     public sealed partial class TooltipGeneralSetting : GeneralSettingBase
     {
-        public const string TOOLTIP_CATEGORY = "提示框设置";
+        private const string TOOLTIP_CATEGORY = "Tooltip";
+        private const string TOOLTIP_ID_BIND_CATEGORY = TAB_GROUP_NAME + "/" + TOOLTIP_CATEGORY + "/Tooltip ID Bind";
+        private const string TOOLTIP_PRIORITY_CATEGORY = TAB_GROUP_NAME + "/" + TOOLTIP_CATEGORY + "/Tooltip Priority Bind";
 
-        [LabelText("默认提示框"), TabGroup(TAB_GROUP_NAME, TOOLTIP_CATEGORY)]
+        [PropertyTooltip("默认提示框")]
+        [TabGroup(TAB_GROUP_NAME, TOOLTIP_CATEGORY), TitleGroup(TOOLTIP_ID_BIND_CATEGORY)]
         [GamePrefabID(typeof(ITooltipPreset))]
         [IsNotNullOrEmpty]
         [JsonProperty]
         public string defaultTooltipID;
         
-        [LabelText("提示框绑定"), TabGroup(TAB_GROUP_NAME, TOOLTIP_CATEGORY)]
+        [PropertyTooltip("提示框绑定")]
+        [TitleGroup(TOOLTIP_ID_BIND_CATEGORY)]
         [JsonProperty]
-        public DictionaryConfigs<string, TooltipBindConfig> tooltipBindConfigs = new();
+        public GameTypeBasedConfigs<TooltipBindConfig> tooltipBindConfigs = new();
 
-        #region Tooltip Priority
-
-        private class TooltipPriorityPreset : BaseConfig
-        {
-            [LabelText("ID")]
-            [IsNotNullOrEmpty]
-            public string presetID;
-
-            [LabelText("优先级")]
-            public int priority;
-        }
-
-        [LabelText("Tooltip优先级预设"), TabGroup(TAB_GROUP_NAME, TOOLTIP_CATEGORY)]
+        [PropertyTooltip("Tooltip优先级预设")]
+        [TitleGroup(TOOLTIP_PRIORITY_CATEGORY)]
         [JsonProperty, SerializeField]
-        private List<TooltipPriorityPreset> tooltipPriorityPresets = new();
+        public DictionaryConfigs<string, TooltipPriorityPreset> tooltipPriorityPresets = new();
+        
+        [PropertyTooltip("提示框优先级绑定")]
+        [TitleGroup(TOOLTIP_PRIORITY_CATEGORY)]
+        public GameTypeBasedConfigs<TooltipPriorityBindConfig> tooltipPriorityBindConfigs = new();
 
-        [LabelText("默认优先级"), TabGroup(TAB_GROUP_NAME, TOOLTIP_CATEGORY)]
-        public TooltipPriorityConfig defaultPriority = new();
-
-        public IEnumerable GetTooltipPriorityPresetsID()
-        {
-            return tooltipPriorityPresets.Select(preset => preset.presetID);
-        }
-
-        public int GetTooltipPriority(string presetID)
-        {
-            foreach (var preset in tooltipPriorityPresets)
-            {
-                if (preset.presetID == presetID)
-                {
-                    return preset.priority;
-                }
-            }
-            
-            Debug.LogWarning("未找到Tooltip优先级预设：" + presetID);
-            return 0;
-        }
-
-        #endregion
+        [PropertyTooltip("默认优先级")]
+        [TitleGroup(TOOLTIP_PRIORITY_CATEGORY)]
+        public TooltipPriority defaultPriority;
 
         public override void CheckSettings()
         {
             base.CheckSettings();
             
             defaultTooltipID.AssertIsNotNullOrEmpty(nameof(defaultTooltipID));
+            
+            tooltipBindConfigs.CheckSettings();
+            
+            tooltipPriorityPresets.CheckSettings();
+            
+            tooltipPriorityBindConfigs.CheckSettings();
+        }
+
+        protected override void OnInit()
+        {
+            base.OnInit();
+            
+            tooltipBindConfigs.Init();
+            
+            tooltipPriorityPresets.Init();
+            
+            tooltipPriorityBindConfigs.Init();
         }
     }
 }

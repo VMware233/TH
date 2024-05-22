@@ -24,7 +24,7 @@ MonoBehaviour:
     SerializationNodes:
     - Name: gamePrefab
       Entry: 7
-      Data: 0|VMFramework.ResourcesManagement.ParticlePreset, VMFramework
+      Data: 0|VMFramework.ResourcesManagement.ParticlePreset, Assembly-CSharp
     - Name: _id
       Entry: 1
       Data: laser_impact_particle
@@ -54,66 +54,11 @@ MonoBehaviour:
       Data: false
     - Name: duration
       Entry: 7
-      Data: 2|VMFramework.Configuration.FloatSetter, VMFramework
-    - Name: isRandomValue
-      Entry: 5
-      Data: false
-    - Name: fixedType
-      Entry: 1
-      Data: Single Value
+      Data: 2|VMFramework.Configuration.SingleValueChooserConfig`1[[System.Single,
+        mscorlib]], Assembly-CSharp
     - Name: value
       Entry: 4
       Data: 0
-    - Name: randomType
-      Entry: 1
-      Data: Weighted Select
-    - Name: startCircularIndex
-      Entry: 3
-      Data: 0
-    - Name: pingPong
-      Entry: 5
-      Data: false
-    - Name: circularSelectItems
-      Entry: 7
-      Data: 3|System.Collections.Generic.List`1[[VMFramework.Configuration.ObjectChooser`1+CircularSelectItem[[System.Single,
-        mscorlib]], VMFramework]], mscorlib
-    - Name: 
-      Entry: 12
-      Data: 0
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: weightedSelectItems
-      Entry: 7
-      Data: 4|System.Collections.Generic.List`1[[VMFramework.Configuration.ObjectChooser`1+WeightedSelectItem[[System.Single,
-        mscorlib]], VMFramework]], mscorlib
-    - Name: 
-      Entry: 12
-      Data: 0
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: rangeValue
-      Entry: 7
-      Data: 5|VMFramework.Configuration.RangeFloatConfig, VMFramework
-    - Name: min
-      Entry: 4
-      Data: 0
-    - Name: max
-      Entry: 4
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: decimalPlaces
-      Entry: 3
-      Data: 1
     - Name: 
       Entry: 8
       Data: 

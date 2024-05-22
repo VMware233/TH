@@ -1,11 +1,17 @@
-﻿using UnityEngine;
+﻿using System.Runtime.CompilerServices;
+using UnityEngine;
+using VMFramework.Configuration;
+using VMFramework.GameLogicArchitecture;
 using VMFramework.Procedure;
 
 namespace VMFramework.UI
 {
     [ManagerCreationProvider(ManagerType.UICore)]
-    public class TooltipManager : UniqueMonoBehaviour<TooltipManager>
+    public sealed class TooltipManager : ManagerBehaviour<TooltipManager>
     {
+        private static TooltipGeneralSetting tooltipGeneralSetting =>
+            GameCoreSettingBase.tooltipGeneralSetting;
+        
         public static void Open(ITooltipProvider tooltipProvider, IUIPanelController source)
         {
             if (tooltipProvider == null)
@@ -19,13 +25,43 @@ namespace VMFramework.UI
                 return;
             }
 
-            var tooltipID = tooltipProvider.GetTooltipID();
+            string tooltipID = null;
+            TooltipOpenInfo info = new();
+            
+            bool priorityFound = false;
 
-            var tooltip = UIPanelPool.GetUniquePanelStrictly<ITooltip>(tooltipID);
+            if (tooltipProvider is IReadOnlyGameTypeOwner readOnlyGameTypeOwner)
+            {
+                if (tooltipGeneralSetting.tooltipBindConfigs.TryGetConfigRuntime(
+                        readOnlyGameTypeOwner.gameTypeSet, out var tooltipBindConfig))
+                {
+                    tooltipID = tooltipBindConfig.tooltipID;
+                }
 
-            tooltip.Open(tooltipProvider, source);
+                if (tooltipGeneralSetting.tooltipPriorityBindConfigs.TryGetConfigRuntime(
+                        readOnlyGameTypeOwner.gameTypeSet, out var priorityBindConfig))
+                {
+                    info.priority = priorityBindConfig.priority;
+                    priorityFound = true;
+                }
+            }
+            
+            tooltipID ??= tooltipGeneralSetting.defaultTooltipID;
+
+            if (priorityFound == false)
+            {
+                info.priority = tooltipGeneralSetting.defaultPriority;
+            }
+
+            if (UIPanelPool.TryGetUniquePanelWithWarning(tooltipID, out ITooltip tooltip) == false)
+            {
+                return;
+            }
+
+            tooltip.Open(tooltipProvider, source, info);
         }
 
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public static void Close(ITooltipProvider tooltipProvider)
         {
             if (tooltipProvider == null)
@@ -34,11 +70,10 @@ namespace VMFramework.UI
                 return;
             }
 
-            var tooltipID = tooltipProvider.GetTooltipID();
-
-            var tooltip = UIPanelPool.GetUniquePanelStrictly<ITooltip>(tooltipID);
-
-            tooltip.Close(tooltipProvider);
+            foreach (var tooltip in UIPanelPool.GetUniquePanels<ITooltip>())
+            {
+                tooltip.Close(tooltipProvider);
+            }
         }
     }
 }

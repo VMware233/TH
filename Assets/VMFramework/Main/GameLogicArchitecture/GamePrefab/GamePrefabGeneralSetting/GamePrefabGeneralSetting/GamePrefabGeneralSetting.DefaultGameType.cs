@@ -8,8 +8,8 @@ namespace VMFramework.GameLogicArchitecture
 {
     public partial class GamePrefabGeneralSetting
     {
-        [field: LabelText("默认游戏种类"), TabGroup(TAB_GROUP_NAME, GAME_TYPE_CATEGORY)]
-        [field: InfoBox("GamePrefab游戏种类不可用", VisibleIf = "@!gamePrefabGameTypeEnabled")]
+        [field: TabGroup(TAB_GROUP_NAME, GAME_TYPE_CATEGORY)]
+        [field: InfoBox("GamePrefab's Game Type is disabled", VisibleIf = "@!gamePrefabGameTypeEnabled")]
         [field: GameTypeID]
         [field: EnableIf(nameof(gamePrefabGameTypeEnabled))]
         [field: SerializeField]

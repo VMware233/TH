@@ -16,9 +16,6 @@ namespace VMFramework.UI
 
         public bool DisplayContextMenu() => true;
 
-        public string GetContextMenuID() =>
-            GameCoreSettingBase.contextMenuGeneralSetting.defaultContextMenuID;
-
         public IEnumerable<ContextMenuEntryConfig> GetContextMenuContent();
     }
 }

@@ -7,9 +7,9 @@ namespace VMFramework.UI
         {
             base.OnInspectorInit();
 
+            tooltipBindConfigs ??= new();
+            
             tooltipPriorityPresets ??= new();
-
-            defaultPriority ??= new();
         }
     }
 }

@@ -91,8 +91,8 @@ namespace VMFramework.GameLogicArchitecture
         public static DebugUIPanelGeneralSetting debugUIPanelGeneralSetting =>
             gameCoreSettingsFileBase == null ? null : gameCoreSettingsFileBase.debugUIPanelGeneralSetting;
 
-        public static TooltipGeneralSetting tracingTooltipGeneralSetting =>
-            gameCoreSettingsFileBase == null ? null : gameCoreSettingsFileBase.tracingTooltipGeneralSetting;
+        public static TooltipGeneralSetting tooltipGeneralSetting =>
+            gameCoreSettingsFileBase == null ? null : gameCoreSettingsFileBase.tooltipGeneralSetting;
 
         public static ContextMenuGeneralSetting contextMenuGeneralSetting =>
             gameCoreSettingsFileBase == null ? null : gameCoreSettingsFileBase.contextMenuGeneralSetting;

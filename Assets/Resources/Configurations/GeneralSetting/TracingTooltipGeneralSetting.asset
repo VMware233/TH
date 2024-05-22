@@ -23,7 +23,7 @@ MonoBehaviour:
     SerializationNodes:
     - Name: tooltipBindConfigs
       Entry: 7
-      Data: 0|VMFramework.Configuration.DictionaryConfigs`2[[System.String, mscorlib],[VMFramework.UI.TooltipBindConfig,
+      Data: 0|VMFramework.Configuration.GameTypeBasedConfigs`1[[VMFramework.UI.TooltipBindConfig,
         Assembly-CSharp]], Assembly-CSharp
     - Name: configs
       Entry: 7
@@ -43,14 +43,42 @@ MonoBehaviour:
       Data: 
     - Name: tooltipPriorityPresets
       Entry: 7
-      Data: 2|System.Collections.Generic.List`1[[VMFramework.UI.TooltipGeneralSetting+TooltipPriorityPreset,
+      Data: 2|VMFramework.Configuration.DictionaryConfigs`2[[System.String, mscorlib],[VMFramework.UI.TooltipPriorityPreset,
+        Assembly-CSharp]], Assembly-CSharp
+    - Name: configs
+      Entry: 7
+      Data: 3|System.Collections.Generic.List`1[[VMFramework.UI.TooltipPriorityPreset,
         Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
       Data: 3
     - Name: 
       Entry: 7
-      Data: 3|VMFramework.UI.TooltipGeneralSetting+TooltipPriorityPreset, Assembly-CSharp
+      Data: 4|VMFramework.UI.TooltipPriorityPreset, Assembly-CSharp
+    - Name: presetID
+      Entry: 1
+      Data: UI
+    - Name: priority
+      Entry: 3
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 5|VMFramework.UI.TooltipPriorityPreset, Assembly-CSharp
+    - Name: presetID
+      Entry: 1
+      Data: Entity
+    - Name: priority
+      Entry: 3
+      Data: 50
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 6|VMFramework.UI.TooltipPriorityPreset, Assembly-CSharp
     - Name: presetID
       Entry: 1
       Data: Floor
@@ -61,26 +89,130 @@ MonoBehaviour:
       Entry: 8
       Data: 
     - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: tooltipPriorityBindConfigs
       Entry: 7
-      Data: 4|VMFramework.UI.TooltipGeneralSetting+TooltipPriorityPreset, Assembly-CSharp
+      Data: 7|VMFramework.Configuration.GameTypeBasedConfigs`1[[VMFramework.UI.TooltipPriorityBindConfig,
+        Assembly-CSharp]], Assembly-CSharp
+    - Name: configs
+      Entry: 7
+      Data: 8|System.Collections.Generic.List`1[[VMFramework.UI.TooltipPriorityBindConfig,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 9|VMFramework.UI.TooltipPriorityBindConfig, Assembly-CSharp
+    - Name: _gameTypesIDs
+      Entry: 7
+      Data: 10|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 1
+      Data: entity_type
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: priority
+      Entry: 7
+      Data: VMFramework.UI.TooltipPriority, Assembly-CSharp
+    - Name: priorityType
+      Entry: 3
+      Data: 0
     - Name: presetID
       Entry: 1
       Data: Entity
     - Name: priority
       Entry: 3
-      Data: 30
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
-      Data: 5|VMFramework.UI.TooltipGeneralSetting+TooltipPriorityPreset, Assembly-CSharp
+      Data: 11|VMFramework.UI.TooltipPriorityBindConfig, Assembly-CSharp
+    - Name: _gameTypesIDs
+      Entry: 7
+      Data: 12|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 1
+      Data: floor_type
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: priority
+      Entry: 7
+      Data: VMFramework.UI.TooltipPriority, Assembly-CSharp
+    - Name: priorityType
+      Entry: 3
+      Data: 0
+    - Name: presetID
+      Entry: 1
+      Data: Floor
+    - Name: priority
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 13|VMFramework.UI.TooltipPriorityBindConfig, Assembly-CSharp
+    - Name: _gameTypesIDs
+      Entry: 7
+      Data: 14|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 1
+      Data: spell_type
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: priority
+      Entry: 7
+      Data: VMFramework.UI.TooltipPriority, Assembly-CSharp
+    - Name: priorityType
+      Entry: 3
+      Data: 0
     - Name: presetID
       Entry: 1
       Data: UI
     - Name: priority
       Entry: 3
-      Data: 50
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -90,9 +222,12 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: defaultPriority
       Entry: 7
-      Data: 6|VMFramework.UI.TooltipPriorityConfig, Assembly-CSharp
+      Data: VMFramework.UI.TooltipPriority, Assembly-CSharp
     - Name: priorityType
       Entry: 3
       Data: 0

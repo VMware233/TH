@@ -8,11 +8,11 @@ public abstract class GameSettingBase : SerializedScriptableObject
 
     protected const string TAB_GROUP_NAME = "TabGroup";
 
-    public const string DEBUGGING_CATEGORY = "调试";
+    public const string DEBUGGING_CATEGORY = "Debug";
     
-    protected const string MISCELLANEOUS_CATEGORY = "杂项设置";
+    protected const string MISCELLANEOUS_CATEGORY = "Misc";
     
-    protected const string METADATA_CATEGORY = "设置元数据";
+    protected const string METADATA_CATEGORY = "Metadata";
 
     #endregion
 

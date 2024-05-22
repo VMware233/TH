@@ -22,7 +22,7 @@ namespace VMFramework.GameLogicArchitecture
             
         }
 
-        [Button("设置Key为默认值"), TabGroup(TAB_GROUP_NAME, LOCALIZABLE_SETTING_CATEGORY)]
+        [Button, TabGroup(TAB_GROUP_NAME, LOCALIZABLE_SETTING_CATEGORY)]
         [EnableIf(nameof(localizationEnabled))]
         public virtual void SetKeyValueByDefault()
         {
