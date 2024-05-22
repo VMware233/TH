@@ -12,7 +12,7 @@ using VMFramework.Property;
 
 namespace TH.Spells
 {
-    public abstract class Spell : VisualGameItem, ISlotProvider, IUUIDOwner
+    public abstract partial class Spell : VisualGameItem, ISlotProvider, IUUIDOwner
     {
         protected SpellPreset spellPreset => (SpellPreset)gamePrefab;
 
