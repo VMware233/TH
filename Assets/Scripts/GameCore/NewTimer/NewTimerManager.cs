@@ -11,7 +11,7 @@ namespace VMFramework.NewTimer
         private const int INITIAL_QUEUE_SIZE = 100;
         private const int QUEUE_SIZE_GAP = 50;
 
-        private static readonly GenericPriorityQueue<NewITimer, double> queue = new(INITIAL_QUEUE_SIZE);
+        private static readonly GenericArrayPriorityQueue<NewITimer, double> queue = new(INITIAL_QUEUE_SIZE);
 
         private static double currentTime = 0;
 
