@@ -3,6 +3,7 @@ using Sirenix.OdinInspector;
 using TH.Damage;
 using UnityEngine;
 using VMFramework.Procedure;
+using VMFramework.Timers;
 
 namespace TH.Entities
 {

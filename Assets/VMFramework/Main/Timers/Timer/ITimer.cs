@@ -1,10 +1,10 @@
 ﻿using VMFramework.Core;
 
-namespace VMFramework.Timer
+namespace VMFramework.Timers
 {
     public interface ITimer : IGenericPriorityQueueNode<double>
     {
-        public void OnStart(double startTime, double expectedTime);
+        public void OnStart(double startedTime, double expectedTime);
         
         public void OnTimed();
 

@@ -1,20 +1,27 @@
 ﻿using System.Runtime.CompilerServices;
+using Sirenix.OdinInspector;
 using UnityEngine;
 using VMFramework.Core;
 using VMFramework.Procedure;
 
-namespace VMFramework.Timer
+namespace VMFramework.Timers
 {
-    [ManagerCreationProvider(ManagerType.EventCore)]
+    [ManagerCreationProvider(ManagerType.TimerCore)]
     public sealed partial class TimerManager : ManagerBehaviour<TimerManager>
     {
         private const int INITIAL_QUEUE_SIZE = 100;
         private const int QUEUE_SIZE_GAP = 50;
         
-        private static readonly GenericPriorityQueue<ITimer, double> queue = new(INITIAL_QUEUE_SIZE);
+        private static readonly GenericArrayPriorityQueue<ITimer, double> queue = new(INITIAL_QUEUE_SIZE);
         
         private static double currentTime = 0;
 
+        /// <summary>
+        /// Adds a timer to the queue with a delay.
+        /// O(log n)
+        /// </summary>
+        /// <param name="timer"></param>
+        /// <param name="delay"></param>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public static void Add(ITimer timer, float delay)
         {
@@ -30,6 +37,11 @@ namespace VMFramework.Timer
             timer.OnStart(currentTime, expectedTime);
         }
 
+        /// <summary>
+        /// Removes a timer from the queue.
+        /// O(log n)
+        /// </summary>
+        /// <param name="timer"></param>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public static void Stop(ITimer timer)
         {
@@ -38,6 +50,12 @@ namespace VMFramework.Timer
             timer.OnStopped(currentTime);
         }
         
+        /// <summary>
+        /// Checks if a timer is in the queue.
+        /// O(1)
+        /// </summary>
+        /// <param name="timer"></param>
+        /// <returns></returns>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public static bool Contains(ITimer timer)
         {

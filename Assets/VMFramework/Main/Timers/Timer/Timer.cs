@@ -2,9 +2,9 @@
 using System.Runtime.CompilerServices;
 using VMFramework.Core;
 
-namespace VMFramework.Timer
+namespace VMFramework.Timers
 {
-    public class Timer : ITimer
+    public partial class Timer : ITimer
     {
         private readonly Action<Timer> _onTimed;
         private readonly Action<Timer> _onStopped;
@@ -14,7 +14,7 @@ namespace VMFramework.Timer
         
         public double stoppedTime { get; private set; }
         
-        public double startTime { get; private set; }
+        public double startedTime { get; private set; }
 
         public Timer(Action<Timer> onTimed, Action<Timer> onStopped = null)
         {
@@ -34,9 +34,9 @@ namespace VMFramework.Timer
 
         long IGenericPriorityQueueNode<double>.InsertionIndex { get; set; }
 
-        void ITimer.OnStart(double startTime, double expectedTime)
+        void ITimer.OnStart(double startedTime, double expectedTime)
         {
-            this.startTime = startTime;
+            this.startedTime = startedTime;
         }
 
         [MethodImpl(MethodImplOptions.AggressiveInlining)]

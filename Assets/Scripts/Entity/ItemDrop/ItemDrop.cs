@@ -5,6 +5,7 @@ using TH.Items;
 using UnityEngine;
 using VMFramework.Core;
 using VMFramework.Procedure;
+using VMFramework.Timers;
 
 namespace TH.Entities
 {

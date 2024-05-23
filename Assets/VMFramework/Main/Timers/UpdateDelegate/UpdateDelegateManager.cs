@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using VMFramework.Core;
 using Sirenix.OdinInspector;
+using VMFramework.Procedure;
 
-namespace VMFramework.Procedure
+namespace VMFramework.Timers
 {
-    [ManagerCreationProvider(ManagerType.EventCore)]
+    [ManagerCreationProvider(ManagerType.TimerCore)]
 
     public class UpdateDelegateManager : UniqueMonoBehaviour<UpdateDelegateManager>
     {

@@ -5,7 +5,7 @@ using System.Runtime.CompilerServices;
 
 namespace VMFramework.Core
 {
-    public sealed class GenericPriorityQueue<TItem, TPriority> : IEnumerable<TItem>
+    public sealed partial class GenericArrayPriorityQueue<TItem, TPriority> : IFixedSizePriorityQueue<TItem, TPriority>
         where TItem : class, IGenericPriorityQueueNode<TPriority>
     {
         private int _numNodes;
@@ -20,8 +20,9 @@ namespace VMFramework.Core
         public int count => _numNodes;
 
         /// <summary>
-        /// Returns the maximum number of items that can be enqueued at once in this queue.  Once you hit this number,
-        /// (ie. once <see cref="count"/>> == <see cref="capacity"/>>)
+        /// Returns the maximum number of items that can be enqueued at once in this queue.
+        /// Once you hit this number,
+        /// (i.e. once <see cref="count"/>> == <see cref="capacity"/>>)
         /// attempting to enqueue another item will cause undefined behavior.
         /// O(1)
         /// </summary>
@@ -51,21 +52,21 @@ namespace VMFramework.Core
         /// Instantiate a new Priority Queue
         /// </summary>
         /// <param name="capacity">The max nodes ever allowed to be enqueued (going over this will cause undefined behavior)</param>
-        public GenericPriorityQueue(int capacity) : this(capacity, Comparer<TPriority>.Default) { }
+        public GenericArrayPriorityQueue(int capacity) : this(capacity, Comparer<TPriority>.Default) { }
 
         /// <summary>
         /// Instantiate a new Priority Queue
         /// </summary>
         /// <param name="capacity">The max nodes ever allowed to be enqueued (going over this will cause undefined behavior)</param>
         /// <param name="comparer">The comparer used to compare TPriority values.</param>
-        public GenericPriorityQueue(int capacity, IComparer<TPriority> comparer) : this(capacity, comparer.Compare) { }
+        public GenericArrayPriorityQueue(int capacity, IComparer<TPriority> comparer) : this(capacity, comparer.Compare) { }
 
         /// <summary>
         /// Instantiate a new Priority Queue
         /// </summary>
         /// <param name="capacity">The max nodes ever allowed to be enqueued (going over this will cause undefined behavior)</param>
         /// <param name="comparer">The comparison function to use to compare TPriority values</param>
-        public GenericPriorityQueue(int capacity, Comparison<TPriority> comparer)
+        public GenericArrayPriorityQueue(int capacity, Comparison<TPriority> comparer)
         {
             capacity.AssertIsAbove(0, nameof(capacity));
 
@@ -80,7 +81,7 @@ namespace VMFramework.Core
         /// <summary>
         /// Removes every node from the queue.
         /// O(n)
-        /// Dont do this often
+        /// Don't do this often
         /// </summary>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public void Clear()
@@ -321,7 +322,7 @@ namespace VMFramework.Core
         /// <summary>
         /// Returns true if 'higher' has higher priority than 'lower', false otherwise.
         /// Note that calling <see cref="HasHigherPriority"/>(node, node)
-        /// (ie. both arguments the same node) will return false
+        /// (i.e. both arguments the same node) will return false
         /// </summary>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         private bool HasHigherPriority(TItem higher, TItem lower)
@@ -472,7 +473,8 @@ namespace VMFramework.Core
 
         /// <summary>
         /// By default, nodes that have been previously added to one queue cannot be added to another queue.
-        /// If you need to do this, please call originalQueue.ResetNode(node) before attempting to add it in the new queue
+        /// If you need to do this, please call originalQueue.<see cref="ResetNode"/>(node)
+        /// before attempting to add it in the new queue
         /// </summary>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public void ResetNode(TItem node)
@@ -486,6 +488,7 @@ namespace VMFramework.Core
             node.QueueIndex = 0;
         }
 
+        #region Enumerator
 
         public IEnumerator<TItem> GetEnumerator()
         {
@@ -498,9 +501,12 @@ namespace VMFramework.Core
             return GetEnumerator();
         }
 
+        #endregion
+
         /// <summary>
         /// <b>Should not be called in production code.</b>
-        /// Checks to make sure the queue is still in a valid state.  Used for testing/debugging the queue.
+        /// Checks to make sure the queue is still in a valid state.
+        /// Used for testing/debugging the queue.
         /// </summary>
         public bool IsValidQueue()
         {
