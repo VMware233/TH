@@ -51,7 +51,7 @@ MonoBehaviour:
       Data: 
     - Name: name
       Entry: 7
-      Data: 2|VMFramework.Localization.LocalizedStringReference, VMFramework
+      Data: 2|VMFramework.Localization.LocalizedStringReference, Assembly-CSharp
     - Name: _tableName
       Entry: 1
       Data: BuffStringTable
@@ -66,7 +66,7 @@ MonoBehaviour:
       Data: 
     - Name: nameFormat
       Entry: 7
-      Data: 3|VMFramework.Configuration.TextTagFormat, VMFramework
+      Data: 3|VMFramework.Configuration.TextTagFormat, Assembly-CSharp
     - Name: overrideFontColor
       Entry: 5
       Data: false
@@ -108,7 +108,7 @@ MonoBehaviour:
       Data: false
     - Name: description
       Entry: 7
-      Data: 4|VMFramework.Localization.LocalizedStringReference, VMFramework
+      Data: 4|VMFramework.Localization.LocalizedStringReference, Assembly-CSharp
     - Name: _tableName
       Entry: 1
       Data: BuffStringTable
@@ -123,7 +123,7 @@ MonoBehaviour:
       Data: 
     - Name: descriptionFormat
       Entry: 7
-      Data: 5|VMFramework.Configuration.TextTagFormat, VMFramework
+      Data: 5|VMFramework.Configuration.TextTagFormat, Assembly-CSharp
     - Name: overrideFontColor
       Entry: 5
       Data: false
