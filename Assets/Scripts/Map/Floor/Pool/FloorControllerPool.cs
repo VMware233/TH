@@ -22,32 +22,32 @@ namespace TH.Map
 
         private static readonly Dictionary<string, IComponentPool<FloorController>> poolsDictionary = new();
 
-        private static IComponentPool<FloorController> CreatePool()
+        private static IComponentPool<FloorController> CreatePool(string floorID)
         {
-            return new ComponentStackPool<FloorController>(hideAction: controller =>
-            {
-                controller.SetActive(false);
-                controller.transform.SetParent(instance.cachedTransformContainer);
-            });
+            return new StackComponentPool<FloorController>(
+                () => GamePrefabManager.GetGamePrefabStrictly<FloorPreset>(floorID).CreateController(),
+                onReturnCallback: controller =>
+                {
+                    controller.SetActive(false);
+                    controller.transform.SetParent(instance.cachedTransformContainer);
+                });
         }
 
         public static FloorController Get(string floorID, Transform parent = null)
         {
             if (!poolsDictionary.ContainsKey(floorID))
             {
-                poolsDictionary[floorID] = CreatePool();
+                poolsDictionary[floorID] = CreatePool(floorID);
             }
 
-            return poolsDictionary[floorID]
-                .Get(() => GamePrefabManager.GetGamePrefabStrictly<FloorPreset>(floorID).CreateController(),
-                    parent);
+            return poolsDictionary[floorID].Get(parent);
         }
 
         public static void Return(string floorID, FloorController transform)
         {
             if (!poolsDictionary.ContainsKey(floorID))
             {
-                poolsDictionary[floorID] = CreatePool();
+                poolsDictionary[floorID] = CreatePool(floorID);
             }
 
             poolsDictionary[floorID].Return(transform);
@@ -57,11 +57,10 @@ namespace TH.Map
         {
             if (!poolsDictionary.ContainsKey(floorID))
             {
-                poolsDictionary[floorID] = CreatePool();
+                poolsDictionary[floorID] = CreatePool(floorID);
             }
 
-            poolsDictionary[floorID].Prewarm(count, instance.cachedTransformContainer,
-                () => GamePrefabManager.GetGamePrefabStrictly<FloorPreset>(floorID).CreateController());
+            poolsDictionary[floorID].Prewarm(count);
         }
     }
 }
