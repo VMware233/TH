@@ -11,6 +11,7 @@ using TH.GameCore;
 using UnityEditor;
 using UnityEngine;
 using VMFramework.Core.Editor;
+using VMFramework.Core.JSON;
 using EditorUtility = UnityEditor.EditorUtility;
 
 namespace TH.Map
@@ -131,7 +132,7 @@ namespace TH.Map
                                 var propertyValue = JsonConvert.DeserializeObject(
                                     dataValue,
                                     fieldInfo.FieldType,
-                                    CustomJSONConverter.converters);
+                                    JSONConverters.converters);
 
                                 fieldInfo.SetValue(roomAssetMetaData, propertyValue);
                             }

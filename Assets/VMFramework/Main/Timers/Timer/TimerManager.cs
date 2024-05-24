@@ -1,5 +1,4 @@
 ﻿using System.Runtime.CompilerServices;
-using Sirenix.OdinInspector;
 using UnityEngine;
 using VMFramework.Core;
 using VMFramework.Procedure;
@@ -7,6 +6,7 @@ using VMFramework.Procedure;
 namespace VMFramework.Timers
 {
     [ManagerCreationProvider(ManagerType.TimerCore)]
+    [DisallowMultipleComponent]
     public sealed partial class TimerManager : ManagerBehaviour<TimerManager>
     {
         private const int INITIAL_QUEUE_SIZE = 100;
