@@ -16,7 +16,7 @@ namespace VMFramework.UI
 
             panel.Open();
 
-            TracingUIManager.StartTracingPosition(panel, position);
+            TracingUIManager.StartTracing(panel, position);
 
             return panel;
         }
@@ -27,7 +27,7 @@ namespace VMFramework.UI
 
             panel.Open();
 
-            TracingUIManager.StartTracingPosition(panel, position);
+            TracingUIManager.StartTracing(panel, position);
 
             return panel;
         }
@@ -50,7 +50,7 @@ namespace VMFramework.UI
                 persistentTracingValue = persistentTracing.Value;
             }
 
-            TracingUIManager.StartTracingTransform(panel, target, persistentTracingValue);
+            TracingUIManager.StartTracing(panel, new(target, persistentTracingValue));
 
             return panel;
         }
@@ -73,7 +73,7 @@ namespace VMFramework.UI
                 persistentTracingValue = persistentTracing.Value;
             }
 
-            TracingUIManager.StartTracingTransform(panel, target, persistentTracingValue);
+            TracingUIManager.StartTracing(panel, new(target, persistentTracingValue));
 
             return panel;
         }

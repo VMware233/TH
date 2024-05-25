@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using Sirenix.OdinInspector;
 using UnityEngine;
 using VMFramework.Core;
@@ -10,15 +11,6 @@ namespace VMFramework.UI
     [ManagerCreationProvider(ManagerType.UICore)]
     public sealed partial class TracingUIManager : ManagerBehaviour<TracingUIManager>, IManagerBehaviour
     {
-        private class TracingInfo
-        {
-            public TracingType tracingType;
-            public Vector3 tracingPosition = Vector3.zero;
-            public Transform tracingTransform;
-            public int tracingCount = 1;
-            public int maxTracingCount = int.MaxValue;
-        }
-
         [ShowInInspector]
         private static readonly Dictionary<Transform, List<ITracingUIPanel>> tracingTransforms = new();
 
@@ -46,69 +38,84 @@ namespace VMFramework.UI
 
         #endregion
 
+        #region TracingInfo
+
+        [ShowInInspector]
+        private static readonly Stack<TracingInfo> infoCache = new();
+
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        private static TracingInfo GetTracingInfoFromCache()
+        {
+            if (infoCache.Count == 0)
+            {
+                return new TracingInfo();
+            }
+            
+            return infoCache.Pop();
+        }
+
+        #endregion
+
+        #region Start/Stop Tracing
+
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static void StartTracing(ITracingUIPanel tracingUIPanel, TracingConfig tracingConfig)
+        {
+            if (tracingConfig is { hasMaxTracingCount: true, maxTracingCount: <= 0 })
+            {
+                return;
+            }
+
+            if (allTracingInfos.TryGetValue(tracingUIPanel, out var tracingInfo))
+            {
+                tracingInfo.Set(tracingConfig);
+                return;
+            }
+            
+            tracingInfo = GetTracingInfoFromCache();
+            tracingInfo.Set(tracingConfig);
+            
+            allTracingInfos.Add(tracingUIPanel, tracingInfo);
+        }
+
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static void StopTracing(ITracingUIPanel tracingUIPanel)
+        {
+            if (allTracingInfos.Remove(tracingUIPanel, out var tracingInfo))
+            {
+                infoCache.Push(tracingInfo);
+            }
+        }
+
+        #endregion
+
         #region Update
 
         private void Update()
         {
             var mousePosition = Input.mousePosition.To2D();
 
-            foreach (var (tracingUIPanel, position) in tracingPositions)
+            foreach (var (panel, info) in allTracingInfos)
             {
-                var screenPos = camera.WorldToScreenPoint(position);
-
-                if (tracingUIPanel.TryUpdatePosition(screenPos))
+                Vector2 targetScreenPosition = info.tracingType switch
                 {
-                    allTracingInfos[tracingUIPanel].tracingCount++;
-                }
-            }
+                    TracingType.MousePosition => mousePosition,
+                    TracingType.WorldPosition => camera.WorldToScreenPoint(info.tracingWorldPosition).To2D(),
+                    TracingType.Transform => camera.WorldToScreenPoint(info.tracingTransform.position).To2D(),
+                    _ => throw new ArgumentOutOfRangeException(nameof(info.tracingType))
+                };
 
-            foreach (var tracingUIPanel in tracingMousePositionUIPanels)
-            {
-                if (tracingUIPanel.isOpened == false)
+                if (panel.TryUpdatePosition(targetScreenPosition))
                 {
-                    continue;
-                }
-
-                if (tracingUIPanel.TryUpdatePosition(mousePosition))
-                {
-                    allTracingInfos[tracingUIPanel].tracingCount++;
-                }
-            }
-
-            foreach (var (tracingTransform, tracingUIPanels) in tracingTransforms)
-            {
-                if (tracingTransform == null)
-                {
-                    tracingUIPanelsToRemove.AddRange(tracingUIPanels);
-                    continue;
-                }
-
-                if (tracingTransform.gameObject.activeInHierarchy == false)
-                {
-                    continue;
-                }
-
-                var screenPos = camera.WorldToScreenPoint(tracingTransform.position);
-
-                foreach (var tracingUIPanel in tracingUIPanels)
-                {
-                    if (tracingUIPanel.isOpened == false)
+                    if (info.hasMaxTracingCount)
                     {
-                        continue;
-                    }
+                        info.IncreaseTracingCount();
 
-                    if (tracingUIPanel.TryUpdatePosition(screenPos))
-                    {
-                        allTracingInfos[tracingUIPanel].tracingCount++;
+                        if (info.tracingCount >= info.maxTracingCount)
+                        {
+                            tracingUIPanelsToRemove.Add(panel);
+                        }
                     }
-                }
-            }
-
-            foreach (var (tracingUIPanel, config) in allTracingInfos)
-            {
-                if (config.tracingCount > config.maxTracingCount)
-                {
-                    tracingUIPanelsToRemove.Add(tracingUIPanel);
                 }
             }
 

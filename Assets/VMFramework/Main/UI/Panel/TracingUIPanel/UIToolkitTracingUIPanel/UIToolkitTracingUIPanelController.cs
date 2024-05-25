@@ -43,7 +43,7 @@ namespace VMFramework.UI
 
             if (tracingUIPanelPreset.enableAutoMouseTracing)
             {
-                TracingUIManager.StartTracingMousePosition(this, tracingUIPanelPreset.persistentTracing);
+                TracingUIManager.StartTracing(this, new(tracingUIPanelPreset.persistentTracing));
             }
         }
 

@@ -16,4 +16,314 @@ MonoBehaviour:
   defaultEditorBehaviour: 11
   processMouseMoveInInspector: 1
   drawingConfig:
-    configs: []
+    configs:
+    - DrawnTypeName: FishNet.Component.ColliderRollback.RollbackManager, FishNet.Runtime
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: FishNet.Component.Observing.DistanceCondition, FishNet.Runtime
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: FishNet.Component.Observing.GridCondition, FishNet.Runtime
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: FishNet.Component.Observing.HashGrid, FishNet.Runtime
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: FishNet.Component.Observing.HostOnlyCondition, FishNet.Runtime
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: FishNet.Component.Observing.MatchCondition, FishNet.Runtime
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: FishNet.Component.Observing.OwnerOnlyCondition, FishNet.Runtime
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: FishNet.Component.Observing.SceneCondition, FishNet.Runtime
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: FishNet.Component.Ownership.PredictedOwner, FishNet.Runtime
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: FishNet.Component.Ownership.PredictedSpawn, FishNet.Runtime
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: FishNet.Component.Prediction.MonoTickSmoother, FishNet.Runtime
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: FishNet.Component.Prediction.OfflineRigidbody, FishNet.Runtime
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: FishNet.Component.Scenes.DefaultScene, FishNet.Runtime
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: FishNet.Component.Spawning.PlayerSpawner, FishNet.Runtime
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: FishNet.Component.Utility.BandwidthDisplay, FishNet.Runtime
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: FishNet.Component.Utility.PingDisplay, FishNet.Runtime
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: FishNet.Demo.AdditiveScenes.LevelLoader, FishNet.Demos
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: FishNet.Demo.AdditiveScenes.Player, FishNet.Demos
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: FishNet.Demo.AdditiveScenes.ServerScenePrewarmer, FishNet.Demos
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: FishNet.Demo.AdditiveScenes.Waypoint, FishNet.Demos
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: FishNet.Demo.HashGrid.GridSpawner, FishNet.Demos
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: FishNet.Demo.HashGrid.MoveRandomly, FishNet.Demos
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: FishNet.Demo.NetworkLod.MoveRandomly, FishNet.Demos
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: FishNet.Demo.NetworkLod.NetworkLodTester, FishNet.Demos
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: FishNet.Editing.DeveloperMenu, FishNet.Runtime
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: FishNet.Editing.RebuildSceneIdMenu, FishNet.Runtime
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: FishNet.Editing.RefreshDefaultPrefabsMenu, FishNet.Runtime
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: FishNet.Editing.RemoveDuplicateNetworkObjectsMenu, FishNet.Runtime
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: FishNet.Editing.Upgrading.UpgradeFromV3ToV4Menu, FishNet.Runtime
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: FishNet.Example.NetworkHudCanvases, FishNet.Demos
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: FishNet.Example.Authenticating.PasswordAuthenticator, FishNet.Demos
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: FishNet.Example.ColliderRollbacks.Aim, FishNet.Demos
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: FishNet.Example.ColliderRollbacks.DestroyAfterDelay, FishNet.Demos
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: FishNet.Example.ColliderRollbacks.Fire, FishNet.Demos
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: FishNet.Example.ColliderRollbacks.PlayerCamera, FishNet.Demos
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: FishNet.Example.ColliderRollbacks.PlayerMotor, FishNet.Demos
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: FishNet.Example.ColliderRollbacks.RollbackVisualizer, FishNet.Demos
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: FishNet.Example.ColliderRollbacks.Strafe, FishNet.Demos
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: FishNet.Example.ColliderRollbacks.TextCanvas, FishNet.Demos
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: FishNet.Example.ComponentStateSync.AMonoScript, FishNet.Demos
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: FishNet.Example.ComponentStateSync.ComponentSyncStateBehaviour,
+        FishNet.Demos
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: FishNet.Example.CustomSyncObject.StructSyncBehaviour, FishNet.Demos
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: FishNet.Example.IntermediateLayers.IntermediateLayerCipher,
+        FishNet.Demos
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: FishNet.Example.Prediction.CharacterControllers.CharacterControllerPrediction,
+        FishNet.Demos
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: FishNet.Example.Prediction.Rigidbodies.PredictedBullet, FishNet.Demos
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: FishNet.Example.Prediction.Rigidbodies.RigidbodyPrediction,
+        FishNet.Demos
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: FishNet.Example.Prediction.Transforms.TransformPrediction, FishNet.Demos
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: FishNet.Example.Scened.PlayerController, FishNet.Demos
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: FishNet.Example.Scened.SceneLoaderExample, FishNet.Demos
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: FishNet.Example.Scened.SceneUnloaderExample, FishNet.Demos
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: FishNet.Managing.Debugging.DebugManager, FishNet.Runtime
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: FishNet.Managing.Logging.LevelLoggingConfiguration, FishNet.Runtime
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: FishNet.Managing.Object.DefaultPrefabObjects, FishNet.Runtime
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: FishNet.Managing.Object.DualPrefabObjects, FishNet.Runtime
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: FishNet.Managing.Object.SinglePrefabObjects, FishNet.Runtime
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: FishNet.Managing.Scened.DefaultSceneProcessor, FishNet.Runtime
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: FishNet.Managing.Scened.SceneManager, FishNet.Runtime
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: FishNet.Managing.Statistic.StatisticsManager, FishNet.Runtime
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: FishNet.Managing.Transporting.TransportManager, FishNet.Runtime
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: FishNet.Object.EmptyNetworkBehaviour, FishNet.Runtime
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: FishNet.Object.NetworkObject, FishNet.Runtime
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: FishNet.Observing.NetworkObserver, FishNet.Runtime
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: FishNet.PredictionV2.CharacterControllerPredictionV2, FishNet.Demos
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: FishNet.PredictionV2.RigidbodyPredictionV2, FishNet.Demos
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: FishNet.Transporting.NetworkReaderLoop, FishNet.Runtime
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: FishNet.Transporting.NetworkWriterLoop, FishNet.Runtime
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: FishNet.Transporting.Multipass.Multipass, FishNet.Runtime
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: FishNet.Transporting.Yak.Yak, FishNet.Runtime
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: FishNet.Upgrading.Mirror.Editing.UpgradeFromMirrorMenu, Assembly-CSharp-firstpass
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: FishNet.Utility.DetachableTickSmoother, FishNet.Runtime
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: FishNet.Utility.Performance.DefaultObjectPool, FishNet.Runtime
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: Spine.Unity.ActivateBasedOnFlipDirection, spine-unity
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: Spine.Unity.BlendModeMaterialsAsset, spine-unity
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: Spine.Unity.EditorSkeletonPlayer, spine-unity
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: Spine.Unity.EventDataReferenceAsset, spine-unity
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: Spine.Unity.FollowLocationRigidbody, spine-unity
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: Spine.Unity.FollowLocationRigidbody2D, spine-unity
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: Spine.Unity.FollowSkeletonUtilityRootRotation, spine-unity
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: Spine.Unity.SkeletonAnimationFixedTimestep, spine-unity-examples
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: Spine.Unity.SkeletonAnimationMulti, spine-unity-examples
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: Spine.Unity.Editor.SpinePreferences, spine-unity-editor
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: Spine.Unity.Examples.AnimationMatchModifierAsset, spine-unity-examples
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: Spine.Unity.Examples.AtlasRegionAttacher, spine-unity-examples
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: Spine.Unity.Examples.AttackSpineboy, spine-unity-examples
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: Spine.Unity.Examples.BasicPlatformerController, spine-unity-examples
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: Spine.Unity.Examples.BoneLocalOverride, spine-unity-examples
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: Spine.Unity.Examples.CombinedSkin, spine-unity-examples
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: Spine.Unity.Examples.ConstrainedCamera, spine-unity-examples
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: Spine.Unity.Examples.DraggableTransform, spine-unity-examples
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: Spine.Unity.Examples.DummyMecanimControllerExample, spine-unity-examples
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: Spine.Unity.Examples.EquipAssetExample, spine-unity-examples
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: Spine.Unity.Examples.EquipButtonExample, spine-unity-examples
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: Spine.Unity.Examples.EquipsVisualsComponentExample, spine-unity-examples
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: Spine.Unity.Examples.EquipSystemExample, spine-unity-examples
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: Spine.Unity.Examples.FootSoldierExample, spine-unity-examples
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: Spine.Unity.Examples.Goblins, spine-unity-examples
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: Spine.Unity.Examples.HandleEventWithAudioExample, spine-unity-examples
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: Spine.Unity.Examples.HeroEffectsHandlerExample, spine-unity-examples
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: Spine.Unity.Examples.JitterEffectExample, spine-unity-examples
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: Spine.Unity.Examples.MaterialPropertyBlockExample, spine-unity-examples
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: Spine.Unity.Examples.MaterialReplacementExample, spine-unity-examples
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: Spine.Unity.Examples.MecanimToAnimationHandleExample, spine-unity-examples
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: Spine.Unity.Examples.MixAndMatch, spine-unity-examples
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: Spine.Unity.Examples.MixAndMatchGraphic, spine-unity-examples
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: Spine.Unity.Examples.MixAndMatchSkinsButtonExample, spine-unity-examples
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: Spine.Unity.Examples.MixAndMatchSkinsExample, spine-unity-examples
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: Spine.Unity.Examples.OutlineSkeletonGraphic, spine-unity-examples
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: Spine.Unity.Examples.RaggedySpineboy, spine-unity-examples
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: Spine.Unity.Examples.Raptor, spine-unity-examples
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: Spine.Unity.Examples.RenderCombinedMesh, spine-unity-examples
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: Spine.Unity.Examples.RenderExistingMesh, spine-unity-examples
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: Spine.Unity.Examples.RenderTextureFadeoutExample, spine-unity-examples
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: Spine.Unity.Examples.RootMotionDeltaCompensation, spine-unity-examples
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: Spine.Unity.Examples.Rotator, spine-unity-examples
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: Spine.Unity.Examples.RuntimeLoadFromExportsExample, spine-unity-examples
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: Spine.Unity.Examples.SetRigidbodySolverIterations, spine-unity-examples
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: Spine.Unity.Examples.SkeletonAnimationHandleExample, spine-unity-examples
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: Spine.Unity.Examples.SkeletonGhost, spine-unity-examples
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: Spine.Unity.Examples.SkeletonGhostRenderer, spine-unity-examples
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: Spine.Unity.Examples.SkeletonGraphicMirror, spine-unity-examples
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: Spine.Unity.Examples.SkeletonGraphicRenderTexture, spine-unity-examples
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: Spine.Unity.Examples.SkeletonRagdoll, spine-unity-examples
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: Spine.Unity.Examples.SkeletonRagdoll2D, spine-unity-examples
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: Spine.Unity.Examples.SkeletonRenderTexture, spine-unity-examples
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: Spine.Unity.Examples.SkeletonRenderTextureFadeout, spine-unity-examples
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: Spine.Unity.Examples.SkeletonUtilityEyeConstraint, spine-unity-examples
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: Spine.Unity.Examples.SkeletonUtilityGroundConstraint, spine-unity-examples
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: Spine.Unity.Examples.SkeletonUtilityKinematicShadow, spine-unity-examples
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: Spine.Unity.Examples.SlotTintBlackFollower, spine-unity-examples
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: Spine.Unity.Examples.SpawnFromSkeletonDataExample, spine-unity-examples
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: Spine.Unity.Examples.SpawnSkeletonGraphicExample, spine-unity-examples
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: Spine.Unity.Examples.SpineAnimationTesterTool, spine-unity-examples
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: Spine.Unity.Examples.SpineBeginnerTwo, spine-unity-examples
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: Spine.Unity.Examples.SpineBlinkPlayer, spine-unity-examples
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: Spine.Unity.Examples.Spineboy, spine-unity-examples
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: Spine.Unity.Examples.SpineboyBeginnerInput, spine-unity-examples
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: Spine.Unity.Examples.SpineboyBeginnerModel, spine-unity-examples
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: Spine.Unity.Examples.SpineboyBeginnerView, spine-unity-examples
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: Spine.Unity.Examples.SpineboyBeginnerViewGraphic, spine-unity-examples
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: Spine.Unity.Examples.SpineboyBodyTilt, spine-unity-examples
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: Spine.Unity.Examples.SpineboyFacialExpression, spine-unity-examples
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: Spine.Unity.Examples.SpineboyFootplanter, spine-unity-examples
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: Spine.Unity.Examples.SpineboyFreeze, spine-unity-examples
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: Spine.Unity.Examples.SpineboyPole, spine-unity-examples
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: Spine.Unity.Examples.SpineboyPoleGraphic, spine-unity-examples
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: Spine.Unity.Examples.SpineboyTargetController, spine-unity-examples
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: Spine.Unity.Examples.SpineboyTargetControllerGraphic, spine-unity-examples
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: Spine.Unity.Examples.SpineGauge, spine-unity-examples
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: Spine.Unity.Examples.SpriteAttacher, spine-unity-examples
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: Spine.Unity.Examples.TransitionDictionaryExample, spine-unity-examples
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: Spine.Unity.Prototyping.SkeletonColorInitialize, spine-unity-examples
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: Spine.Unity.Prototyping.SpineEventUnityHandler, spine-unity-examples
+      EditorTypeName: Sirenix.OdinInspector.Editor.OdinEditor, Sirenix.OdinInspector.Editor
+    - DrawnTypeName: VoxelEngine.VoxelEngineManager, Assembly-CSharp-firstpass
+      EditorTypeName: 
